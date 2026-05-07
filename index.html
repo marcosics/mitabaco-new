@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>MiTabaco</title>
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MiTabaco</h1>
+    <p>Última actualización: <span id="last-updated">Cargando...</span></p>
+  </header>
+
+  <main>
+    <section id="filters">
+      <div class="filter-group">
+        <label for="filter-type">Tipo</label>
+        <select id="filter-type">
+          <option value="all">Todos</option>
+          <option value="cigarrillos">Cigarrillos</option>
+          <option value="tabaco-liar">Tabaco de liar</option>
+          <option value="puros">Puros</option>
+          <option value="pipa">Tabaco de pipa</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-zone">Zona</label>
+        <select id="filter-zone">
+          <option value="all">Todas</option>
+          <option value="nacional">Nacional</option>
+          <option value="canarias">Canarias</option>
+          <option value="ceuta-melilla">Ceuta y Melilla</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-price">Precio máximo: <span id="price-val">20€</span></label>
+        <input type="range" id="filter-price" min="0" max="20" step="0.5" value="20">
+      </div>
+    </section>
+
+    <section id="favorites" class="hidden">
+      <h2>Favoritos</h2>
+      <div id="favorites-list"></div>
+    </section>
+
+    <section id="products">
+      <h2>Productos</h2>
+      <div id="product-list"></div>
+    </section>
+  </main>
+
+  <nav>
+    <button id="nav-home" class="active">Inicio</button>
+    <button id="nav-favorites">Favoritos</button>
+    <button id="nav-search">Buscar</button>
+  </nav>
+
+  <div id="toast-container"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

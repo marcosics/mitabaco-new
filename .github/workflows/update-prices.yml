@@ -1,0 +1,29 @@
+name: Update Prices
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # Daily at 10:00 AM CET (8:00 AM UTC)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install playwright
+      - run: playwright install --with-deps chromium
+      - run: python scraper/scraper.py
+      - name: Check for changes
+        run: |
+          git add tabaco.csv
+          git diff --staged --quiet || echo "HAS_CHANGES=true" >> $GITHUB_ENV
+      - name: Commit and push
+        if: env.HAS_CHANGES == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update tobacco prices"
+          git push
