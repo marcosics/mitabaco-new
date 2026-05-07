@@ -124,26 +124,25 @@ def parse_csv(path, zone_slug):
     type_idx = None
     
     for idx, h in enumerate(headers):
-        if "cód" in h or "cod" in h:
-            code_idx = idx
-        elif "labor" in h or "marca" in h or "denominación" in h or "denominacion" in h or "nombre" in h or "descripción" in h or "descripcion" in h:
+        # Name column
+        if "marca" in h or "descripción" in h or "descripcion" in h:
             name_idx = idx
-        elif "precio" in h or "pvp" in h or "importe" in h:
-            price_idx = idx
+        # Price column - look for "euros", "expendeduría", "recargo", "precio", "pvp"
+        elif "expendeduría" in h or "expendeduria" in h or "euros" in h or "precio" in h or "pvp" in h or "recargo" in h:
+            # Prefer the first price column (expendeduría over recargo)
+            if price_idx is None:
+                price_idx = idx
+        elif "cód" in h or "cod" in h:
+            code_idx = idx
         elif "tipo" in h or "labor" in h or "clase" in h or "categoría" in h or "categoria" in h:
             type_idx = idx
     
-    # If we couldn't identify columns, use fallback positions
-    if name_idx is None:
-        # Fallback: second column is name, last is price
-        if len(headers) >= 3:
-            name_idx = 1
-            price_idx = -1
-            if code_idx is None:
-                code_idx = 0
-        elif len(headers) >= 2:
-            name_idx = 0
-            price_idx = -1
+    # Fallback if columns not detected
+    if name_idx is None and len(headers) >= 1:
+        name_idx = 0
+    if price_idx is None and len(headers) >= 2:
+        # Use second column as price (expendeduría)
+        price_idx = 1
     
     print(f"Zone {zone_slug}: header={headers}, name_idx={name_idx}, price_idx={price_idx}")
     
@@ -155,17 +154,22 @@ def parse_csv(path, zone_slug):
         
         cols = line.split(separator)
         
-        if name_idx is None or price_idx is None:
-            # Last-ditch fallback
-            if len(cols) >= 2:
-                name = cols[0].strip()
-                price = cols[-1].strip().replace(",", ".").replace("€", "")
-            else:
-                continue
+        if name_idx is not None and name_idx < len(cols):
+            name = cols[name_idx].strip()
         else:
-            name = cols[name_idx].strip() if name_idx < len(cols) else ""
-            price = cols[price_idx].strip() if price_idx < len(cols) else ""
-            price = price.replace(",", ".").replace("€", "")
+            name = cols[0].strip()
+        
+        # Extract price - handle multiple price columns
+        if price_idx is not None and price_idx < len(cols):
+            price = cols[price_idx].strip().replace(",", ".").replace("€", "")
+        else:
+            # Try last numeric column
+            price = ""
+            for col in reversed(cols[1:]):
+                p = re.sub(r'[^\d.]', '', col.replace(",", "."))
+                if p:
+                    price = p
+                    break
         
         # Clean price - extract only numbers and dots
         price = re.sub(r'[^\d.]', '', price)
@@ -173,7 +177,6 @@ def parse_csv(path, zone_slug):
         if not name or not price:
             continue
         
-        # Determine labor type from name if type column not found
         labor_type = detect_type(name, cols, type_idx)
         
         products.append({
