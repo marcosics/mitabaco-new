@@ -480,6 +480,7 @@ Al Fakher Big Blue (200 g),otros,nacional,17.5
 Al Fakher Big Blue (250 g),otros,nacional,19.95
 Al Fakher Big Blue (50 g),otros,nacional,4.7
 Al Fakher Big Blue Green (50 g),otros,nacional,4.7
+Al Fakher Big Coral (200 g),otros,nacional,17.5
 Al Fakher Big Coral (50 g),otros,nacional,4.7
 Al Fakher Big Green (1000 g),otros,nacional,73.95
 Al Fakher Big Green (1000 g) CM,otros,nacional,38
@@ -504,6 +505,8 @@ Al Fakher Black Mist (250 g),otros,nacional,16.9
 Al Fakher Black Mist (250 g) CM,otros,nacional,9.95
 Al Fakher Blueberry (50 g) CM,otros,nacional,1.9
 Al Fakher Blueberry Mint (50 g) CM,otros,nacional,1.9
+Al Fakher Brisa Roja (200 g),otros,nacional,17.5
+Al Fakher Brisa Roja (50 g),otros,nacional,4.7
 Al Fakher Catwalk Melody (50 g),otros,nacional,4.8
 Al Fakher Cinnasense (50 g),otros,nacional,4.7
 Al Fakher Crimson Crush (100 g),otros,nacional,8.5
@@ -586,6 +589,7 @@ Al Fakher Polar Freeze (100 g),otros,nacional,9.95
 Al Fakher Polar Freeze (100 g) CM,otros,nacional,6.5
 Al Fakher Polar Freeze (200 g),otros,nacional,19.95
 Al Fakher Red Green Smash (50 g),otros,nacional,4.7
+Al Fakher Red Patch (200 g),otros,nacional,17.5
 Al Fakher Red Patch (50 g),otros,nacional,4.7
 Al Fakher Red Smash (50 g),otros,nacional,4.7
 Al Fakher Runway Rhapsody (50 g),otros,nacional,4.8
@@ -607,9 +611,11 @@ Al Fakher The Double Crunch (5000 g),otros,nacional,225
 Al Fakher The Double Crunch (5000 g) CM,otros,nacional,200
 Al Fakher The Double Crunch (900 g),otros,nacional,69.95
 Al Fakher Tropic Treat (50 g),otros,nacional,4.8
+Al Fakher Twiwi (200 g),otros,nacional,17.5
 Al Fakher Twiwi (50 g),otros,nacional,4.7
 Al Fakher Watermelon (50 g) CM,otros,nacional,1.9
 Al Fakher Watermelon-Mint (50 g) CM,otros,nacional,1.9
+Al Fakher White Pod (200 g),otros,nacional,17.5
 Al Fakher White Pods  (50 g),otros,nacional,4.7
 Al Fakher Wicked Emerald (100 g),otros,nacional,8.5
 Al Fakher Wicked Emerald (100 g) CM,otros,nacional,6.5
@@ -1380,16 +1386,6 @@ Apache Red Wide Cut Tobacco (20 g),otros,nacional,1.4
 Apache Rubio (30 g),otros,nacional,4.7
 Apache Silver (20),otros,nacional,4.5
 Apache Yellow Wide Cut Tobacco (20 g),otros,nacional,1.4
-Apocalypse Babyelia (40 g),otros,nacional,3.15
-Apocalypse Baron Rouge  (40 g),otros,nacional,3.15
-Apocalypse Godfather (40 g),otros,nacional,3.15
-Apocalypse Halep Boom (40 g),otros,nacional,3.15
-Apocalypse King Leonidas (40 g),otros,nacional,3.15
-Apocalypse La Force  (40 g),otros,nacional,3.15
-Apocalypse Odin (40 g),otros,nacional,3.15
-Apocalypse Ommy Shelby (40 g),otros,nacional,3.15
-Apocalypse Yakuza (50 g),otros,nacional,3.7
-Apocalypse Yodda (40 g),otros,nacional,3.15
 AQM Babbel (50 g),otros,nacional,3.3
 AQM Babbel (50 g) CM,otros,nacional,2.1
 AQM Black Box (50 g),otros,nacional,3.85
@@ -2214,6 +2210,7 @@ Bravo Clásico Black is Black (20) CM,otros,nacional,2.4
 Bravo Clásico CM,otros,nacional,2.2
 Bravo Clásico Duro (20),otros,nacional,4.6
 Bravo Clásico Duro (20) CM,otros,nacional,2.4
+Bravo Fine Cut (250 g),otros,nacional,45.9
 Bravo Ice Menthol (150 g),otros,nacional,24.8
 BRAVO Negro Capa Natural (El envase de 17),otros,nacional,2.3
 Bravo Original Blend,otros,nacional,3.95
@@ -2226,6 +2223,7 @@ Bravo Pipe (100 g),otros,nacional,8
 Bravo Pipe (150 g),otros,nacional,12
 Bravo Pipe (20 g),otros,nacional,1.6
 Bravo Pipe (60 g),otros,nacional,5.1
+Bravo Pipe (999 g),otros,nacional,75
 Bravo Pipe Tobacco (150 g),otros,nacional,6.5
 Bravo Pipe Tobacco Special Cut (50 g),otros,nacional,3.75
 Bravo Pipe Tobacco Special Cut (500 g),otros,nacional,19.9
@@ -2765,8 +2763,8 @@ Chaos Passionata (50 g),otros,nacional,2.95
 Chaos Passionata (50 g) CM,otros,nacional,1.75
 Chaos Policeman (50 g),otros,nacional,2.95
 Chaos Policeman (50 g) CM,otros,nacional,1.75
-CHAZZ Cigarillos (el envase de 20),otros,nacional,6.9
-CHAZZ Cigarros (el envase de 10),cigarrillos,nacional,5.9
+CHAZZ Cigarillos (20),otros,nacional,0.35
+CHAZZ Cigarros (10),cigarrillos,nacional,0.6
 Che Red,otros,nacional,5.25
 Chema Classic (30 g),otros,nacional,1.9
 Chema Classic (30 g) CM,otros,nacional,1.6
@@ -2789,7 +2787,6 @@ Chesterfield Original Duro,otros,nacional,6.1
 Chesterfield Original Duro CM,otros,nacional,4.25
 Chesterfield Roll Your Own (30 g),otros,nacional,6.5
 Chesterfield Volume Tobacco (30 g),otros,nacional,6.8
-Chillma (100 g),otros,nacional,12.9
 Choice (25 g),otros,nacional,4.15
 CHOICE SX (El envase de 20),otros,nacional,2.2
 Chronos 12 O' Clock (50 g),otros,nacional,3.95
@@ -2883,10 +2880,10 @@ CLEVER Clever American Blend (El envase de 20),otros,nacional,2.6
 CLIO Clio C-10 (10),otros,nacional,0.29
 CLIO Clio Medium (10),otros,nacional,0.23
 CLIO Clio Minis (10),otros,nacional,0.21
-CLUBMASTER Cigarillo Red (20 ),otros,nacional,0.25
-CLUBMASTER Cigarillo Red Filter (20),otros,nacional,0.25
+CLUBMASTER Cigarillo Red (20 ),otros,nacional,0.26
+CLUBMASTER Cigarillo Red Filter (20),otros,nacional,0.26
 CLUBMASTER Clubmaster Mini Filter Iceland (El envase de 20),otros,nacional,4.7
-CLUBMASTER Clubmaster Superior Filter Red (El envase de 20),otros,nacional,5.7
+CLUBMASTER Clubmaster Superior Filter Red (El envase de 20),otros,nacional,5.9
 CLUBMASTER Clubmaster Superior Red (20),otros,nacional,0.3
 CLUBMASTER Mini Blue (El envase de 20),otros,nacional,4.7
 CLUBMASTER Mini Blue (El envase de 20) CM,otros,nacional,3.4
@@ -3049,11 +3046,11 @@ COLONIAL DAN TOBACCO Robustos P (5),otros,nacional,1.5
 COLONIAL DAN TOBACCO Short Robustos M (10),otros,nacional,1.3
 COLONIAL DAN TOBACCO Short Robustos P (5),otros,nacional,1.3
 COLONIALES By Farias (25),otros,nacional,1
-Colts Blue (70 g),otros,nacional,6
+Colts Blue (70 g),otros,nacional,6.2
 Colts Blue (70 g) CM,otros,nacional,5.6
 Colts Dutch Blend (40 g),otros,nacional,3.6
 Colts Dutch Blend (40 g) CM,otros,nacional,3.2
-Colts Original (70 g),otros,nacional,6
+Colts Original (70 g),otros,nacional,6.2
 Colts Original (70 g) CM,otros,nacional,5.6
 Colts Red (100 g),otros,nacional,8.3
 Colts Red (100 g) CM,otros,nacional,7.9
@@ -3421,6 +3418,7 @@ DAVIDOFF Davidoff Aniversario Nº 1 LE 2023 (10),otros,nacional,60
 DAVIDOFF Davidoff Chefs Edition 2025 (10),otros,nacional,55
 DAVIDOFF Davidoff Dominicana Short Robusto (10),otros,nacional,13.5
 DAVIDOFF Davidoff Escurio 10th Anniversary (12),otros,nacional,37
+DAVIDOFF Davidoff Escurio Robusto (12),otros,nacional,16.2
 DAVIDOFF Davidoff Grand Cru Diademas Finas Le 2024 (10),otros,nacional,57
 DAVIDOFF Davidoff Maduro Robusto (20),otros,nacional,50
 DAVIDOFF Davidoff Maduro Short Corona (20),otros,nacional,42
@@ -6442,6 +6440,9 @@ LA AURORA La Aurora Escogidos Lancero E. L. (15),otros,nacional,17.2
 LA AURORA La Aurora Escogidos Robusto (20),otros,nacional,7.6
 LA AURORA La Aurora Escogidos Short Robusto (20),otros,nacional,7.3
 LA AURORA La Aurora Escogidos Toro (20),otros,nacional,8
+LA AURORA La Aurora Family Creed Fuerte Sol Gran Toro (20),otros,nacional,10
+LA AURORA La Aurora Family Creed Fuerte Sol Robusto (20),otros,nacional,8
+LA AURORA La Aurora Family Creed Fuerte Sol Toro (20),otros,nacional,9.5
 LA AURORA La Aurora Family Reserve Guillermo León Le (15),otros,nacional,18.2
 LA AURORA La Aurora Hors D´age Toro 2022 (15),otros,nacional,16.7
 LA AURORA La Aurora Maduro 1985 Robusto (5),otros,nacional,5.95
@@ -7068,12 +7069,7 @@ Mala Vida Shisha pna clada (50 g),otros,nacional,2.95
 Mala Vida Shisha swet mlon (50 g),otros,nacional,2.95
 Mala Vida Shisha vanlla cinamn (50 g),otros,nacional,2.95
 Mala Vida Shisha wtermlon mnt (50 g),otros,nacional,2.95
-Mammut Blu Smoke (50 g),otros,nacional,3
-Mammut Green Smoke (50 g),otros,nacional,3
-Mammut Ocher Smoke (50 g),otros,nacional,3
-Mammut Pink Smoke (50 g),otros,nacional,3
 Mammut Pink Smoke (50 g) CM,otros,nacional,2.15
-Mammut Red Smoke (50 g),otros,nacional,3
 Mammut Yelow Smoke (50 g),otros,nacional,3
 Manitou Extra Fine Green (20),otros,nacional,4.5
 Manitou Fine Cut Virginia Gold (100 g),otros,nacional,19
@@ -7548,9 +7544,9 @@ MONTES SERIE N Montes Serie N.P.C.Bundle (El envase de 20),otros,nacional,34
 MONTES SERIE N Montes Serie N.P.L. Bundle (El envase de 20),otros,nacional,39
 MONTES SERIE N Montes Serie N.P.N. Bundle (El envase de 20),otros,nacional,50
 MONTES SERIE N Montes Serie N.R. Bundle (El envase de 20),otros,nacional,40
-MONTOSA Montosa Robusto (20),otros,nacional,5.4
-MONTOSA Montosa Short Robusto (20),otros,nacional,5.2
-MONTOSA Montosa Toro (20),otros,nacional,5.6
+MONTOSA Montosa Robusto (20),otros,nacional,5.6
+MONTOSA Montosa Short Robusto (20),otros,nacional,5.4
+MONTOSA Montosa Toro (20),otros,nacional,5.8
 Moon Habana (500 g). Tabaco Pipa,tabaco-pipa,nacional,39
 Moon Habana 150 Gr. Big (150 g),otros,nacional,11.5
 Moon Habana Especial Mixture (20 g),otros,nacional,1.8
@@ -7704,19 +7700,13 @@ Musth Wet Mel (200 g),otros,nacional,32.3
 Musth White Sod (125 g),otros,nacional,22.6
 Musth White Sod (200 g),otros,nacional,32.3
 Musth Ylkah (125 g),otros,nacional,22.6
-Musthave Blarry (200 g),otros,nacional,23.5
 Musthave Co-La (100 g),otros,nacional,11.95
 Musthave Cuba (100 g),otros,nacional,11.95
 Musthave Curant (100 g),otros,nacional,11.95
-Musthave India (200 g),otros,nacional,28
 Musthave Mel-Shak (100 g),otros,nacional,11.95
-Musthave Morocco (200 g),otros,nacional,28
-Musthave Patch (200 g),otros,nacional,23.5
 Musthave Pynkman (100 g),otros,nacional,11.95
 Musthave Raspi (100 g),otros,nacional,11.95
 Musthave Rocketman (100 g),otros,nacional,11.95
-Musthave Straw Lych (200 g),otros,nacional,28
-Musthave Team Oran (200 g),otros,nacional,23.5
 Musthave Tropic (100 g),otros,nacional,11.95
 MY FATHER Asorted Bag Toro 6 X 50 (El envase de 5),otros,nacional,75
 MY FATHER Don Pepin Azul Invictos 5 x 50 (10),otros,nacional,8.1
@@ -8453,28 +8443,28 @@ PANTER Mignon De Luxe (El Envase de 20),otros,nacional,5.5
 PANTER Mignon De Luxe (El Envase de 20) CM,otros,nacional,4.7
 PANTER Mignon Luxe (20),otros,nacional,0.27
 PANTER Mignon Red (El Envase de 20),otros,nacional,5.5
-PANTER Mini Bleu (El envase de 20),otros,nacional,5.5
+PANTER Mini Bleu (20),otros,nacional,0.28
 PANTER Mini Bleu (El envase de 20) CM,otros,nacional,5.1
-PANTER Mini Filter Bleu (el envase de 20),otros,nacional,5.5
+PANTER Mini Filter Bleu (20),otros,nacional,0.28
 PANTER Mini Filter Bleu (el envase de 20) CM,otros,nacional,5.1
-PANTER Mini Filter Red (El envase de 20),otros,nacional,5.5
+PANTER Mini Filter Red (20),otros,nacional,0.28
 PANTER Mini Filter Red (El envase de 20) CM,otros,nacional,5.1
 PANTER Mini Filter Vanilla (5),otros,nacional,0.2
-PANTER Mini Original (El envase de 20),otros,nacional,5.5
+PANTER Mini Original (20),otros,nacional,0.28
 PANTER Mini Original (El envase de 20) CM,otros,nacional,5.1
-PANTER Mini Red (El envase de 20),otros,nacional,5.5
+PANTER Mini Red (20),otros,nacional,0.28
 PANTER Mini Red (El envase de 20) CM,otros,nacional,5.1
 PANTER Panter Mini Filter Green (el envase de 20),otros,nacional,5.3
 PANTER Panter Mini Filter Green (el envase de 20) CM,otros,nacional,4.9
-PANTER Panter Mini Filter Swirl (el envase de 20),otros,nacional,5.5
+PANTER Panter Mini Filter Swirl (20),otros,nacional,0.28
 PANTER Panter Mini Filter Swirl (el envase de 20) CM,otros,nacional,5.1
 PANTER Panter Pocket Blue (20),otros,nacional,0.2
 PANTER Panter Pocket Blue (20) CM,otros,nacional,0.18
-PANTER Panter Pocket Filter Green (10),otros,nacional,0.21
+PANTER Panter Pocket Filter Green (10),otros,nacional,0.22
 PANTER Panter Pocket Filter Green (10) CM,otros,nacional,0.17
-PANTER Panter Pocket Filter Swirl Bronze (10),otros,nacional,0.21
+PANTER Panter Pocket Filter Swirl Bronze (10),otros,nacional,0.22
 PANTER Panter Pocket Filter Swirl Bronze (10) CM,otros,nacional,0.17
-PANTER Panter Pocket Filter Swirl Red (10),otros,nacional,0.21
+PANTER Panter Pocket Filter Swirl Red (10),otros,nacional,0.22
 PANTER Panter Pocket Filter Swirl Red (10) CM,otros,nacional,0.17
 PANTER Panter Pocket Red (20),otros,nacional,0.2
 PANTER Panter Pocket Red (20) CM,otros,nacional,0.18
@@ -9890,43 +9880,43 @@ Shisha Kartel Sexy Sheba (50 g) CM,otros,nacional,1.9
 Shisha Kartel Sexy Sheba (950 g),otros,nacional,59.9
 Shisha Kartel Sexy Sheba (950 g) CM,otros,nacional,35
 Shisha Kartel Silly Scientish (50 g),otros,nacional,4.5
-SIGNATURE Blue (20),otros,nacional,0.3
 SIGNATURE Blue (20) CM,otros,nacional,0.28
+SIGNATURE Blue (El Envase de 20),otros,nacional,6.1
 SIGNATURE Filter Red (10),otros,nacional,0.31
-SIGNATURE Finos Beige (20),otros,nacional,0.25
+SIGNATURE Finos Beige (El envase de 20),otros,nacional,5.1
 SIGNATURE Finos Beige (El envase de 20) CM,otros,nacional,4.6
-SIGNATURE Finos Blue (20),otros,nacional,0.25
+SIGNATURE Finos Blue (El envase de 20),otros,nacional,5.1
 SIGNATURE Finos Blue (El envase de 20) CM,otros,nacional,4.6
 SIGNATURE Finos Brown (10),otros,nacional,0.2
-SIGNATURE Finos Filter Beige (10),otros,nacional,0.24
+SIGNATURE Finos Filter Beige (10),otros,nacional,0.25
 SIGNATURE Finos Filter Beige (10) CM,otros,nacional,0.21
-SIGNATURE Finos Filter Blue (10),otros,nacional,0.24
+SIGNATURE Finos Filter Blue (10),otros,nacional,0.25
 SIGNATURE Finos Filter Blue (10) CM,otros,nacional,0.21
 SIGNATURE Finos Filter Hindustan (10),otros,nacional,0.2
 SIGNATURE Finos Filter Indochina (10),otros,nacional,0.2
 SIGNATURE Finos Filter Mexica (10),otros,nacional,0.2
 SIGNATURE Finos Filter Persia (10),otros,nacional,0.2
-SIGNATURE Finos Filter Red (10),otros,nacional,0.24
+SIGNATURE Finos Filter Red (10),otros,nacional,0.25
 SIGNATURE Finos Filter Red (10) CM,otros,nacional,0.21
-SIGNATURE Finos Original (20),otros,nacional,0.25
+SIGNATURE Finos Original (El Envase de 20),otros,nacional,5.1
 SIGNATURE Finos Original (El Envase de 20) CM,otros,nacional,4.6
-SIGNATURE Finos Red (20),otros,nacional,0.25
+SIGNATURE Finos Red (El Envase de 20),otros,nacional,5.1
 SIGNATURE Finos Red (El Envase de 20) CM,otros,nacional,4.6
 SIGNATURE Noir (20),otros,nacional,0.3
 SIGNATURE Noir (20) CM,otros,nacional,0.28
-SIGNATURE Original (20),otros,nacional,0.3
 SIGNATURE Original (20) CM,otros,nacional,0.28
+SIGNATURE Original (El Envase de 20),otros,nacional,6.1
 SIGNATURE Red (20),otros,nacional,0.3
 SIGNATURE Red (20) CM,otros,nacional,0.28
 SIGNATURE Signature Finos Beige (El envase de 5),otros,nacional,1.6
 SIGNATURE Signature Finos Filter Beige (20),otros,nacional,0.22
 SIGNATURE Signature Finos Filter Beige (El envase de 20) CM,otros,nacional,4
-SIGNATURE Signature Finos Filter Green (10),otros,nacional,0.24
+SIGNATURE Signature Finos Filter Green (10),otros,nacional,0.25
 SIGNATURE Signature Finos Filter Green (10) CM,otros,nacional,0.21
 SIGNATURE Signature Finos Original (El envase de 5),otros,nacional,1.6
-SIGNATURE Signature Silhouette Filter Beige (10),otros,nacional,0.28
+SIGNATURE Signature Silhouette Filter Beige (10),otros,nacional,0.29
 SIGNATURE Signature Silhouette Filter Beige (10) CM,otros,nacional,0.23
-SIGNATURE Signature Silhouette Filter Green (10),otros,nacional,0.28
+SIGNATURE Signature Silhouette Filter Green (10),otros,nacional,0.29
 SIGNATURE Signature Silhouette Filter Green (10) CM,otros,nacional,0.23
 SILENCIO Silencio Black Gigante (25),otros,nacional,13.5
 SILENCIO Silencio Black Robusto (25),otros,nacional,12
@@ -10154,6 +10144,26 @@ Starbuzz Classic Line O. Mnt (50 g),otros,nacional,4.2
 Starbuzz Classic Line O. Mnt (50 g) CM,otros,nacional,3.7
 Starbuzz Classic Line Royal Grp (50 g),otros,nacional,4.2
 Starbuzz Classic Line Royal Grp (50 g) CM,otros,nacional,3.7
+Starbuzz Egyptian Pharos picadura shisha lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Blue Mist (100 g),otros,nacional,9.95
+Starbuzz Exotic Blue Surfer Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Cosmopolitan Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Fuzzy Naval (100 g),otros,nacional,9.95
+Starbuzz Exotic Geisha (100 g),otros,nacional,9.95
+Starbuzz Exotic Green Savior (100 g),otros,nacional,9.95
+Starbuzz Exotic Irish Kiss (100 g),otros,nacional,9.95
+Starbuzz Exotic Jack The Ripper Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Lebanese Bomb Shell (100 g),otros,nacional,9.95
+Starbuzz Exotic Mighty Freeze Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Mijoti Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Pink Chica Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Pink picadura shisha bote (1000 g),tabaco-liar,nacional,96.95
+Starbuzz Exotic Pirate's Cave (100 g),otros,nacional,9.95
+Starbuzz Exotic Pumpkin Pie (100 g),otros,nacional,9.95
+Starbuzz Exotic Queen Of Sex (100 g),otros,nacional,9.95
+Starbuzz Exotic Winter Fresh (100 g),otros,nacional,9.95
+Starbuzz French Buzz picadura shisha lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Pineana Freeze Shisha (100 g),otros,nacional,9.95
 Starbuzz Regular Anjou Chill (100 g),otros,nacional,9.95
 Starbuzz Regular Anjou Chill (100 g) CM,otros,nacional,7.9
 Starbuzz Regular Blue Dew (100 g),otros,nacional,9.95
@@ -10188,6 +10198,7 @@ Starbuzz Regular White Nec (100 g) CM,otros,nacional,7.9
 Starbuzz Regular Yellow Freeze (100 g),otros,nacional,9.95
 Starbuzz Regular Yellow Freeze (100 g) CM,otros,nacional,7.9
 Starbuzz Regular Yellow T (100 g),otros,nacional,9.95
+Starbuzz Sexy Beach picadura shisha lata (100 g),tabaco-liar,nacional,9.95
 Starbuzz Vintage Cheers! (80 g),otros,nacional,8.95
 Starbuzz Vintage Cheers! (80 g) CM,otros,nacional,6.4
 Starbuzz Vintage Dark Winilla (80 g),otros,nacional,8.95
@@ -10221,6 +10232,7 @@ Starbuzz Vintage Plus Tokyo Kick (50 g),otros,nacional,4.3
 Starbuzz Vintage Plus White Mist® (50 g),otros,nacional,4.3
 Starbuzz Vintage Timisue (80 g),otros,nacional,8.95
 Starbuzz Vintage Timisue (80 g) CM,otros,nacional,6.4
+Starbuzz White Bear picadura shisha lata (100 g),tabaco-liar,nacional,9.95
 Starline Asian Blaze (200 g),otros,nacional,19.49
 Starline Asian Blaze (50 g),otros,nacional,4.99
 Starline Belgian Morning (200 g),otros,nacional,19.49
