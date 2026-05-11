@@ -53,17 +53,30 @@
   // --- PAGES ---
   const pageHome = $('#page-home');
   const pageFavs = $('#page-favs');
+  const pageMap = $('#page-map');
   const detail = $('#detail');
   const navHome = $('#nav-home');
   const navFavs = $('#nav-favs');
+  const navMap = $('#nav-map');
   const title = $('#title');
 
   function showPage(name) {
     pageHome.classList.add('hidden');
     pageFavs.classList.add('hidden');
+    pageMap.classList.add('hidden');
     detail.classList.add('hidden');
     navHome.classList.remove('active');
     navFavs.classList.remove('active');
+    navMap.classList.remove('active');
+
+    if (name === 'map') {
+      pageMap.classList.remove('hidden');
+      navMap.classList.add('active');
+      title.textContent = 'Mapa de estancos';
+      document.body.style.paddingBottom = '0';
+    } else {
+      document.body.style.paddingBottom = '65px';
+    }
 
     if (name === 'home') {
       pageHome.classList.remove('hidden');
@@ -84,6 +97,10 @@
 
   navHome.onclick = () => showPage('home');
   navFavs.onclick = () => showPage('favs');
+  navMap.onclick = () => showPage('map');
+
+  // Map external link fallback
+  $('#map-open-ext').onclick = () => window.open('https://serviciostelematicosext.hacienda.gob.es/CMT/Visor/visor.aspx', '_blank');
 
   // --- HOME ---
   function renderHome() {
