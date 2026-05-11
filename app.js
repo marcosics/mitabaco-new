@@ -135,6 +135,26 @@
     }));
   }
 
+  function descAI(p) {
+    const t = p.tipo;
+    const w = (p.nombre.match(/\((\d+)\s*g\)/i) || [])[1];
+    let d = '';
+    if (t === 'cigarrillos') {
+      d = `${p.nombre} son cigarrillos de calidad. Precio oficial de ${p.precio}€ en ${p.zona}. Tabaco elaborado con selección de hojas para un sabor equilibrado y experiencia de fumo tradicional.`;
+    } else if (t === 'tabaco-liar') {
+      const gram = w ? `${w}g` : 'formato clásico';
+      d = `${p.nombre} es tabaco de liar en presentación de ${gram}. Precio de ${p.precio}€ en ${p.zona}. Picadura fina para liar cigarrillos con el sabor auténtico del tabaco.`;
+    } else if (t === 'puros') {
+      d = `${p.nombre} es un cigarro puro premium. Precio de ${p.precio}€ en ${p.zona}. Elaborado con capa, capote y tripa seleccionados para un aroma intenso y fumada lenta.`;
+    } else if (t === 'tabaco-pipa') {
+      const gram = w ? `${w}g` : '';
+      d = `${p.nombre} es tabaco de pipa${gram ? ' en bote de ' + gram : ''}. Precio de ${p.precio}€ en ${p.zona}. Mezcla aromática pensada para disfrutar en pipa con largas caladas.`;
+    } else {
+      d = `${p.nombre}. Precio oficial de ${p.precio}€ en ${p.zona}. Producto de tabaco regulado por el Comisionado para el Mercado de Tabacos.`;
+    }
+    return d;
+  }
+
   // --- DETAIL ---
   function renderDetail() {
     if (!current) { showPage('home'); return; }
@@ -148,9 +168,8 @@
     s += `<div class="detail-price">${p.precio}€</div>`;
     s += `<div class="detail-meta">${p.tipo.replace('tabaco-','')} · ${p.zona}</div>`;
     s += img ? `<div class="detail-img"><img src="${img}"></div>` : `<div class="detail-img">Sin imagen</div>`;
+    s += `<div class="detail-section"><label>Descripción</label><p style="color:var(--muted);font-size:0.85rem;line-height:1.6">${descAI(p)}</p></div>`;
     s += `<div class="detail-section"><label>Valoración</label><div class="stars">`;
-    for (let i = 1; i <= 5; i++) s += `<span class="${i <= r ? 'on' : ''}" data-v="${i}">★</span>`;
-    s += `</div></div>`;
     s += `<div class="detail-section"><label>Opinión</label><textarea id="dopin" rows="3" style="width:100%;background:var(--surface);border:1px solid var(--border);color:var(--fg);padding:0.5rem;resize:none;font-size:0.9rem">${opinion}</textarea>`;
     s += `<button id="dsaveopin" style="background:var(--fg);color:var(--bg);border:none;padding:0.4rem 0.8rem;margin-top:0.4rem;font-weight:600;cursor:pointer">Guardar opinión</button></div>`;
     s += `<div class="detail-section"><label>Imagen</label><input type="file" id="dup" accept="image/*"></div>`;
