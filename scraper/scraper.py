@@ -177,6 +177,9 @@ def parse_csv(path, zone_slug):
         if not name or not price:
             continue
         
+        # Clean #NO NAME prefix
+        name = re.sub(r'^#NO NAME\s*', '', name).strip()
+        
         labor_type = detect_type(name, cols, type_idx)
         
         products.append({
@@ -191,6 +194,7 @@ def parse_csv(path, zone_slug):
 
 def detect_type(name, cols, type_idx):
     name_lower = name.lower()
+    name_upper = name.upper()
     
     # If there's a type column, try to use it
     if type_idx is not None and type_idx < len(cols):
@@ -208,21 +212,43 @@ def detect_type(name, cols, type_idx):
         elif "aspirar" in type_val:
             return "tabaco-aspirar"
     
-    # Fallback: infer from name
-    if any(kw in name_lower for kw in ["cigarrillo", "cigarr"]):
+    # Infer from name patterns
+    
+    # Cigarrillos: units (20) (24) (22) etc, or keywords
+    if any(kw in name_lower for kw in ["cigarrillo", "cigarr", "cig."]):
         return "cigarrillos"
-    elif any(kw in name_lower for kw in ["puro", "cigarro"]):
+    
+    # Puros/cigarros
+    if any(kw in name_lower for kw in ["puro", "cigarro", "cigar"]):
         return "puros"
-    elif any(kw in name_lower for kw in ["liar", "picadura", "shag", "ambarella", "bali"]):
+    
+    # Tabaco de liar: has weight in grams like (30 g) (50 g) (200 g) etc OR keywords
+    if re.search(r'\(\d+\s?g\)', name_lower):
+        # Check what kind - pipe tobacco often says "pipa" or is larger format
+        if "pipa" in name_lower:
+            return "tabaco-pipa"
         return "tabaco-liar"
-    elif "pipa" in name_lower:
+    
+    if any(kw in name_lower for kw in ["liar", "picadura", "shag", "ambarella", "bali", "r\\'s", "rolling", "drum", "golden virginia"]):
+        return "tabaco-liar"
+    
+    # Pipe tobacco keywords
+    if any(kw in name_lower for kw in ["pipa", "pipe"]):
         return "tabaco-pipa"
-    elif "mascar" in name_lower:
+    
+    # Tabaco para mascar
+    if any(kw in name_lower for kw in ["mascar", "chewing", "snus"]):
         return "tabaco-mascar"
-    elif "aspirar" in name_lower:
+    
+    # Tabaco para aspirar
+    if any(kw in name_lower for kw in ["aspirar", "snuff", "rapé", "rape"]):
         return "tabaco-aspirar"
-    else:
-        return "otros"
+    
+    # Units like (20) (24) (10) suggest cigarrillos
+    if re.search(r'\(\d{2}\)', name):
+        return "cigarrillos"
+    
+    return "otros"
 
 if __name__ == "__main__":
     success = scrape_hacienda()
