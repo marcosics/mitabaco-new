@@ -361,9 +361,110 @@
         localStorage.mt_prices = JSON.stringify(update);
       }
     });
+
+    // Subscribe to Push API
+    const pushSub = async () => {
+      if (!('PushManager' in window)) { console.log('Push not supported'); return; }
+      const perm = await Notification.requestPermission();
+      if (perm !== 'granted') return;
+
+      const reg = await navigator.serviceWorker.ready;
+      // VAPID public key – generate your own with scripts/setup.py or use this default
+      const vapidKey = 'BG_wZ5x8THIZjNEoIxD5_yoykQjhEWBLmTET_Sh-06aTNr1wYMSq8vRjK-8p9R0m5_YfP2ZW15FnW5PIOYF0N2s';
+
+      try {
+        const sub = await reg.pushManager.subscribe({
+          userVisibleOnly: true,
+          applicationServerKey: urlBase64ToUint8Array(vapidKey)
+        });
+        localStorage.mt_sub = JSON.stringify(sub);
+
+        // If user has a GitHub PAT saved, upload subscription to repo
+        const pat = localStorage.getItem('mt_pat');
+        if (pat) {
+          await uploadSubscription(sub, pat);
+        }
+      } catch (e) {
+        console.log('Push subscription failed:', e);
+      }
+    };
+
+    // Try to subscribe on load (auto)
+    setTimeout(pushSub, 2000);
+
     // Request notification permission proactively
     if ('Notification' in window && Notification.permission === 'default') {
       Notification.requestPermission();
     }
+  }
+
+  // --- PUSH SUBSCRIPTION UPLOAD ---
+  async function uploadSubscription(sub, pat) {
+    const owner = 'marcosics';
+    const repo = 'mitabaco-new';
+    const path = 'data/subscriptions.json';
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+
+    try {
+      // Get existing file SHA if it exists
+      let sha = null;
+      try {
+        const existing = await fetch(url, { headers: { Authorization: `Bearer ${pat}` } });
+        if (existing.ok) {
+          const data = await existing.json();
+          sha = data.sha;
+        }
+      } catch {}
+
+      // Read current subscriptions
+      let subs = [];
+      if (sha) {
+        const getRes = await fetch(url, { headers: { Authorization: `Bearer ${pat}` } });
+        if (getRes.ok) {
+          const data = await getRes.json();
+          try {
+            const decoded = atob(data.content.replace(/\n/g, ''));
+            subs = JSON.parse(decoded);
+          } catch {}
+        }
+      }
+
+      // Add/replace this subscription (dedup by endpoint)
+      const existingIdx = subs.findIndex(s => s.endpoint === sub.endpoint);
+      if (existingIdx >= 0) {
+        subs[existingIdx] = sub;
+      } else {
+        subs.push(sub);
+      }
+
+      // Encode and commit
+      const content = btoa(unescape(encodeURIComponent(JSON.stringify(subs, null, 2))));
+      const body = { message: 'Update push subscription', content };
+      if (sha) body.sha = sha;
+
+      const putRes = await fetch(url, {
+        method: 'PUT',
+        headers: { Authorization: `Bearer ${pat}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
+
+      if (putRes.ok) {
+        show('Notificaciones push activadas ✅');
+      } else {
+        console.log('Upload failed', await putRes.text());
+      }
+    } catch (e) {
+      console.log('Upload error:', e);
+    }
+  }
+
+  // Helper: base64 to Uint8Array for VAPID key
+  function urlBase64ToUint8Array(base64String) {
+    const padding = '='.repeat((4 - base64String.length % 4) % 4);
+    const base64 = (base64String + padding).replace(/\-/g, '+').replace(/_/g, '/');
+    const rawData = atob(base64);
+    const outputArray = new Uint8Array(rawData.length);
+    for (let i = 0; i < rawData.length; ++i) outputArray[i] = rawData.charCodeAt(i);
+    return outputArray;
   }
 })();

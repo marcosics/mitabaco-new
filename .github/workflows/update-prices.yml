@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright
+          pip install playwright pywebpush
           playwright install --with-deps chromium
 
       - name: Run scraper
@@ -30,13 +30,20 @@ jobs:
 
       - name: Check for changes
         run: |
-          git add tabaco.csv
+          git add tabaco.csv data/price-changes.json
           git diff --staged --quiet || echo "HAS_CHANGES=true" >> $GITHUB_ENV
+
+      - name: Send push notifications
+        if: env.HAS_CHANGES == 'true'
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+        run: python scripts/notify.py
 
       - name: Commit and push
         if: env.HAS_CHANGES == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
           git commit -m "Update tobacco prices [skip ci]"
           git push

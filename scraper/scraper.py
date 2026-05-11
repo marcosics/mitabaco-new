@@ -2,6 +2,7 @@ import csv
 import os
 import re
 import tempfile
+import json
 from playwright.sync_api import sync_playwright
 
 ZONE_MAP = {
@@ -11,246 +12,184 @@ ZONE_MAP = {
 }
 
 def scrape_hacienda():
+    old_prices = {}
+    if os.path.exists("tabaco.csv"):
+        old_prices = read_old_prices("tabaco.csv")
+
     all_products = []
     temp_files = []
-    
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(accept_downloads=True)
         page = context.new_page()
-        
+
         try:
             page.goto(
                 "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/CMTabacos/Paginas/PreciosLabores.aspx",
-                wait_until="networkidle",
-                timeout=60000
+                wait_until="networkidle", timeout=60000
             )
-            
-            # Accept cookies
             try:
                 page.click("#checkbox-cb", timeout=5000)
                 page.wait_for_timeout(1000)
             except:
                 pass
-            
-            # Iterate through zones
+
             for zone_value, zone_slug in ZONE_MAP.items():
                 try:
-                    # Select zone
                     if zone_value:
                         page.select_option("#zonas", zone_value)
                     else:
                         page.select_option("#zonas", "")
-                    
-                    # Click "Consultar precios"
                     page.click("#filtrarSin", timeout=10000)
                     page.wait_for_timeout(3000)
-                    
-                    # Export CSV
-                    with page.expect_download(timeout=30000) as download_info:
+                    with page.expect_download(timeout=30000) as di:
                         page.click("#exportToCSV", timeout=10000)
-                    
-                    download = download_info.value
-                    
-                    # Save to temp file
-                    fd, tmp_path = tempfile.mkstemp(suffix=".csv")
+                    dl = di.value
+                    fd, tmp = tempfile.mkstemp(suffix=".csv")
                     os.close(fd)
-                    download.save_as(tmp_path)
-                    temp_files.append((tmp_path, zone_slug))
-                    
+                    dl.save_as(tmp)
+                    temp_files.append((tmp, zone_slug))
                 except Exception as e:
-                    print(f"Error scraping zone '{zone_value}': {e}")
-                    continue
-            
+                    print(f"Zone {zone_value} error: {e}")
+
         except Exception as e:
             print(f"Scrape failed: {e}")
         finally:
             browser.close()
-    
-    # Parse all downloaded CSVs
-    for tmp_path, zone_slug in temp_files:
-        products = parse_csv(tmp_path, zone_slug)
-        all_products.extend(products)
-        try:
-            os.remove(tmp_path)
-        except:
-            pass
-    
+
+    for tmp, zone in temp_files:
+        prods = parse_csv(tmp, zone)
+        all_products.extend(prods)
+        try: os.remove(tmp)
+        except: pass
+
     if not all_products:
-        print("WARNING: No products scraped from hacienda.gob.es")
+        print("No products scraped")
         return False
-    
-    # Deduplicate by name + zone
+
     seen = {}
     for p in all_products:
         key = f"{p['nombre']}_{p['zona']}"
         if key not in seen:
             seen[key] = p
-    
+
     all_products = list(seen.values())
-    
-    # Write final CSV in frontend format
+
+    # Detect price changes for favorites
+    changes = []
+    for p in all_products:
+        old = old_prices.get(p['nombre'])
+        if old and old != p['precio']:
+            changes.append({"nombre": p['nombre'], "old": old, "new": p['precio']})
+
+    if changes:
+        os.makedirs("data", exist_ok=True)
+        with open("data/price-changes.json", "w", encoding="utf-8") as f:
+            json.dump(changes, f, ensure_ascii=False, indent=2)
+        print(f"Price changes detected: {len(changes)}")
+
     with open("tabaco.csv", "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["nombre", "tipo", "zona", "precio"])
-        writer.writeheader()
-        writer.writerows(all_products)
-    
-    print(f"Saved {len(all_products)} products to tabaco.csv")
+        w = csv.DictWriter(f, fieldnames=["nombre", "tipo", "zona", "precio"])
+        w.writeheader()
+        w.writerows(all_products)
+
+    print(f"Saved {len(all_products)} products")
     return True
+
+def read_old_prices(path):
+    prices = {}
+    with open(path, "r", encoding="utf-8") as f:
+        text = f.read()
+    lines = text.strip().split("\n")
+    if len(lines) < 2: return prices
+    for i in range(1, len(lines)):
+        parts = []; cur = ""; inQ = False
+        for ch in lines[i]:
+            if ch == '"': inQ = not inQ; continue
+            if ch == "," and not inQ: parts.append(cur.strip()); cur = ""; continue
+            cur += ch
+        parts.append(cur.strip())
+        if len(parts) < 4: continue
+        name = re.sub(r'^#NO NAME\s*', '', parts[0]).strip()
+        if name:
+            prices[name] = re.sub(r'[^\d.]', '', parts[3].replace(",", "."))
+    return prices
 
 def parse_csv(path, zone_slug):
     products = []
-    
     with open(path, "r", encoding="utf-8-sig") as f:
         content = f.read()
-    
     lines = content.strip().split("\n")
-    
-    if len(lines) < 2:
-        print(f"Empty CSV for zone {zone_slug}")
-        return products
-    
-    # Detect separator (usually semicolon in Spanish government CSVs)
-    separator = ";"
-    if ";" not in lines[0] and "," in lines[0]:
-        separator = ","
-    
-    # Parse header to find column positions
-    headers = [h.strip().lower() for h in lines[0].split(separator)]
-    
-    code_idx = None
-    name_idx = None
-    price_idx = None
-    type_idx = None
-    
-    for idx, h in enumerate(headers):
-        # Name column
-        if "marca" in h or "descripción" in h or "descripcion" in h:
-            name_idx = idx
-        # Price column - look for "euros", "expendeduría", "recargo", "precio", "pvp"
-        elif "expendeduría" in h or "expendeduria" in h or "euros" in h or "precio" in h or "pvp" in h or "recargo" in h:
-            # Prefer the first price column (expendeduría over recargo)
-            if price_idx is None:
-                price_idx = idx
-        elif "cód" in h or "cod" in h:
-            code_idx = idx
-        elif "tipo" in h or "labor" in h or "clase" in h or "categoría" in h or "categoria" in h:
-            type_idx = idx
-    
-    # Fallback if columns not detected
-    if name_idx is None and len(headers) >= 1:
+    if len(lines) < 2: return products
+
+    sep = ";"
+    if ";" not in lines[0] and "," in lines[0]: sep = ","
+
+    hdrs = [h.strip().lower() for h in lines[0].split(sep)]
+    name_idx = price_idx = type_idx = None
+
+    for i, h in enumerate(hdrs):
+        if "marca" in h or "descripción" in h or "descripcion" in h: name_idx = i
+        elif any(k in h for k in ["expendeduría", "expendeduria", "euros", "precio", "pvp", "recargo"]):
+            if price_idx is None: price_idx = i
+        elif any(k in h for k in ["tipo", "labor", "clase"]): type_idx = i
+
+    if name_idx is None:
         name_idx = 0
-    if price_idx is None and len(headers) >= 2:
-        # Use second column as price (expendeduría)
-        price_idx = 1
-    
-    print(f"Zone {zone_slug}: header={headers}, name_idx={name_idx}, price_idx={price_idx}")
-    
-    # Parse data rows
+    if price_idx is None:
+        price_idx = 1 if len(hdrs) >= 2 else -1
+
     for i in range(1, len(lines)):
         line = lines[i].strip()
-        if not line:
-            continue
-        
-        cols = line.split(separator)
-        
+        if not line: continue
+        cols = line.split(sep)
         if name_idx is not None and name_idx < len(cols):
             name = cols[name_idx].strip()
         else:
-            name = cols[0].strip()
-        
-        # Extract price - handle multiple price columns
+            name = cols[0].strip() if cols else ""
+
         if price_idx is not None and price_idx < len(cols):
             price = cols[price_idx].strip().replace(",", ".").replace("€", "")
         else:
-            # Try last numeric column
             price = ""
-            for col in reversed(cols[1:]):
-                p = re.sub(r'[^\d.]', '', col.replace(",", "."))
-                if p:
-                    price = p
-                    break
-        
-        # Clean price - extract only numbers and dots
+            for c in reversed(cols[1:]):
+                p = re.sub(r'[^\d.]', '', c.replace(",", "."))
+                if p: price = p; break
+
         price = re.sub(r'[^\d.]', '', price)
-        
-        if not name or not price:
-            continue
-        
-        # Clean #NO NAME prefix
+        if not name or not price: continue
         name = re.sub(r'^#NO NAME\s*', '', name).strip()
-        
-        labor_type = detect_type(name, cols, type_idx)
-        
+
         products.append({
             "nombre": name,
-            "tipo": labor_type,
+            "tipo": detect_type(name),
             "zona": zone_slug,
             "precio": price
         })
-    
-    print(f"Zone {zone_slug}: parsed {len(products)} products")
     return products
 
-def detect_type(name, cols, type_idx):
-    name_lower = name.lower()
-    name_upper = name.upper()
-    
-    # If there's a type column, try to use it
-    if type_idx is not None and type_idx < len(cols):
-        type_val = cols[type_idx].strip().lower()
-        if "cigarrillo" in type_val:
-            return "cigarrillos"
-        elif "cigarro" in type_val or "puro" in type_val:
-            return "puros"
-        elif "picadura" in type_val and "liar" in type_val:
-            return "tabaco-liar"
-        elif "pipa" in type_val:
-            return "tabaco-pipa"
-        elif "mascar" in type_val:
-            return "tabaco-mascar"
-        elif "aspirar" in type_val:
-            return "tabaco-aspirar"
-    
-    # Infer from name patterns
-    
-    # Cigarrillos: units (20) (24) (22) etc, or keywords
-    if any(kw in name_lower for kw in ["cigarrillo", "cigarr", "cig."]):
+def detect_type(name):
+    n = name.lower()
+    if re.search(r'\(\d+\s?g\)', n):
+        return "tabaco-liar" if "pipa" not in n else "tabaco-pipa"
+    if any(k in n for k in ["cigarrillo", "cigarr", "cig."]):
         return "cigarrillos"
-    
-    # Puros/cigarros
-    if any(kw in name_lower for kw in ["puro", "cigarro", "cigar"]):
+    if any(k in n for k in ["puro", "cigarro", "cigar"]):
         return "puros"
-    
-    # Tabaco de liar: has weight in grams like (30 g) (50 g) (200 g) etc OR keywords
-    if re.search(r'\(\d+\s?g\)', name_lower):
-        # Check what kind - pipe tobacco often says "pipa" or is larger format
-        if "pipa" in name_lower:
-            return "tabaco-pipa"
+    if any(k in n for k in ["liar", "picadura", "shag", "ambarella", "bali", "rolling", "drum"]):
         return "tabaco-liar"
-    
-    if any(kw in name_lower for kw in ["liar", "picadura", "shag", "ambarella", "bali", "r\\'s", "rolling", "drum", "golden virginia"]):
-        return "tabaco-liar"
-    
-    # Pipe tobacco keywords
-    if any(kw in name_lower for kw in ["pipa", "pipe"]):
+    if any(k in n for k in ["pipa", "pipe"]):
         return "tabaco-pipa"
-    
-    # Tabaco para mascar
-    if any(kw in name_lower for kw in ["mascar", "chewing", "snus"]):
+    if any(k in n for k in ["mascar", "chewing", "snus"]):
         return "tabaco-mascar"
-    
-    # Tabaco para aspirar
-    if any(kw in name_lower for kw in ["aspirar", "snuff", "rapé", "rape"]):
+    if any(k in n for k in ["aspirar", "snuff", "rapé", "rape"]):
         return "tabaco-aspirar"
-    
-    # Units like (20) (24) (10) suggest cigarrillos
     if re.search(r'\(\d{2}\)', name):
         return "cigarrillos"
-    
     return "otros"
 
 if __name__ == "__main__":
     success = scrape_hacienda()
     if not success:
-        print("Falling back to empty CSV - check scraper logs.")
+        print("Scraper failed")
