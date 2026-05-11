@@ -99,8 +99,72 @@
   navFavs.onclick = () => showPage('favs');
   navMap.onclick = () => showPage('map');
 
-  // Map external link fallback
-  $('#map-open-ext').onclick = () => window.open('https://serviciostelematicosext.hacienda.gob.es/CMT/Visor/visor.aspx', '_blank');
+  // --- MAP (estancos) ---
+  let userPos = null;
+
+  function dist(lat1, lon1, lat2, lon2) {
+    const R = 6371e3;
+    const a = Math.sin((lat2-lat1)*Math.PI/180/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin((lon2-lon1)*Math.PI/180/2)**2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  }
+
+  $('#map-locate').onclick = () => {
+    const btn = $('#map-locate');
+    if (!navigator.geolocation) { show('Geolocalización no disponible'); return; }
+    btn.textContent = '⏳ Localizando...';
+    btn.disabled = true;
+    navigator.geolocation.getCurrentPosition(pos => {
+      userPos = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+      btn.textContent = '📍 Buscar estancos cercanos';
+      btn.disabled = false;
+      loadEstancos(userPos.lat, userPos.lon);
+    }, () => {
+      btn.textContent = '📍 Buscar estancos cercanos';
+      btn.disabled = false;
+      show('No se pudo obtener ubicación. Activa el GPS.');
+    }, { enableHighAccuracy: true, timeout: 10000 });
+  };
+
+  function loadEstancos(lat, lon) {
+    const el = $('#map-list');
+    el.innerHTML = '<div class="empty">Buscando estancos...</div>';
+
+    const query = `[out:json][timeout:12];
+      nwr["shop"="tobacco"](around:15000,${lat},${lon});
+      out body;`;
+
+    fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`)
+      .then(r => r.json())
+      .then(data => {
+        const items = (data.elements || []).filter(e => e.tags).map(e => ({
+          name: e.tags.name || 'Estanco',
+          addr: [e.tags['addr:street'] || '', e.tags['addr:housenumber'] || ''].filter(Boolean).join(' ') || e.tags['addr:city'] || '',
+          city: e.tags['addr:city'] || '',
+          lat: e.lat,
+          lon: e.lon
+        })).filter(e => e.lat && e.lon);
+
+        items.sort((a, b) => dist(lat, lon, a.lat, a.lon) - dist(lat, lon, b.lat, b.lon));
+        const top = items.slice(0, 30);
+
+        if (!top.length) { el.innerHTML = '<div class="empty">No se encontraron estancos cercanos</div>'; return; }
+
+        el.innerHTML = top.map(e => {
+          const d = dist(lat, lon, e.lat, e.lon);
+          const km = d < 1000 ? `${Math.round(d)}m` : `${(d/1000).toFixed(1)}km`;
+          const addr = e.addr ? `${e.addr}${e.city ? ', ' + e.city : ''}` : '';
+          const url = `https://www.google.com/maps/dir/?api=1&destination=${e.lat},${e.lon}&travelmode=driving`;
+          return `<div class="map-item" onclick="window.open('${url}','_blank')">
+            <div class="map-name">${e.name}</div>
+            <div class="map-addr">${addr || 'Dirección no disponible'}</div>
+            <div class="map-dist">${km}</div>
+          </div>`;
+        }).join('');
+      })
+      .catch(() => {
+        el.innerHTML = '<div class="empty">Error al buscar estancos</div>';
+      });
+  }
 
   // --- HOME ---
   function renderHome() {
