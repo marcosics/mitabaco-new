@@ -290,6 +290,37 @@
     };
   }
 
+  // --- PRICE ALERT ---
+  function checkPriceChanges() {
+    const saved = JSON.parse(localStorage.mt_prices || '{}');
+    const changed = [];
+    fav.forEach(name => {
+      const p = prods.find(x => x.nombre === name);
+      if (!p) return;
+      const old = saved[name];
+      if (old && old !== p.precio) {
+        changed.push({ nombre: name, oldP: old, newP: p.precio });
+      }
+    });
+    if (!changed.length) return;
+    changed.forEach(c => {
+      show(`💰 ${c.nombre}: ${c.oldP}€ → ${c.newP}€`);
+      if ('Notification' in window && Notification.permission === 'granted') {
+        new Notification('💸 Cambio de precio', {
+          body: `${c.nombre}: ${c.oldP}€ → ${c.newP}€`,
+          icon: '/favicon.ico'
+        });
+      }
+    });
+    // Update stored prices for favorites only
+    const update = {};
+    fav.forEach(name => {
+      const p = prods.find(x => x.nombre === name);
+      if (p) update[name] = p.precio;
+    });
+    localStorage.mt_prices = JSON.stringify(update);
+  }
+
   // --- FILTERS ---
   $('#search').oninput = renderHome;
   $('#filter').onchange = renderHome;
@@ -299,10 +330,40 @@
     prods = parseCSV(csv);
     $('#last-updated').textContent = new Date().toLocaleDateString();
     renderHome();
+    checkPriceChanges();
   }).catch(() => {
     $('#last-updated').textContent = 'error';
     $('#list').innerHTML = '<div class="empty">Error al cargar datos</div>';
   });
 
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+    // Listen for price checks from SW
+    navigator.serviceWorker.addEventListener('message', e => {
+      if (e.data && e.data.type === 'PRICES_UPDATE') {
+        const { prices, favorites } = e.data;
+        const saved = JSON.parse(localStorage.mt_prices || '{}');
+        favorites.forEach(name => {
+          const newP = prices[name];
+          const oldP = saved[name];
+          if (oldP && newP && oldP !== newP) {
+            show(`💰 ${name}: ${oldP}€ → ${newP}€`);
+            if ('Notification' in window && Notification.permission === 'granted') {
+              new Notification('💸 Cambio de precio', {
+                body: `${name}: ${oldP}€ → ${newP}€`,
+                icon: '/favicon.ico'
+              });
+            }
+          }
+        });
+        const update = {};
+        favorites.forEach(n => { if (prices[n]) update[n] = prices[n]; });
+        localStorage.mt_prices = JSON.stringify(update);
+      }
+    });
+    // Request notification permission proactively
+    if ('Notification' in window && Notification.permission === 'default') {
+      Notification.requestPermission();
+    }
+  }
 })();
