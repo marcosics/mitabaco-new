@@ -6,6 +6,7 @@
   const fav = JSON.parse(localStorage.mt_fav || '[]');
   const rates = JSON.parse(localStorage.mt_rates || '{}');
   const imgs = JSON.parse(localStorage.mt_imgs || '{}');
+  const opin = JSON.parse(localStorage.mt_opin || '{}');
 
   const list = $('#list');
   const favs = $('#favs');
@@ -16,23 +17,26 @@
 
   function show(m) { toast.textContent = m; toast.classList.remove('hidden'); setTimeout(() => toast.classList.add('hidden'), 1800); }
 
-  function parse(csv) {
-    const lines = csv.trim().split('\n');
+  // CSV parser that handles commas inside quoted fields
+  function parseCSV(text) {
+    const lines = text.trim().split('\n');
     if (lines.length < 2) return [];
-    const sep = lines[0].includes(';') ? ';' : ',';
     const r = [];
     for (let i = 1; i < lines.length; i++) {
-      const c = lines[i].split(sep);
-      const name = (c[0] || '').trim();
-      let price = (c[1] || '0').trim().replace(',','.').replace(/[^\d.]/g,'');
-      const type = (c[2] || '').trim().toLowerCase();
-      let t = 'otros';
-      if (/cigarr/.test(name)) t = 'cigarrillos';
-      else if (/liar|picadura|shag/.test(name)) t = 'tabaco-liar';
-      else if (/puro|cigarro/.test(name)) t = 'puros';
-      else if (/pipa/.test(name)) t = 'tabaco-pipa';
-      if (type === 'cigarrillos' || type === 'tabaco-liar' || type === 'puros' || type === 'tabaco-pipa') t = type;
-      if (name && price) r.push({ nombre: name, precio: price, tipo: t, zona: c[3] ? c[3].trim() : 'nacional' });
+      const parts = [];
+      let cur = '', inQ = false;
+      for (const ch of lines[i]) {
+        if (ch === '"') { inQ = !inQ; continue; }
+        if (ch === ',' && !inQ) { parts.push(cur.trim()); cur = ''; continue; }
+        cur += ch;
+      }
+      parts.push(cur.trim());
+      if (parts.length < 4) continue;
+      const name = parts[0] || '';
+      const tipo = parts[1] || 'otros';
+      const zone = parts[2] || 'nacional';
+      const price = parts[3].replace(',', '.').replace(/[^\d.]/g, '');
+      if (name && price) r.push({ nombre: name, tipo, zona: zone, precio: price });
     }
     return r;
   }
@@ -91,22 +95,36 @@
     const p = current;
     const img = imgs[p.nombre] || '';
     const r = rates[p.nombre] || 0;
+    const opinion = opin[p.nombre] || '';
 
     let s = `<button id="back">←</button>`;
     s += `<div class="detail-name">${p.nombre}</div>`;
     s += `<div class="detail-price">${p.precio}€</div>`;
-    s += `<div class="detail-meta">${p.tipo} · ${p.zona}</div>`;
+    s += `<div class="detail-meta">${p.tipo.replace('tabaco-','')} · ${p.zona}</div>`;
     s += img ? `<div class="detail-img"><img src="${img}"></div>` : `<div class="detail-img">Sin imagen</div>`;
-    s += `<div class="detail-section"><label>Valorar</label><div class="stars">`;
+
+    // Rating
+    s += `<div class="detail-section"><label>Valoración</label><div class="stars">`;
     for (let i = 1; i <= 5; i++) s += `<span class="${i <= r ? 'on' : ''}" data-v="${i}">★</span>`;
     s += `</div></div>`;
+
+    // Opinion / review
+    s += `<div class="detail-section"><label>Opinión</label>`;
+    s += `<textarea id="opinion" rows="3" style="width:100%;background:var(--surface);border:1px solid var(--border);color:var(--fg);padding:0.5rem;resize:none;font-size:0.9rem">${opinion}</textarea>`;
+    s += `<button id="save-opin" style="background:var(--fg);color:var(--bg);border:none;padding:0.4rem 0.8rem;margin-top:0.4rem;font-weight:600;cursor:pointer">Guardar opinión</button></div>`;
+
+    // Image upload
     s += `<div class="detail-section"><label>Imagen</label><input type="file" id="up" accept="image/*"></div>`;
+
+    // Favorite toggle
     s += `<div class="detail-section"><label>Favorito</label><button id="dfav" style="background:var(--surface);border:1px solid var(--border);color:var(--fg);padding:0.5rem;width:100%;cursor:pointer;font-weight:600">${fav.includes(p.nombre) ? '♥ Quitar favorito' : '♡ Añadir a favoritos'}</button></div>`;
 
     detail.innerHTML = s;
 
+    // Back
     $('#back').onclick = () => { detail.classList.add('hidden'); render(); };
 
+    // Stars
     $$('#detail .stars span').forEach(el => el.onclick = () => {
       rates[p.nombre] = +el.dataset.v;
       localStorage.mt_rates = JSON.stringify(rates);
@@ -114,6 +132,14 @@
       openDetail();
     });
 
+    // Save opinion
+    $('#save-opin').onclick = () => {
+      opin[p.nombre] = $('#opinion').value;
+      localStorage.mt_opin = JSON.stringify(opin);
+      show('Opinión guardada');
+    };
+
+    // Image upload
     $('#up').onchange = e => {
       const file = e.target.files[0];
       if (!file) return;
@@ -122,6 +148,7 @@
       rdr.readAsDataURL(file);
     };
 
+    // Favorite
     $('#dfav').onclick = () => {
       const idx = fav.indexOf(p.nombre);
       if (idx > -1) { fav.splice(idx, 1); show('Quitado de favoritos'); }
@@ -131,14 +158,19 @@
     };
   }
 
+  // Bind search & filter
   $('#search').oninput = render;
   $('#filter').onchange = render;
 
+  // Load data
   fetch('tabaco.csv').then(r => r.text()).then(csv => {
-    prods = parse(csv);
+    prods = parseCSV(csv);
     $('#last-updated').textContent = new Date().toLocaleDateString();
     render();
-  }).catch(() => { $('#last-updated').textContent = 'error'; list.innerHTML = '<div class="empty">Error al cargar datos</div>'; });
+  }).catch(() => {
+    $('#last-updated').textContent = 'error';
+    list.innerHTML = '<div class="empty">Error al cargar datos</div>';
+  });
 
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
 })();
