@@ -37,11 +37,15 @@
   }
 
   function cardHTML(x) {
+    const r = rates[x.nombre] || 0;
+    let stars = '';
+    for (let i = 1; i <= 5; i++) stars += `<span class="${i <= r ? 'on' : ''}">★</span>`;
     return `<div class="card" data-n="${x.nombre}">
       <div class="card-row">
-        <div>
+        <div class="card-left">
           <div class="card-name">${x.nombre}</div>
           <div class="card-type">${x.tipo.replace('tabaco-','')}</div>
+          <div class="card-stars">${stars}</div>
         </div>
         <div class="card-price">${x.precio}€</div>
       </div>
