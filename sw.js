@@ -7,7 +7,9 @@ self.addEventListener('install', e => {
     scope,
     scope + 'index.html',
     scope + 'style.css',
-    scope + 'app.js'
+    scope + 'app.js',
+    scope + 'manifest.json',
+    scope + 'favicon.svg'
   ];
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(assets)));
   self.skipWaiting();
