@@ -2,16 +2,16 @@ const scope = self.registration.scope;
 const CACHE = 'mt-v7';
 
 self.addEventListener('install', e => {
-  // Cache static assets using relative URLs so they resolve under the subpath
-  const assets = [
-    scope,
-    scope + 'index.html',
-    scope + 'style.css',
-    scope + 'app.js',
-    scope + 'manifest.json',
-    scope + 'favicon.svg'
-  ];
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(assets)));
+  // Cache what we can — don't fail install if a resource is unavailable
+  const cacheResources = async () => {
+    const cache = await caches.open(CACHE);
+    const urls = [
+      scope, scope + 'index.html', scope + 'style.css',
+      scope + 'app.js', scope + 'manifest.json', scope + 'favicon.svg'
+    ];
+    await Promise.allSettled(urls.map(u => cache.add(u).catch(() => {})));
+  };
+  e.waitUntil(cacheResources());
   self.skipWaiting();
 });
 
