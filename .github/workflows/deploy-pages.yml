@@ -23,6 +23,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install push dependencies
+        run: pip install pywebpush
+
+      - name: Send push notifications (if any pending)
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+        run: python scripts/notify.py
+
       - uses: actions/configure-pages@v4
 
       - uses: actions/upload-pages-artifact@v3

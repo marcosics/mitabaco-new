@@ -284,7 +284,11 @@
     $('#dfav').onclick = () => {
       const idx = fav.indexOf(p.nombre);
       if (idx > -1) { fav.splice(idx, 1); show('Quitado de favoritos'); }
-      else { fav.push(p.nombre); show('Añadido'); if ('Notification' in window && Notification.permission === 'default') Notification.requestPermission(); }
+      else {
+        fav.push(p.nombre); show('Añadido');
+        // Subscribe to push on user gesture (required by mobile Chrome)
+        pushSub();
+      }
       localStorage.mt_fav = JSON.stringify(fav);
       renderDetail();
     };
@@ -386,12 +390,13 @@
 
     // Subscribe to Push API
     const pushSub = async () => {
-      if (!('PushManager' in window)) { console.log('Push not supported'); return; }
+      if (!('PushManager' in window)) return;
+      // Skip if already subscribed
+      if (localStorage.getItem('mt_sub')) return;
       const perm = await Notification.requestPermission();
       if (perm !== 'granted') return;
 
       const reg = await navigator.serviceWorker.ready;
-      // VAPID public key – generate your own with scripts/setup.py or use this default
       const vapidKey = 'BCQpt8_4gPBwSoOfZIHIaBgLy5tUP-vnn7-2T2hyK3hBeK9wRhzZ5U_Sbh_69RDABadKRsjEfB9KnI-80z2YBtk';
 
       try {
@@ -401,7 +406,6 @@
         });
         localStorage.mt_sub = JSON.stringify(sub);
 
-        // If user has a GitHub PAT saved, upload subscription to repo
         const pat = localStorage.getItem('mt_pat');
         if (pat) {
           await uploadSubscription(sub, pat);
@@ -411,10 +415,7 @@
       }
     };
 
-    // Try to subscribe on load (auto)
-    setTimeout(pushSub, 2000);
-
-    // Request notification permission proactively
+    // Request notification permission proactively (just the permission, not push subscription)
     if ('Notification' in window && Notification.permission === 'default') {
       Notification.requestPermission();
     }
