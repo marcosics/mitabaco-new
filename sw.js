@@ -1,5 +1,5 @@
-const CACHE = 'mt-v4';
-const ASSETS = ['/', '/index.html', '/style.css', '/app.js', '/tabaco.csv', '/data/price-changes.json'];
+const CACHE = 'mt-v6';
+const ASSETS = ['/', '/index.html', '/style.css', '/app.js'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
@@ -7,17 +7,37 @@ self.addEventListener('install', e => {
 });
 
 self.addEventListener('activate', e => {
-  e.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))
-    )
+  // Delete old caches (keep both cache stores)
+  const deleteOld = caches.keys().then(keys =>
+    Promise.all(keys.filter(k => k !== CACHE && k !== 'price-alerts').map(k => caches.delete(k)))
   );
-  self.clients.claim();
+  e.waitUntil(Promise.all([deleteOld, self.clients.claim()]));
+  // Check prices shortly after activation
+  setTimeout(checkPriceChanges, 3000);
 });
 
 self.addEventListener('fetch', e => {
+  const url = new URL(e.request.url);
+  // Data files: network-first (always get latest)
+  if (url.pathname === '/tabaco.csv' || url.pathname === '/data/price-changes.json') {
+    e.respondWith(networkFirst(e.request));
+    return;
+  }
+  // Static assets: cache-first for speed & offline
   e.respondWith(caches.match(e.request).then(r => r || fetch(e.request)));
 });
+
+async function networkFirst(req) {
+  const cache = await caches.open(CACHE);
+  try {
+    const fresh = await fetch(req);
+    // Put fresh version in cache for offline fallback
+    if (fresh.ok) cache.put(req, fresh.clone());
+    return fresh;
+  } catch {
+    return cache.match(req);
+  }
+}
 
 // --- PUSH NOTIFICATIONS ---
 self.addEventListener('push', e => {
@@ -57,7 +77,6 @@ async function checkPriceChanges() {
     const changes = await res.json();
     if (!changes || !changes.length) return;
 
-    // Check which changes we've already notified about
     const cache = await caches.open('price-alerts');
     const cachedRes = await cache.match('/price-alerts-seen.json');
     const seen = cachedRes ? await cachedRes.json() : [];
@@ -65,7 +84,6 @@ async function checkPriceChanges() {
     const newChanges = changes.filter(c => !seen.includes(c.nombre + c.old + c.new));
     if (!newChanges.length) return;
 
-    // Show notification
     const title = newChanges.length === 1
       ? `💸 ${newChanges[0].nombre}`
       : `💸 ${newChanges.length} productos cambiaron de precio`;
@@ -81,29 +99,14 @@ async function checkPriceChanges() {
       data: { url: '/' }
     });
 
-    // Mark as seen
     const updated = [...seen, ...newChanges.map(c => c.nombre + c.old + c.new)];
     const blob = new Blob([JSON.stringify(updated)], { type: 'application/json' });
-    const response = new Response(blob);
-    await cache.put('/price-alerts-seen.json', response);
+    await cache.put('/price-alerts-seen.json', new Response(blob));
   } catch (e) {
     // Silently fail
   }
 }
 
-// Check when SW is activated
-self.addEventListener('activate', e => {
-  e.waitUntil(Promise.all([
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE && k !== 'price-alerts').map(k => caches.delete(k)))
-    ),
-    self.clients.claim()
-  ]));
-  // Check prices shortly after activation
-  setTimeout(checkPriceChanges, 3000);
-});
-
-// Check on each fetch to the page
 self.addEventListener('message', e => {
   if (e.data && e.data.type === 'CHECK_NOW') {
     checkPriceChanges();
