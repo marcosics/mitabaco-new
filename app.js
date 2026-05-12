@@ -392,7 +392,7 @@
 
       const reg = await navigator.serviceWorker.ready;
       // VAPID public key – generate your own with scripts/setup.py or use this default
-      const vapidKey = 'BG_wZ5x8THIZjNEoIxD5_yoykQjhEWBLmTET_Sh-06aTNr1wYMSq8vRjK-8p9R0m5_YfP2ZW15FnW5PIOYF0N2s';
+      const vapidKey = 'BCQpt8_4gPBwSoOfZIHIaBgLy5tUP-vnn7-2T2hyK3hBeK9wRhzZ5U_Sbh_69RDABadKRsjEfB9KnI-80z2YBtk';
 
       try {
         const sub = await reg.pushManager.subscribe({
