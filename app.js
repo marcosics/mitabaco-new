@@ -5,8 +5,6 @@
   let prods = [];
   const fav = JSON.parse(localStorage.mt_fav || '[]');
   const rates = JSON.parse(localStorage.mt_rates || '{}');
-  const imgs = JSON.parse(localStorage.mt_imgs || '{}');
-  const opin = JSON.parse(localStorage.mt_opin || '{}');
   let current = null;
 
   function show(m) {
@@ -240,21 +238,22 @@
   function renderDetail() {
     if (!current) { showPage('home'); return; }
     const p = current;
-    const img = imgs[p.nombre] || '';
     const r = rates[p.nombre] || 0;
-    const opinion = opin[p.nombre] || '';
 
-    let s = `<button id="dback" style="background:var(--surface);border:1px solid var(--border);color:var(--fg);width:2.5rem;height:2.5rem;font-size:1.2rem;cursor:pointer;margin-bottom:1rem">←</button>`;
-    s += `<div class="detail-name">${p.nombre}</div>`;
+    let starsHtml = '';
+    for (let i = 1; i <= 5; i++) {
+      starsHtml += `<span data-v="${i}" class="${i <= r ? 'on' : ''}">★</span>`;
+    }
+
+    let s = `<button id="dback" class="glass-btn" style="margin-bottom:1rem">←</button>`;
+    s += `<div class="detail-header">`;
+    s += `  <div class="detail-name">${p.nombre}</div>`;
+    s += `  <button id="dfav" class="heart-btn">${fav.includes(p.nombre) ? '♥' : '♡'}</button>`;
+    s += `</div>`;
     s += `<div class="detail-price">${p.precio}€</div>`;
     s += `<div class="detail-meta">${p.tipo.replace('tabaco-','')} · ${p.zona}</div>`;
-    s += img ? `<div class="detail-img"><img src="${img}"></div>` : `<div class="detail-img">Sin imagen</div>`;
-    s += `<div class="detail-section"><label>Descripción</label><p style="color:var(--muted);font-size:0.85rem;line-height:1.6">${descAI(p)}</p></div>`;
-    s += `<div class="detail-section"><label>Valoración</label><div class="stars">`;
-    s += `<div class="detail-section"><label>Opinión</label><textarea id="dopin" rows="3" style="width:100%;background:var(--surface);border:1px solid var(--border);color:var(--fg);padding:0.5rem;resize:none;font-size:0.9rem">${opinion}</textarea>`;
-    s += `<button id="dsaveopin" style="background:var(--fg);color:var(--bg);border:none;padding:0.4rem 0.8rem;margin-top:0.4rem;font-weight:600;cursor:pointer">Guardar opinión</button></div>`;
-    s += `<div class="detail-section"><label>Imagen</label><input type="file" id="dup" accept="image/*"></div>`;
-    s += `<div class="detail-section"><label>Favorito</label><button id="dfav" style="background:var(--surface);border:1px solid var(--border);color:var(--fg);padding:0.5rem;width:100%;cursor:pointer;font-weight:600">${fav.includes(p.nombre) ? '♥ Quitar favorito' : '♡ Añadir a favoritos'}</button></div>`;
+    s += `<div class="detail-glass"><div class="detail-section"><label>Descripción</label><p>${descAI(p)}</p></div></div>`;
+    s += `<div class="detail-glass"><div class="detail-section"><label>Valoración</label><div class="stars">${starsHtml}</div></div></div>`;
 
     detail.innerHTML = s;
 
@@ -266,20 +265,6 @@
       show(`${el.dataset.v}★`);
       renderDetail();
     });
-
-    $('#dsaveopin').onclick = () => {
-      opin[p.nombre] = $('#dopin').value;
-      localStorage.mt_opin = JSON.stringify(opin);
-      show('Opinión guardada');
-    };
-
-    $('#dup').onchange = e => {
-      const file = e.target.files[0];
-      if (!file) return;
-      const rdr = new FileReader();
-      rdr.onload = ev => { imgs[p.nombre] = ev.target.result; localStorage.mt_imgs = JSON.stringify(imgs); show('Imagen guardada'); renderDetail(); };
-      rdr.readAsDataURL(file);
-    };
 
     $('#dfav').onclick = () => {
       const idx = fav.indexOf(p.nombre);
