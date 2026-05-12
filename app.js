@@ -36,11 +36,11 @@
     return r;
   }
 
-  function cardHTML(x) {
+  function cardHTML(x, i) {
     const r = rates[x.nombre] || 0;
     let stars = '';
-    for (let i = 1; i <= 5; i++) stars += `<span class="${i <= r ? 'on' : ''}">★</span>`;
-    return `<div class="card" data-n="${x.nombre}">
+    for (let j = 1; j <= 5; j++) stars += `<span class="${j <= r ? 'on' : ''}">★</span>`;
+    return `<div class="card" data-n="${x.nombre}" style="--i:${i}">
       <div class="card-row">
         <div class="card-left">
           <div class="card-name">${x.nombre}</div>
@@ -61,40 +61,55 @@
   const navFavs = $('#nav-favs');
   const navMap = $('#nav-map');
   const title = $('#title');
+  const cig = $('#cigarette');
+
+  function showCig(cb) {
+    cig.classList.remove('hidden');
+    requestAnimationFrame(() => {
+      cig.classList.add('show');
+      setTimeout(() => {
+        cig.classList.remove('show');
+        cb();
+        setTimeout(() => cig.classList.add('hidden'), 280);
+      }, 220);
+    });
+  }
 
   function showPage(name) {
-    pageHome.classList.add('hidden');
-    pageFavs.classList.add('hidden');
-    pageMap.classList.add('hidden');
-    detail.classList.add('hidden');
-    navHome.classList.remove('active');
-    navFavs.classList.remove('active');
-    navMap.classList.remove('active');
+    showCig(() => {
+      pageHome.classList.add('hidden');
+      pageFavs.classList.add('hidden');
+      pageMap.classList.add('hidden');
+      detail.classList.add('hidden');
+      navHome.classList.remove('active');
+      navFavs.classList.remove('active');
+      navMap.classList.remove('active');
 
-    if (name === 'map') {
-      pageMap.classList.remove('hidden');
-      navMap.classList.add('active');
-      title.textContent = 'Mapa de estancos';
-      document.body.style.paddingBottom = '0';
-    } else {
-      document.body.style.paddingBottom = '65px';
-    }
+      if (name === 'map') {
+        pageMap.classList.remove('hidden');
+        navMap.classList.add('active');
+        title.textContent = 'Mapa de estancos';
+        document.body.style.paddingBottom = '0';
+      } else {
+        document.body.style.paddingBottom = '65px';
+      }
 
-    if (name === 'home') {
-      pageHome.classList.remove('hidden');
-      navHome.classList.add('active');
-      title.textContent = 'MiTabaco';
-      renderHome();
-    } else if (name === 'favs') {
-      pageFavs.classList.remove('hidden');
-      navFavs.classList.add('active');
-      title.textContent = 'Favoritos';
-      renderFavs();
-    } else if (name === 'detail') {
-      detail.classList.remove('hidden');
-      title.textContent = current ? current.nombre : '';
-      renderDetail();
-    }
+      if (name === 'home') {
+        pageHome.classList.remove('hidden');
+        navHome.classList.add('active');
+        title.textContent = 'MiTabaco';
+        renderHome();
+      } else if (name === 'favs') {
+        pageFavs.classList.remove('hidden');
+        navFavs.classList.add('active');
+        title.textContent = 'Favoritos';
+        renderFavs();
+      } else if (name === 'detail') {
+        detail.classList.remove('hidden');
+        title.textContent = current ? current.nombre : '';
+        renderDetail();
+      }
+    });
   }
 
   navHome.onclick = () => showPage('home');
@@ -175,7 +190,7 @@
     let p = prods;
     if (f !== 'all') p = p.filter(x => x.tipo === f);
     if (q) p = p.filter(x => x.nombre.toLowerCase().includes(q));
-    $('#list').innerHTML = p.length ? p.map(cardHTML).join('') : '<div class="empty">Sin resultados</div>';
+    $('#list').innerHTML = p.length ? p.map((x,i) => cardHTML(x,i)).join('') : '<div class="empty">Sin resultados</div>';
     favChips();
     bindCards();
   }
@@ -211,7 +226,7 @@
   function renderFavs() {
     const fp = prods.filter(x => fav.includes(x.nombre));
     $('#fav-empty').classList.toggle('hidden', !!fp.length);
-    $('#fav-list').innerHTML = fp.length ? fp.map(cardHTML).join('') : '';
+    $('#fav-list').innerHTML = fp.length ? fp.map((x,i) => cardHTML(x,i)).join('') : '';
     $('#fav-list').querySelectorAll('.card').forEach(el => el.addEventListener('click', () => {
       current = prods.find(x => x.nombre === el.dataset.n);
       if (current) showPage('detail');
