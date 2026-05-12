@@ -1,25 +1,35 @@
-const CACHE = 'mt-v6';
-const ASSETS = ['/', '/index.html', '/style.css', '/app.js'];
+const scope = self.registration.scope;
+const CACHE = 'mt-v7';
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
+  // Cache static assets using relative URLs so they resolve under the subpath
+  const assets = [
+    scope,
+    scope + 'index.html',
+    scope + 'style.css',
+    scope + 'app.js'
+  ];
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(assets)));
   self.skipWaiting();
 });
 
 self.addEventListener('activate', e => {
-  // Delete old caches (keep both cache stores)
   const deleteOld = caches.keys().then(keys =>
     Promise.all(keys.filter(k => k !== CACHE && k !== 'price-alerts').map(k => caches.delete(k)))
   );
   e.waitUntil(Promise.all([deleteOld, self.clients.claim()]));
-  // Check prices shortly after activation
   setTimeout(checkPriceChanges, 3000);
 });
 
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
+  // Only handle requests within this SW's scope
+  if (!url.href.startsWith(scope)) {
+    e.respondWith(fetch(e.request));
+    return;
+  }
   // Data files: network-first (always get latest)
-  if (url.pathname === '/tabaco.csv' || url.pathname === '/data/price-changes.json') {
+  if (url.pathname.endsWith('/tabaco.csv') || url.pathname.endsWith('/price-changes.json')) {
     e.respondWith(networkFirst(e.request));
     return;
   }
@@ -31,7 +41,6 @@ async function networkFirst(req) {
   const cache = await caches.open(CACHE);
   try {
     const fresh = await fetch(req);
-    // Put fresh version in cache for offline fallback
     if (fresh.ok) cache.put(req, fresh.clone());
     return fresh;
   } catch {
@@ -39,7 +48,7 @@ async function networkFirst(req) {
   }
 }
 
-// --- PUSH NOTIFICATIONS ---
+// --- PUSH ---
 self.addEventListener('push', e => {
   let data = { title: 'MiTabaco', body: '' };
   if (e.data) {
@@ -48,17 +57,17 @@ self.addEventListener('push', e => {
   e.waitUntil(
     self.registration.showNotification(data.title || 'MiTabaco', {
       body: data.body || '',
-      icon: data.icon || '/favicon.ico',
-      badge: data.badge || '/favicon.ico',
-      vibrate: data.vibrate || [200, 100, 200],
-      data: { url: data.url || '/' }
+      icon: scope + 'favicon.ico',
+      badge: scope + 'favicon.ico',
+      vibrate: [200, 100, 200],
+      data: { url: data.url || scope }
     })
   );
 });
 
 self.addEventListener('notificationclick', e => {
   e.notification.close();
-  const url = e.notification.data?.url || '/';
+  const url = e.notification.data?.url || scope;
   e.waitUntil(
     clients.matchAll({ type: 'window' }).then(clients => {
       for (const c of clients) {
@@ -69,16 +78,16 @@ self.addEventListener('notificationclick', e => {
   );
 });
 
-// --- PRICE CHECK FROM BACKGROUND ---
+// --- PRICE CHECK ---
 async function checkPriceChanges() {
   try {
-    const res = await fetch('/data/price-changes.json?' + Date.now());
+    const res = await fetch(scope + 'data/price-changes.json?' + Date.now());
     if (!res.ok) return;
     const changes = await res.json();
     if (!changes || !changes.length) return;
 
     const cache = await caches.open('price-alerts');
-    const cachedRes = await cache.match('/price-alerts-seen.json');
+    const cachedRes = await cache.match('price-alerts-seen');
     const seen = cachedRes ? await cachedRes.json() : [];
 
     const newChanges = changes.filter(c => !seen.includes(c.nombre + c.old + c.new));
@@ -93,15 +102,15 @@ async function checkPriceChanges() {
 
     self.registration.showNotification(title, {
       body,
-      icon: '/favicon.ico',
-      badge: '/favicon.ico',
+      icon: scope + 'favicon.ico',
+      badge: scope + 'favicon.ico',
       vibrate: [200, 100, 200],
-      data: { url: '/' }
+      data: { url: scope }
     });
 
     const updated = [...seen, ...newChanges.map(c => c.nombre + c.old + c.new)];
     const blob = new Blob([JSON.stringify(updated)], { type: 'application/json' });
-    await cache.put('/price-alerts-seen.json', new Response(blob));
+    await cache.put('price-alerts-seen', new Response(blob));
   } catch (e) {
     // Silently fail
   }
