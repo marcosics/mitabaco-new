@@ -294,31 +294,34 @@
   function checkPriceChanges() {
     const saved = JSON.parse(localStorage.mt_prices || '{}');
     const changed = [];
-    fav.forEach(name => {
-      const p = prods.find(x => x.nombre === name);
-      if (!p) return;
-      const old = saved[name];
+    prods.forEach(p => {
+      const old = saved[p.nombre];
       if (old && old !== p.precio) {
-        changed.push({ nombre: name, oldP: old, newP: p.precio });
+        changed.push({ nombre: p.nombre, oldP: old, newP: p.precio });
       }
     });
     if (!changed.length) return;
-    changed.forEach(c => {
-      show(`💰 ${c.nombre}: ${c.oldP}€ → ${c.newP}€`);
-      if ('Notification' in window && Notification.permission === 'granted') {
-        new Notification('💸 Cambio de precio', {
-          body: `${c.nombre}: ${c.oldP}€ → ${c.newP}€`,
-          icon: '/favicon.ico'
-        });
-      }
-    });
-    // Update stored prices for favorites only
+
+    // Show notification for first change
+    const c = changed[0];
+    show(`💰 ${c.nombre}: ${c.oldP}€ → ${c.newP}€`);
+    if ('Notification' in window && Notification.permission === 'granted') {
+      new Notification('💸 Cambio de precio', {
+        body: changed.length === 1
+          ? `${c.nombre}: ${c.oldP}€ → ${c.newP}€`
+          : `${changed.length} productos cambiaron de precio`
+      });
+    }
+
+    // Update stored prices for all products
     const update = {};
-    fav.forEach(name => {
-      const p = prods.find(x => x.nombre === name);
-      if (p) update[name] = p.precio;
-    });
+    prods.forEach(p => { update[p.nombre] = p.precio; });
     localStorage.mt_prices = JSON.stringify(update);
+
+    // Signal SW to check
+    if (navigator.serviceWorker.controller) {
+      navigator.serviceWorker.controller.postMessage({ type: 'CHECK_NOW' });
+    }
   }
 
   // --- FILTERS ---
