@@ -294,14 +294,20 @@
   function checkPriceChanges() {
     const saved = JSON.parse(localStorage.mt_prices || '{}');
     const changed = [];
+
+    // Always build current snapshot for favorites
+    const update = {};
     fav.forEach(name => {
       const p = prods.find(x => x.nombre === name);
       if (!p) return;
+      update[name] = p.precio;
       const old = saved[name];
       if (old && old !== p.precio) {
         changed.push({ nombre: name, oldP: old, newP: p.precio });
       }
     });
+    localStorage.mt_prices = JSON.stringify(update);
+
     if (!changed.length) return;
 
     const c = changed[0];
@@ -313,14 +319,6 @@
           : `${changed.length} favoritos cambiaron de precio`
       });
     }
-
-    // Update stored prices for favorites only
-    const update = {};
-    fav.forEach(name => {
-      const p = prods.find(x => x.nombre === name);
-      if (p) update[name] = p.precio;
-    });
-    localStorage.mt_prices = JSON.stringify(update);
 
     // Signal SW to check too
     if (navigator.serviceWorker.controller) {
