@@ -293,37 +293,54 @@
   // --- PRICE ALERT ---
   function checkPriceChanges() {
     const saved = JSON.parse(localStorage.mt_prices || '{}');
+    const shown = JSON.parse(localStorage.mt_shown_alerts || '[]');
     const changed = [];
+    let notifiedIds = [];
 
-    // Always build current snapshot for favorites
+    // Always build current snapshot for favorites (needed for next change)
     const update = {};
     fav.forEach(name => {
       const p = prods.find(x => x.nombre === name);
       if (!p) return;
       update[name] = p.precio;
-      const old = saved[name];
-      if (old && old !== p.precio) {
-        changed.push({ nombre: name, oldP: old, newP: p.precio });
+      const id = name + saved[name] + p.precio;
+      if (saved[name] && saved[name] !== p.precio && !shown.includes(id)) {
+        changed.push({ nombre: name, oldP: saved[name], newP: p.precio });
+        notifiedIds.push(id);
       }
     });
     localStorage.mt_prices = JSON.stringify(update);
 
-    if (!changed.length) return;
+    function fire() {
+      if (!changed.length) return;
+      const first = changed[0];
+      show(`💰 ${first.nombre}: ${first.oldP}€ → ${first.newP}€`);
+      if ('Notification' in window && Notification.permission === 'granted') {
+        new Notification('💸 Cambio de precio', {
+          body: changed.length === 1
+            ? `${first.nombre}: ${first.oldP}€ → ${first.newP}€`
+            : `${changed.length} favoritos cambiaron de precio`
+        });
+      }
+      localStorage.mt_shown_alerts = JSON.stringify([...shown, ...notifiedIds]);
+      if (navigator.serviceWorker.controller) {
+        navigator.serviceWorker.controller.postMessage({ type: 'CHECK_NOW' });
+      }
+    }
 
-    const c = changed[0];
-    show(`💰 ${c.nombre}: ${c.oldP}€ → ${c.newP}€`);
-    if ('Notification' in window && Notification.permission === 'granted') {
-      new Notification('💸 Cambio de precio', {
-        body: changed.length === 1
-          ? `${c.nombre}: ${c.oldP}€ → ${c.newP}€`
-          : `${changed.length} favoritos cambiaron de precio`
+    // Also check price-changes.json (catches first change when baseline was never stored)
+    fetch('data/price-changes.json?t=' + Date.now()).then(r => r.ok ? r.json() : []).then(changes => {
+      changes.forEach(c => {
+        if (!fav.includes(c.nombre)) return;
+        if (shown.includes(c.nombre + c.old + c.new)) return;
+        if (changed.some(x => x.nombre === c.nombre)) return;
+        if (update[c.nombre] === c.new) {
+          changed.push({ nombre: c.nombre, oldP: c.old, newP: c.new });
+          notifiedIds.push(c.nombre + c.old + c.new);
+        }
       });
-    }
-
-    // Signal SW to check too
-    if (navigator.serviceWorker.controller) {
-      navigator.serviceWorker.controller.postMessage({ type: 'CHECK_NOW' });
-    }
+      fire();
+    }).catch(fire);
   }
 
   // --- FILTERS ---
