@@ -59,8 +59,8 @@ self.addEventListener('push', e => {
   e.waitUntil(
     self.registration.showNotification(data.title || 'MiTabaco', {
       body: data.body || '',
-      icon: scope + 'favicon.ico',
-      badge: scope + 'favicon.ico',
+      icon: scope + 'favicon.svg',
+      badge: scope + 'favicon.svg',
       vibrate: [200, 100, 200],
       data: { url: data.url || scope }
     })
@@ -104,8 +104,8 @@ async function checkPriceChanges() {
 
     self.registration.showNotification(title, {
       body,
-      icon: scope + 'favicon.ico',
-      badge: scope + 'favicon.ico',
+      icon: scope + 'favicon.svg',
+      badge: scope + 'favicon.svg',
       vibrate: [200, 100, 200],
       data: { url: scope }
     });

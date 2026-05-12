@@ -391,18 +391,22 @@
   // Subscribe to Push API (defined at IIFE scope so renderDetail can call it)
   window.pushSub = async () => {
     if (!('PushManager' in window) || !('serviceWorker' in navigator)) return;
-    if (localStorage.getItem('mt_sub')) return;
     const perm = await Notification.requestPermission();
     if (perm !== 'granted') return;
 
-    const reg = await navigator.serviceWorker.ready;
+    let reg;
+    try { reg = await navigator.serviceWorker.ready; } catch { return; }
     const vapidKey = 'BCQpt8_4gPBwSoOfZIHIaBgLy5tUP-vnn7-2T2hyK3hBeK9wRhzZ5U_Sbh_69RDABadKRsjEfB9KnI-80z2YBtk';
 
     try {
-      const sub = await reg.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: urlBase64ToUint8Array(vapidKey)
-      });
+      // Get existing subscription or create a new one
+      let sub = await reg.pushManager.getSubscription();
+      if (!sub) {
+        sub = await reg.pushManager.subscribe({
+          userVisibleOnly: true,
+          applicationServerKey: urlBase64ToUint8Array(vapidKey)
+        });
+      }
       localStorage.mt_sub = JSON.stringify(sub);
 
       const pat = localStorage.getItem('mt_pat');
