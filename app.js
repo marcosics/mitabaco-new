@@ -415,6 +415,12 @@
       }
     } catch (e) {
       console.log('Push subscription failed:', e);
+      // Common issue: Google Play Services out of date on Android
+      if (e.name === 'AbortError') {
+        show('Push no disponible: actualiza Google Play Services en Ajustes');
+      } else {
+        show('Error al activar notificaciones push');
+      }
     }
   };
 

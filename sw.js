@@ -95,6 +95,9 @@ async function checkPriceChanges() {
     const newChanges = changes.filter(c => !seen.includes(c.nombre + c.old + c.new));
     if (!newChanges.length) return;
 
+    // Only show if notification permission granted
+    if (self.Notification.permission !== 'granted') return;
+
     const title = newChanges.length === 1
       ? `💸 ${newChanges[0].nombre}`
       : `💸 ${newChanges.length} productos cambiaron de precio`;
