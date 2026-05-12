@@ -304,3 +304,52 @@ nav button {
 }
 nav button.active { color: var(--fg); }
 nav button span { font-size: 0.65rem; font-weight: 600; letter-spacing: 0.2px; }
+
+/* skeleton shimmer */
+@keyframes shimmer {
+  0% { background-position: -200px 0; }
+  100% { background-position: calc(200px + 100%) 0; }
+}
+.card.skeleton { pointer-events: none; }
+.sk-line {
+  height: 12px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--glass) 25%, var(--glass-hover) 50%, var(--glass) 75%);
+  background-size: 200px 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  margin-bottom: 8px;
+}
+.sk-name { width: 65%; height: 14px; }
+.sk-type { width: 35%; height: 10px; }
+.sk-stars { width: 45%; height: 10px; }
+.sk-price {
+  width: 50px;
+  height: 18px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--glass) 25%, var(--glass-hover) 50%, var(--glass) 75%);
+  background-size: 200px 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  margin-left: 0.5rem;
+  flex-shrink: 0;
+}
+
+/* map loading */
+.map-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+  gap: 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.map-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--glass);
+  border-top-color: var(--fg);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }

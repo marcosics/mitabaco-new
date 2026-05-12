@@ -129,7 +129,7 @@
 
   function loadEstancos(lat, lon) {
     const el = $('#map-list');
-    el.innerHTML = '<div class="empty">Buscando estancos...</div>';
+    el.innerHTML = '<div class="map-loading"><div class="map-spinner"></div><span>Buscando estancos...</span></div>';
 
     const query = `[out:json][timeout:12];
       nwr["shop"="tobacco"](around:15000,${lat},${lon});
@@ -340,6 +340,25 @@
   $('#filter').onchange = renderHome;
 
   // --- LOAD ---
+  // Show skeleton immediately while CSV loads
+  function renderSkeleton(n = 8) {
+    let s = '';
+    for (let i = 0; i < n; i++) {
+      s += `<div class="card skeleton">
+        <div class="card-row">
+          <div class="card-left">
+            <div class="sk-line sk-name"></div>
+            <div class="sk-line sk-type"></div>
+            <div class="sk-line sk-stars"></div>
+          </div>
+          <div class="sk-price"></div>
+        </div>
+      </div>`;
+    }
+    $('#list').innerHTML = s;
+  }
+  renderSkeleton();
+
   fetch('tabaco.csv?t=' + Date.now()).then(r => r.text()).then(csv => {
     prods = parseCSV(csv);
     $('#last-updated').textContent = new Date().toLocaleDateString();
