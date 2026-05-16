@@ -1029,8 +1029,8 @@ ALEJANDRO ALFAMBRA Soberbio (25),cigarrillos,nacional,14
 ALEJANDRO ALFAMBRA Wide Toro (10),cigarrillos,nacional,2.3
 ALFAMBRA Mini Robustos (25),cigarrillos,nacional,1
 ALFAMBRA Mini Torpedo (25),cigarrillos,nacional,1
-ALHAMBRA Alhambra Corona (25),cigarrillos,nacional,0.73
-ALHAMBRA Alhambra Coronita (25),cigarrillos,nacional,0.62
+ALHAMBRA Alhambra Corona (25),cigarrillos,nacional,0.8
+ALHAMBRA Alhambra Coronita (25),cigarrillos,nacional,0.68
 ALIADOS Corona Deluxe (20),cigarrillos,nacional,3
 ALIADOS Doble Toro (10),cigarrillos,nacional,5.75
 ALIADOS Doble Toro (20),cigarrillos,nacional,5.75
@@ -1755,6 +1755,7 @@ BANDOLERO Osados (40) CM,cigarrillos,nacional,1.95
 BANDOLERO Sagaces (35),cigarrillos,nacional,2.15
 BANDOLERO Sagaces (35) CM,cigarrillos,nacional,2.15
 BANDOLERO Salvajes (30),cigarrillos,nacional,2
+BANDOLERO Salvajes (30) CM,cigarrillos,nacional,2
 Baraka (500 g). Tabaco Pipa,tabaco-pipa,nacional,39
 Baraka 150 Gr. Tabaco Pipa (150 g),tabaco-pipa,nacional,11.1
 Baraka Red 20 Gr. Tabaco Pipa (20 g),tabaco-pipa,nacional,1.5
@@ -4006,9 +4007,9 @@ DREW ESTATE Drew Estate - Tabak Especial Oscuro Robusto C (24),cigarrillos,nacio
 DREW ESTATE Drew Estate Undercrown Maduro Coronets 4X32 C(10),cigarrillos,nacional,2.7
 DREW ESTATE Drew Estate Undercrown Shade Coronets (10),cigarrillos,nacional,2.7
 DREW ESTATE Drew Estate Undercrown UC10 Flying Pig C(12),cigarrillos,nacional,17
-DREW ESTATE Factory Smokes Maduro Toro M (25),cigarrillos,nacional,3.5
-DREW ESTATE Factory Smokes Shade Toro M (25),cigarrillos,nacional,3.5
-DREW ESTATE Factory Smokes Sun Grown Toro M (25),cigarrillos,nacional,3.5
+DREW ESTATE Factory Smokes Maduro Toro M (25),cigarrillos,nacional,2.3
+DREW ESTATE Factory Smokes Shade Toro M (25),cigarrillos,nacional,2.3
+DREW ESTATE Factory Smokes Sun Grown Toro M (25),cigarrillos,nacional,2.3
 DREW ESTATE Larutan Dirt (24),cigarrillos,nacional,4.5
 DREW ESTATE Larutan English (24),cigarrillos,nacional,8.95
 DREW ESTATE Larutan Root (24),cigarrillos,nacional,8.9
@@ -4267,6 +4268,8 @@ EIROA CLE Chele Robusto (25),cigarrillos,nacional,8.7
 EIROA CLE Connecticut Robusto (25),cigarrillos,nacional,7.85
 EIROA CLE Corojo Robusto (25),cigarrillos,nacional,7.85
 EIROA CLE Prieto Robusto (25),cigarrillos,nacional,8.7
+EIROA Eiroa Classic Toro (10),cigarrillos,nacional,11.25
+EIROA Eiroa Classic Toro Gordo (10),cigarrillos,nacional,12.5
 EIROA Eiroa CLE 25th Anniversary Robusto 50x5 (25),cigarrillos,nacional,13.5
 EIROA Eiroa CLE Connecticut Short Corona 40x4 (25),cigarrillos,nacional,6.95
 EIROA Eiroa CLE Connecticut Toro Gordo 60x6 (25),cigarrillos,nacional,10.3
@@ -4694,12 +4697,12 @@ EXO Classic (10),cigarrillos,nacional,0.24
 EXO Filter (10),cigarrillos,nacional,0.24
 EXO Red (10),cigarrillos,nacional,0.24
 EXO Red Filter (10),cigarrillos,nacional,0.24
-FACTORY SMOKE C.T. Shade Gordito (25),cigarrillos,nacional,3.95
-FACTORY SMOKE Drew Estate- Factory Smokes C.T. Shade Robusto M (25),cigarrillos,nacional,3.15
-FACTORY SMOKE Drew Estate-Factory Smokes Sun Grown Robusto M (25),cigarrillos,nacional,3.15
-FACTORY SMOKE Drew State-Factory Smokes Maduro Robusto M (25),cigarrillos,nacional,3.15
-FACTORY SMOKE Maduro Gordito (25),cigarrillos,nacional,3.95
-FACTORY SMOKE Sun Grown Gordito (25),cigarrillos,nacional,3.95
+FACTORY SMOKE C.T. Shade Gordito (25),cigarrillos,nacional,2.5
+FACTORY SMOKE Drew Estate- Factory Smokes C.T. Shade Robusto M (25),cigarrillos,nacional,2.25
+FACTORY SMOKE Drew Estate-Factory Smokes Sun Grown Robusto M (25),cigarrillos,nacional,2.25
+FACTORY SMOKE Drew State-Factory Smokes Maduro Robusto M (25),cigarrillos,nacional,2.25
+FACTORY SMOKE Maduro Gordito (25),cigarrillos,nacional,2.5
+FACTORY SMOKE Sun Grown Gordito (25),cigarrillos,nacional,2.5
 Fairgreen Artesano Classic (30 g),tabaco-liar,nacional,5.5
 Fairgreen Artesano Fine (30 g),tabaco-liar,nacional,5.5
 FARIAS Chicos (El envase de 10),otros,nacional,6.1
@@ -6222,9 +6225,9 @@ King Red 100's CM,otros,nacional,2.5
 King Red CM,otros,nacional,2.5
 King Silver (20),cigarrillos,nacional,4.6
 King Silver 100's (20),cigarrillos,nacional,4.7
-King Storm (20),cigarrillos,nacional,4.8
+King Storm (20),cigarrillos,nacional,5
 King Storm (20) CM,cigarrillos,nacional,2.3
-King Storm 100's (20),cigarrillos,nacional,4.8
+King Storm 100's (20),cigarrillos,nacional,5
 King Storm 100's (20) CM,cigarrillos,nacional,2.4
 Kingston Red (10 g),tabaco-liar,nacional,1
 Kingston Red (100 g),tabaco-liar,nacional,8.2
@@ -6628,11 +6631,14 @@ LA GALERA La Galera Anemoi Anemoi 52x6 3/8 (20),cigarrillos,nacional,15.9
 LA GALERA La Galera Anemoi Eurus 48x5 1/2 (20),cigarrillos,nacional,12.5
 LA GALERA La Galera Anemoi Notus 56x5 (20),cigarrillos,nacional,13.4
 LA GALERA La Galera Anemoi Zephyrus 60x6 (20),cigarrillos,nacional,14.8
+LA GALERA La Galera Box Pressed Robusto Chaveta (21),cigarrillos,nacional,10.5
+LA GALERA La Galera Box Pressed Toro el Lector (21),cigarrillos,nacional,11.9
 LA GALERA La Galera Corojo Perilla 38x7 1/4 (20),cigarrillos,nacional,10.7
 LA GALERA La Galera Corojo Robusto Chaveta 50x5 1/8 (21),cigarrillos,nacional,9.2
 LA GALERA La Galera Corojo Short Gordo Pilon 60x5 1/4 (21),cigarrillos,nacional,13.2
 LA GALERA La Galera Corojo Toro El Lector 54X6 (21),cigarrillos,nacional,10.15
 LA GALERA La Galera Fresh Pack Chaveta Mixto (El envase de 5),otros,nacional,50
+LA GALERA La Galera Happy Holliday Sampler (El envase de 20),otros,nacional,22
 LA GALERA La Galera Tins Box Pressed 1936 Half Corona 46x3 5/8 (5),otros,nacional,5.8
 LA GALERA La Galera Tins Corojo Half Corona 46x3 5/8 (5),otros,nacional,5
 LA GALERA Maduro Churchill 50x7 1/4 (20),cigarrillos,nacional,11.7
@@ -8699,10 +8705,15 @@ PLACERES Naturales (25),cigarrillos,nacional,0.75
 PLACERES Naturales M (10),cigarrillos,nacional,1.5
 PLACERES Naturales Mazo (3x10),otros,nacional,1.4
 PLACERES Nicaragua Especiales Robusto M (10),cigarrillos,nacional,1.9
+PLACERES Nicaragua Especiales Robusto M (10) CM,cigarrillos,nacional,1.5
 PLACERES Nicaragua Mini Robustos M (10),cigarrillos,nacional,1.5
+PLACERES Nicaragua Mini Robustos M (10) CM,cigarrillos,nacional,1.15
 PLACERES Nicaragua Mini Torpedos M (10),cigarrillos,nacional,1.5
+PLACERES Nicaragua Mini Torpedos M (10) CM,cigarrillos,nacional,1.15
 PLACERES Nicaragua Perlitas M (10),cigarrillos,nacional,1.3
+PLACERES Nicaragua Perlitas M (10) CM,cigarrillos,nacional,0.95
 PLACERES Nicaragua Torpedos M (10),cigarrillos,nacional,2.1
+PLACERES Nicaragua Torpedos M (10) CM,cigarrillos,nacional,1.65
 PLACERES Panetelas M (10),cigarrillos,nacional,1.15
 PLACERES Panetelas Mazo (3x10),otros,nacional,1.15
 PLACERES Perlitas (10),cigarrillos,nacional,1.3
@@ -8861,42 +8872,42 @@ PRINCIPES Robusto M (10),cigarrillos,nacional,1.6
 PRINCIPES Robusto M (20),cigarrillos,nacional,1.6
 PRINCIPES Toro M (10),cigarrillos,nacional,1.7
 PRINCIPES Toro M (20),cigarrillos,nacional,1.7
-Privilege Breathe picadura shisha lata (200 g),tabaco-liar,nacional,15.5
-Privilege Breathe picadura shisha lata (50 g),tabaco-liar,nacional,4.1
-Privilege Dance picadura shisha lata (200 g),tabaco-liar,nacional,15.5
-Privilege Dance picadura shisha lata (50 g),tabaco-liar,nacional,4.1
-Privilege Discover picadura shisha lata (200 g),tabaco-liar,nacional,15.5
-Privilege Discover picadura shisha lata (50 g),tabaco-liar,nacional,4.1
-Privilege Dive picadura shisha lata (200 g),tabaco-liar,nacional,15.5
-Privilege Dive picadura shisha lata (50 g),tabaco-liar,nacional,4.1
-Privilege Dream picadura shisha lata (200 g),tabaco-liar,nacional,15.5
-Privilege Dream picadura shisha lata (50 g),tabaco-liar,nacional,4.1
-Privilege Enjoy picadura shisha lata (200 g),tabaco-liar,nacional,15.5
-Privilege Enjoy picadura shisha lata (50 g),tabaco-liar,nacional,4.1
-Privilege Fight picadura shisha lata (200 g),tabaco-liar,nacional,15.5
-Privilege Fight picadura shisha lata (50 g),tabaco-liar,nacional,4.1
-Privilege Love picadura shisha lata (200 g),tabaco-liar,nacional,15.5
-Privilege Love picadura shisha lata (50 g),tabaco-liar,nacional,4.1
-Privilege Read picadura shisha lata (200 g),tabaco-liar,nacional,15.5
-Privilege Read picadura shisha lata (50 g),tabaco-liar,nacional,4.1
-Privilege Smoke Break lata (200 g),tabaco-liar,nacional,15.5
-Privilege Smoke Break lata (50 g),tabaco-liar,nacional,4.1
-Privilege Smoke Feel (200 g),tabaco-liar,nacional,15.5
-Privilege Smoke Feel (50 g),tabaco-liar,nacional,4.1
-Privilege Smoke Jump (200 g),tabaco-liar,nacional,15.5
-Privilege Smoke Jump (50 g),tabaco-liar,nacional,4.1
-Privilege Smoke Kiss (50 g),tabaco-liar,nacional,4.1
-Privilege Smoke Like lata (200 g),tabaco-liar,nacional,15.5
-Privilege Smoke Like lata (50 g),tabaco-liar,nacional,4.1
-Privilege Smoke Live (200 g),tabaco-liar,nacional,15.5
-Privilege Smoke Live (50 g),tabaco-liar,nacional,4.1
-Privilege Smoke Play (200 g),tabaco-liar,nacional,15.5
-Privilege Smoke Play (50 g),tabaco-liar,nacional,4.1
-Privilege Smoke Shake (50 g),tabaco-liar,nacional,4.1
-Privilege Smoke Show (50 g),tabaco-liar,nacional,4.1
-Privilege Smoke Stop (50 g),tabaco-liar,nacional,4.1
-Privilege Travel picadura shisha lata (200 g),tabaco-liar,nacional,15.5
-Privilege Travel picadura shisha lata (50 g),tabaco-liar,nacional,4.1
+Privilege Breathe picadura shisha lata (200 g),tabaco-liar,nacional,16
+Privilege Breathe picadura shisha lata (50 g),tabaco-liar,nacional,4.3
+Privilege Dance picadura shisha lata (200 g),tabaco-liar,nacional,16
+Privilege Dance picadura shisha lata (50 g),tabaco-liar,nacional,4.3
+Privilege Discover picadura shisha lata (200 g),tabaco-liar,nacional,16
+Privilege Discover picadura shisha lata (50 g),tabaco-liar,nacional,4.3
+Privilege Dive picadura shisha lata (200 g),tabaco-liar,nacional,16
+Privilege Dive picadura shisha lata (50 g),tabaco-liar,nacional,4.3
+Privilege Dream picadura shisha lata (200 g),tabaco-liar,nacional,16
+Privilege Dream picadura shisha lata (50 g),tabaco-liar,nacional,4.3
+Privilege Enjoy picadura shisha lata (200 g),tabaco-liar,nacional,16
+Privilege Enjoy picadura shisha lata (50 g),tabaco-liar,nacional,4.3
+Privilege Fight picadura shisha lata (200 g),tabaco-liar,nacional,16
+Privilege Fight picadura shisha lata (50 g),tabaco-liar,nacional,4.3
+Privilege Love picadura shisha lata (200 g),tabaco-liar,nacional,16
+Privilege Love picadura shisha lata (50 g),tabaco-liar,nacional,4.3
+Privilege Read picadura shisha lata (200 g),tabaco-liar,nacional,16
+Privilege Read picadura shisha lata (50 g),tabaco-liar,nacional,4.3
+Privilege Smoke Break lata (200 g),tabaco-liar,nacional,16
+Privilege Smoke Break lata (50 g),tabaco-liar,nacional,4.3
+Privilege Smoke Feel (200 g),tabaco-liar,nacional,16
+Privilege Smoke Feel (50 g),tabaco-liar,nacional,4.3
+Privilege Smoke Jump (200 g),tabaco-liar,nacional,16
+Privilege Smoke Jump (50 g),tabaco-liar,nacional,4.3
+Privilege Smoke Kiss (50 g),tabaco-liar,nacional,4.3
+Privilege Smoke Like lata (200 g),tabaco-liar,nacional,16
+Privilege Smoke Like lata (50 g),tabaco-liar,nacional,4.3
+Privilege Smoke Live (200 g),tabaco-liar,nacional,16
+Privilege Smoke Live (50 g),tabaco-liar,nacional,4.3
+Privilege Smoke Play (200 g),tabaco-liar,nacional,16
+Privilege Smoke Play (50 g),tabaco-liar,nacional,4.3
+Privilege Smoke Shake (50 g),tabaco-liar,nacional,4.3
+Privilege Smoke Show (50 g),tabaco-liar,nacional,4.3
+Privilege Smoke Stop (50 g),tabaco-liar,nacional,4.3
+Privilege Travel picadura shisha lata (200 g),tabaco-liar,nacional,16
+Privilege Travel picadura shisha lata (50 g),tabaco-liar,nacional,4.3
 Privium Moments Black,otros,nacional,3.95
 Privium Moments White,otros,nacional,3.95
 PROFESOR SILA Celebración Tubos (20),cigarrillos,nacional,2.7
@@ -9834,6 +9845,10 @@ Serbetli Hard Line Pops (40 g),tabaco-liar,nacional,4.5
 Serbetli Hard Line Redbera (40 g),tabaco-liar,nacional,4.5
 Serbetli Hard Line Supremo (40 g),tabaco-liar,nacional,4.5
 Serbetli Hard Line Sweet Oney (40 g),tabaco-liar,nacional,4.5
+Serbetli Limton Grill (200 g),tabaco-liar,nacional,18.5
+Serbetli Nestja (200 g),tabaco-liar,nacional,18.5
+Serbetli Panepol (200 g),tabaco-liar,nacional,18.5
+Serbetli Pops (200 g),tabaco-liar,nacional,18.5
 Serbetli Shisha Green Mix (200 g),tabaco-liar,nacional,14
 Serbetli Shisha Green Mix (50 g),tabaco-liar,nacional,3.8
 Serbetli Shisha Green Mix (50 g) CM,tabaco-liar,nacional,2.2
@@ -9951,38 +9966,39 @@ SILVERADO  De Luxe Mango (El envase de 20),otros,nacional,2.4
 SILVERADO  De Luxe Menthol C20 (El envase de 20),otros,nacional,2.4
 SILVERADO  De Luxe Vanilla C20 (El envase de 20),otros,nacional,2.4
 SILVERADO American Blend (el envase de 10),otros,nacional,1.3
-SILVERADO CH (el envase de 20),otros,nacional,2.7
-SILVERADO CH (el envase de 20) CM,otros,nacional,1.5
+SILVERADO CH (el envase de 20),otros,nacional,2.8
+SILVERADO CH (el envase de 20) CM,otros,nacional,1.6
 SILVERADO Cherry (El envase de 20),otros,nacional,1.7
 SILVERADO Cigarritos (El envase de 20),cigarrillos,nacional,1.7
 SILVERADO Cigarritos (El envase de 20) CM,cigarrillos,nacional,1
-SILVERADO De Luxe American Blend C20 (El envase de 20),otros,nacional,2.7
-SILVERADO De Luxe American Blend C20 (El envase de 20) CM,otros,nacional,1.5
-SILVERADO De Luxe Blue C20 (El envase de 20),otros,nacional,2.7
-SILVERADO De Luxe Blue C20 (El envase de 20) CM,otros,nacional,1.5
-SILVERADO De Luxe negro (El envase de 20),otros,nacional,2.7
+SILVERADO De Luxe American Blend C20 (El envase de 20),otros,nacional,2.8
+SILVERADO De Luxe American Blend C20 (El envase de 20) CM,otros,nacional,1.6
+SILVERADO De Luxe Blue C20 (El envase de 20),otros,nacional,2.8
+SILVERADO De Luxe Blue C20 (El envase de 20) CM,otros,nacional,1.6
+SILVERADO De Luxe negro (El envase de 20),otros,nacional,2.8
+SILVERADO De Luxe negro (El envase de 20) CM,otros,nacional,1.6
 SILVERADO De Luxe Red Grape (El envase de 20),tabaco-aspirar,nacional,2.4
-SILVERADO Double Green (el envase de 20),otros,nacional,2.7
-SILVERADO Double Green (el envase de 20) CM,otros,nacional,1.5
-SILVERADO Green (el envase de 20),otros,nacional,2.7
-SILVERADO Green (el envase de 20) CM,otros,nacional,1.5
-SILVERADO Ice Cool (el envase de 20),otros,nacional,2.7
-SILVERADO Ice Cool (el envase de 20) CM,otros,nacional,1.5
-SILVERADO M (el envase de 20),otros,nacional,2.7
-SILVERADO M (el envase de 20) CM,otros,nacional,1.5
+SILVERADO Double Green (el envase de 20),otros,nacional,2.8
+SILVERADO Double Green (el envase de 20) CM,otros,nacional,1.6
+SILVERADO Green (el envase de 20),otros,nacional,2.8
+SILVERADO Green (el envase de 20) CM,otros,nacional,1.6
+SILVERADO Ice Cool (el envase de 20),otros,nacional,2.8
+SILVERADO Ice Cool (el envase de 20) CM,otros,nacional,1.6
+SILVERADO M (el envase de 20),otros,nacional,2.8
+SILVERADO M (el envase de 20) CM,otros,nacional,1.6
 SILVERADO Menthol (El envase de 20),otros,nacional,1.7
 SILVERADO Menthol (El envase de 20) CM,otros,nacional,1
 SILVERADO Midi Classic (4),otros,nacional,0.18
 SILVERADO Midi V (4),otros,nacional,0.18
 SILVERADO Mix Pack (El envase de 500),otros,nacional,62.5
-SILVERADO RG (el envase de 20),otros,nacional,2.7
-SILVERADO RG (el envase de 20) CM,otros,nacional,1.5
-SILVERADO Silverado Ice Click (El envase de 17),otros,nacional,2.6
-SILVERADO Silverado Purple Ice Click (El envase de 17),otros,nacional,2.6
-SILVERADO Silverado SV (El envase de 20),otros,nacional,2.7
-SILVERADO Silverado White (El envase de 20),otros,nacional,2.7
-SILVERADO V (el envase de 20),otros,nacional,2.7
-SILVERADO V (el envase de 20) CM,otros,nacional,1.5
+SILVERADO RG (el envase de 20),otros,nacional,2.8
+SILVERADO RG (el envase de 20) CM,otros,nacional,1.6
+SILVERADO Silverado Ice Click (El envase de 17),otros,nacional,2.7
+SILVERADO Silverado Purple Ice Click (El envase de 17),otros,nacional,2.7
+SILVERADO Silverado SV (El envase de 20),otros,nacional,2.8
+SILVERADO Silverado White (El envase de 20),otros,nacional,2.8
+SILVERADO V (el envase de 20),otros,nacional,2.8
+SILVERADO V (el envase de 20) CM,otros,nacional,1.6
 SILVERADO Vainilla (el envase de 10),otros,nacional,1.3
 SILVERADO Vanilla (El envase de 20),otros,nacional,1.7
 SILVERADO Vanilla (El envase de 20) CM,otros,nacional,1
@@ -11833,6 +11849,7 @@ Bali Rounded Virginia (40 g) CM,tabaco-liar,ceuta-melilla,5.1
 BANDOLERO Audaces (25) CM,cigarrillos,ceuta-melilla,2.2
 BANDOLERO Osados (40) CM,cigarrillos,ceuta-melilla,1.95
 BANDOLERO Sagaces (35) CM,cigarrillos,ceuta-melilla,2.15
+BANDOLERO Salvajes (30) CM,cigarrillos,ceuta-melilla,2
 Big Ben (25 g) CM,tabaco-liar,ceuta-melilla,1.6
 Big Ben Classic Green (150 g) CM,tabaco-liar,ceuta-melilla,9.6
 Big Ben Classic Green (25 g) CM,tabaco-liar,ceuta-melilla,1.6
@@ -13237,6 +13254,11 @@ Peterson Nightcap (50 g) CM,tabaco-liar,ceuta-melilla,12.6
 Peterson Old Dublin (50 g) CM,tabaco-liar,ceuta-melilla,9.9
 Peterson Sherlock Holmes (50 g) CM,tabaco-liar,ceuta-melilla,11.9
 Peterson Standard Mixture (50 g) CM,tabaco-liar,ceuta-melilla,12.6
+PLACERES Nicaragua Especiales Robusto M (10) CM,cigarrillos,ceuta-melilla,1.5
+PLACERES Nicaragua Mini Robustos M (10) CM,cigarrillos,ceuta-melilla,1.15
+PLACERES Nicaragua Mini Torpedos M (10) CM,cigarrillos,ceuta-melilla,1.15
+PLACERES Nicaragua Perlitas M (10) CM,cigarrillos,ceuta-melilla,0.95
+PLACERES Nicaragua Torpedos M (10) CM,cigarrillos,ceuta-melilla,1.65
 PONCHO Poncho Cigarritos (10) CM,cigarrillos,ceuta-melilla,0.23
 POR LARRAÑAGA Montecarlos (25) CM,cigarrillos,ceuta-melilla,5.25
 POR LARRAÑAGA Petit Coronas (50) CM,cigarrillos,ceuta-melilla,7.2
@@ -13400,17 +13422,18 @@ SIGNATURE Signature Finos Filter Beige (El envase de 20) CM,otros,ceuta-melilla,
 SIGNATURE Signature Finos Filter Green (10) CM,cigarrillos,ceuta-melilla,0.21
 SIGNATURE Signature Silhouette Filter Beige (10) CM,cigarrillos,ceuta-melilla,0.23
 SIGNATURE Signature Silhouette Filter Green (10) CM,cigarrillos,ceuta-melilla,0.23
-SILVERADO CH (el envase de 20) CM,otros,ceuta-melilla,1.5
+SILVERADO CH (el envase de 20) CM,otros,ceuta-melilla,1.6
 SILVERADO Cigarritos (El envase de 20) CM,cigarrillos,ceuta-melilla,1
-SILVERADO De Luxe American Blend C20 (El envase de 20) CM,otros,ceuta-melilla,1.5
-SILVERADO De Luxe Blue C20 (El envase de 20) CM,otros,ceuta-melilla,1.5
-SILVERADO Double Green (el envase de 20) CM,otros,ceuta-melilla,1.5
-SILVERADO Green (el envase de 20) CM,otros,ceuta-melilla,1.5
-SILVERADO Ice Cool (el envase de 20) CM,otros,ceuta-melilla,1.5
-SILVERADO M (el envase de 20) CM,otros,ceuta-melilla,1.5
+SILVERADO De Luxe American Blend C20 (El envase de 20) CM,otros,ceuta-melilla,1.6
+SILVERADO De Luxe Blue C20 (El envase de 20) CM,otros,ceuta-melilla,1.6
+SILVERADO De Luxe negro (El envase de 20) CM,otros,ceuta-melilla,1.6
+SILVERADO Double Green (el envase de 20) CM,otros,ceuta-melilla,1.6
+SILVERADO Green (el envase de 20) CM,otros,ceuta-melilla,1.6
+SILVERADO Ice Cool (el envase de 20) CM,otros,ceuta-melilla,1.6
+SILVERADO M (el envase de 20) CM,otros,ceuta-melilla,1.6
 SILVERADO Menthol (El envase de 20) CM,otros,ceuta-melilla,1
-SILVERADO RG (el envase de 20) CM,otros,ceuta-melilla,1.5
-SILVERADO V (el envase de 20) CM,otros,ceuta-melilla,1.5
+SILVERADO RG (el envase de 20) CM,otros,ceuta-melilla,1.6
+SILVERADO V (el envase de 20) CM,otros,ceuta-melilla,1.6
 SILVERADO Vanilla (El envase de 20) CM,otros,ceuta-melilla,1
 Sioux Blue (30 g) CM,tabaco-liar,ceuta-melilla,2.9
 Skandinavik Mixture (50 g) CM,tabaco-liar,ceuta-melilla,7.8

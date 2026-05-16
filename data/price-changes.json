@@ -1,7 +1,407 @@
 [
   {
-    "nombre": "Whim (30 g)",
-    "old": "5.50",
-    "new": "5.5"
+    "nombre": "ALHAMBRA Alhambra Corona (25)",
+    "old": "0.73",
+    "new": "0.8"
+  },
+  {
+    "nombre": "ALHAMBRA Alhambra Coronita (25)",
+    "old": "0.62",
+    "new": "0.68"
+  },
+  {
+    "nombre": "DREW ESTATE Factory Smokes Maduro Toro M (25)",
+    "old": "3.5",
+    "new": "2.3"
+  },
+  {
+    "nombre": "DREW ESTATE Factory Smokes Shade Toro M (25)",
+    "old": "3.5",
+    "new": "2.3"
+  },
+  {
+    "nombre": "DREW ESTATE Factory Smokes Sun Grown Toro M (25)",
+    "old": "3.5",
+    "new": "2.3"
+  },
+  {
+    "nombre": "FACTORY SMOKE C.T. Shade Gordito (25)",
+    "old": "3.95",
+    "new": "2.5"
+  },
+  {
+    "nombre": "FACTORY SMOKE Drew Estate- Factory Smokes C.T. Shade Robusto M (25)",
+    "old": "3.15",
+    "new": "2.25"
+  },
+  {
+    "nombre": "FACTORY SMOKE Drew Estate-Factory Smokes Sun Grown Robusto M (25)",
+    "old": "3.15",
+    "new": "2.25"
+  },
+  {
+    "nombre": "FACTORY SMOKE Drew State-Factory Smokes Maduro Robusto M (25)",
+    "old": "3.15",
+    "new": "2.25"
+  },
+  {
+    "nombre": "FACTORY SMOKE Maduro Gordito (25)",
+    "old": "3.95",
+    "new": "2.5"
+  },
+  {
+    "nombre": "FACTORY SMOKE Sun Grown Gordito (25)",
+    "old": "3.95",
+    "new": "2.5"
+  },
+  {
+    "nombre": "King Storm (20)",
+    "old": "4.8",
+    "new": "5"
+  },
+  {
+    "nombre": "King Storm 100's (20)",
+    "old": "4.8",
+    "new": "5"
+  },
+  {
+    "nombre": "Privilege Breathe picadura shisha lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Breathe picadura shisha lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Dance picadura shisha lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Dance picadura shisha lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Discover picadura shisha lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Discover picadura shisha lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Dive picadura shisha lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Dive picadura shisha lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Dream picadura shisha lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Dream picadura shisha lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Enjoy picadura shisha lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Enjoy picadura shisha lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Fight picadura shisha lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Fight picadura shisha lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Love picadura shisha lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Love picadura shisha lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Read picadura shisha lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Read picadura shisha lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Smoke Break lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Smoke Break lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Smoke Feel (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Smoke Feel (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Smoke Jump (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Smoke Jump (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Smoke Kiss (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Smoke Like lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Smoke Like lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Smoke Live (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Smoke Live (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Smoke Play (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Smoke Play (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Smoke Shake (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Smoke Show (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Smoke Stop (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Privilege Travel picadura shisha lata (200 g)",
+    "old": "15.5",
+    "new": "16"
+  },
+  {
+    "nombre": "Privilege Travel picadura shisha lata (50 g)",
+    "old": "4.1",
+    "new": "4.3"
+  },
+  {
+    "nombre": "SILVERADO CH (el envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO CH (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO De Luxe American Blend C20 (El envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO De Luxe American Blend C20 (El envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO De Luxe Blue C20 (El envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO De Luxe Blue C20 (El envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO De Luxe negro (El envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO Double Green (el envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO Double Green (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO Green (el envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO Green (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO Ice Cool (el envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO Ice Cool (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO M (el envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO M (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO RG (el envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO RG (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO Silverado Ice Click (El envase de 17)",
+    "old": "2.6",
+    "new": "2.7"
+  },
+  {
+    "nombre": "SILVERADO Silverado Purple Ice Click (El envase de 17)",
+    "old": "2.6",
+    "new": "2.7"
+  },
+  {
+    "nombre": "SILVERADO Silverado SV (El envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO Silverado White (El envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO V (el envase de 20)",
+    "old": "2.7",
+    "new": "2.8"
+  },
+  {
+    "nombre": "SILVERADO V (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO CH (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO De Luxe American Blend C20 (El envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO De Luxe Blue C20 (El envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO Double Green (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO Green (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO Ice Cool (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO M (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO RG (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
+  },
+  {
+    "nombre": "SILVERADO V (el envase de 20) CM",
+    "old": "1.5",
+    "new": "1.6"
   }
 ]
