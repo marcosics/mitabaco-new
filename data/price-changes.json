@@ -1,827 +1,417 @@
 [
   {
-    "nombre": "Al-Waha Lcorce (200 g)",
-    "old": "15.45",
-    "new": "15.95"
+    "nombre": "Brookfield No. 1 (200 g)",
+    "old": "17.9",
+    "new": "18.3"
   },
   {
-    "nombre": "Al-Waha Lcorce (50 g)",
-    "old": "3.85",
-    "new": "4.2"
+    "nombre": "Brookfield No. 1 (50 g)",
+    "old": "4.9",
+    "new": "5"
   },
   {
-    "nombre": "AMIGOS Amigos Pocket Red Filter AB (El envase de 20)",
-    "old": "2.7",
-    "new": "2.8"
+    "nombre": "Brookfield No. 2 (50 g)",
+    "old": "4.9",
+    "new": "5"
   },
   {
-    "nombre": "AMIGOS Pocket (El envase de 20)",
-    "old": "3.3",
-    "new": "3.4"
+    "nombre": "Brookfield No. 4 (50 g)",
+    "old": "4.9",
+    "new": "5"
   },
   {
-    "nombre": "AMIGOS Pocket (El envase de 20) CM",
-    "old": "3.15",
-    "new": "3.25"
+    "nombre": "Capital Bra 365 Tage (50 g)",
+    "old": "4.8",
+    "new": "4.95"
   },
   {
-    "nombre": "AMIGOS Pocket Filter (El envase de 20)",
-    "old": "3.2",
-    "new": "3.3"
+    "nombre": "Capital Bra Black Annab (50 g)",
+    "old": "4.8",
+    "new": "4.95"
   },
   {
-    "nombre": "AMIGOS Pocket Filter (El envase de 20) CM",
-    "old": "3.05",
-    "new": "3.15"
+    "nombre": "Capital Bra Blody Nane (50 g)",
+    "old": "4.8",
+    "new": "4.95"
   },
   {
-    "nombre": "AMIGOS Pocket Filter White (el envase de 20)",
-    "old": "2.7",
-    "new": "2.8"
+    "nombre": "Capital Bra Huba Ola (50 g)",
+    "old": "4.8",
+    "new": "4.95"
   },
   {
-    "nombre": "CASA MAGNA Domus Magnus Calígula 6x60 (10)",
-    "old": "8.95",
-    "new": "14.25"
+    "nombre": "Capital Bra Lecker Lecker (50 g)",
+    "old": "4.8",
+    "new": "4.95"
   },
   {
-    "nombre": "CHESTERFIELD Cigarritos 20's (El envase de 20)",
-    "old": "4.25",
-    "new": "4.5"
+    "nombre": "Capital Bra Naughty Girl (50 g)",
+    "old": "4.8",
+    "new": "4.95"
   },
   {
-    "nombre": "Marlboro Crafted Selection (30 g)",
-    "old": "6.6",
-    "new": "6.8"
+    "nombre": "Capital Bra Pomshwk (50 g)",
+    "old": "4.8",
+    "new": "4.95"
   },
   {
-    "nombre": "PLASENCIA Plasencia Year of the Horse (10)",
-    "old": "69",
-    "new": "59"
+    "nombre": "Capital Bra Wann Dann (50 g)",
+    "old": "4.8",
+    "new": "4.95"
   },
   {
-    "nombre": "Taboo Alien Twist (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Eastenders Original Blend (100 g)",
+    "old": "8.2",
+    "new": "7.9"
   },
   {
-    "nombre": "Taboo Alien Twist (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Eastwood Original Blend (100 g)",
+    "old": "8.2",
+    "new": "7.9"
   },
   {
-    "nombre": "Taboo Alpine Spirit (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Eastwood Virginia Blend (100 g)",
+    "old": "8.2",
+    "new": "7.9"
   },
   {
-    "nombre": "Taboo Alpine Spirit (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Exclusiv Mixture No. 2 (50 g)",
+    "old": "5.4",
+    "new": "5.5"
   },
   {
-    "nombre": "Taboo American Pay (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Exclusiv Mixture No. 6 (50 g)",
+    "old": "5.4",
+    "new": "5.5"
   },
   {
-    "nombre": "Taboo American Pay (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "FLOR DE SELVA Flor de Selva Villa Zamorano Reserva Cigar Can (El envase de 5)",
+    "old": "32.75",
+    "new": "36"
   },
   {
-    "nombre": "Taboo Bahama Mama (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Gawith Original (10 g)",
+    "old": "2.4",
+    "new": "2.5"
   },
   {
-    "nombre": "Taboo Bahama Mama (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Gletscherprise (10 g)",
+    "old": "2.4",
+    "new": "2.5"
   },
   {
-    "nombre": "Taboo Bikini Sunset (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Golden Blend's Nº 1 (50 g)",
+    "old": "5.2",
+    "new": "5.3"
   },
   {
-    "nombre": "Taboo Bikini Sunset (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Kingston Red (100 g)",
+    "old": "8.2",
+    "new": "7.9"
   },
   {
-    "nombre": "Taboo Black Banaloco (50g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Löwenprise (10 g)",
+    "old": "2.4",
+    "new": "2.5"
   },
   {
-    "nombre": "Taboo Black Crunch (50g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha 1000K (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Black Limousine (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha 1000K (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Black Limousine (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Babilonia (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Black Splash (50g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Babilonia (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Black Vanla Sky (50g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Boss Mode (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Black Volcano (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Camdown (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Blizzardina (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Camdown (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Blizzardina (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Coolio (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Blue Bay (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Coolio (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Blue Bay (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Dosman (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Brutal Choice (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Dosman (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Brutal Choice (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Ginja Laim (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Car Melo (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Ginja Laim (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Caribbean Cruise (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Got Dozen (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Caribbean Cruise (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Guayna (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Casanova Dream (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Guayna (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Casanova Dream (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Habana (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Cinna Mill (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Habibi (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Cinna Mill (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
+    "nombre": "Mr. Shisha Habibi (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Cinna Mill (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Harlem Frap (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Cinna Mill (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
+    "nombre": "Mr. Shisha Harlem Frap (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Cool Sunrise (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Haselnat (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Cool Sunrise (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Haselnat (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Copa Cabana (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Jheez (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Copa Cabana (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Jheez (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Cumulus (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Lamint Amal (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Cumulus (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
+    "nombre": "Mr. Shisha Lamint Amal (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Cumulus (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Late Night (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Dancing Queen (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Late Night (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Dancing Queen (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
+    "nombre": "Mr. Shisha Lxmxn (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Dancing Queen (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Lxmxn (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Dancing Queen (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
+    "nombre": "Mr. Shisha Lym (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Dancing Queen (950 g)",
-    "old": "69.5",
-    "new": "71.9"
+    "nombre": "Mr. Shisha Lym (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Dancing Queen (950 g) CM",
-    "old": "39",
-    "new": "41.5"
+    "nombre": "Mr. Shisha Malibu (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Darkum (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Melo Crush (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Darkum (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Melo Crush (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Five O'Clock (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Otai (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Five O'Clock (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Otai (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo French Kss (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Passion Love (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo French Kss (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
+    "nombre": "Mr. Shisha Passion Love (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo French Kss (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Pomaye (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo French Kss (950 g)",
-    "old": "69.5",
-    "new": "71.9"
+    "nombre": "Mr. Shisha Pomaye (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Game Over (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Pomaye (950 g)",
+    "old": "73",
+    "new": "75"
   },
   {
-    "nombre": "Taboo Game Over (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Rock N Roll (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Golden Eye  (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Scattman (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Golden Eye  (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
+    "nombre": "Mr. Shisha Scattman (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Golden Eye  (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Sosiomen (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Hakuna Matata (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Sosiomen (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Hakuna Matata (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Mr. Shisha Summer Sunset (200 g)",
+    "old": "16",
+    "new": "17"
   },
   {
-    "nombre": "Taboo Indian Summer (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "Mr. Shisha Summer Sunset (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Indian Summer (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
+    "nombre": "Mr. Shisha Tropical (50 g)",
+    "old": "4.5",
+    "new": "4.85"
   },
   {
-    "nombre": "Taboo Indian Summer (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "PLASENCIA Alma Fuerte 5 Pack Nestor IV (el envase de 5)",
+    "old": "123",
+    "new": "126"
   },
   {
-    "nombre": "Taboo Irish Dream (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "PLASENCIA Alma Fuerte 5 Pack Robustus I (el envase de 5)",
+    "old": "113.5",
+    "new": "117"
   },
   {
-    "nombre": "Taboo Irish Dream (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "PLASENCIA Plasencia Alma de Campo Sendero Toro Gordo (El envase de 5)",
+    "old": "105",
+    "new": "107.5"
   },
   {
-    "nombre": "Taboo Italian Passion (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "PLASENCIA Plasencia Alma de Campo Tribu Robusto (El envase de 5)",
+    "old": "91.75",
+    "new": "94"
   },
   {
-    "nombre": "Taboo Italian Passion (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "PLASENCIA Plasencia Alma Fuerte Eduardo 1 (El envase de 5)",
+    "old": "123",
+    "new": "126"
   },
   {
-    "nombre": "Taboo Jungle (200 g)",
-    "old": "15.9",
-    "new": "16.5"
+    "nombre": "PLASENCIA Plasencia Alma Fuerte Robustus II Colorado (El envase de 5)",
+    "old": "120",
+    "new": "122.5"
   },
   {
-    "nombre": "Taboo Jungle (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
+    "nombre": "Redfield Red (100 g)",
+    "old": "8.2",
+    "new": "7.9"
   },
   {
-    "nombre": "Taboo Jungle (50 g)",
-    "old": "4.3",
-    "new": "4.5"
+    "nombre": "Stanley Original Blend (100 g)",
+    "old": "8.2",
+    "new": "7.5"
   },
   {
-    "nombre": "Taboo Lucky (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Mambo (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Mambo (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Misguided (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Misguided (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Misguided (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Moonwalk (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Moonwalk (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Mystic China (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Mystic China (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Over The Rainbow (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Over The Rainbow (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Over The Rainbow (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Pocamel (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Pocamel (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Power of Love (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Power of Love (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Promise (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Promise (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Promise (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Promise (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Red Blast (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Red Blast (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Red Fusion (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Red Fusion (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Red Fussion (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Richman (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Richman (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Richman (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Rim Shot (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Rim Shot (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Rim Shot (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Rim Shot (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Seduction (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Seduction (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Sxy Green (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Sxy Green (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Sxy Green (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Sxy Green (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Sxy Green (950 g)",
-    "old": "69.5",
-    "new": "71.9"
-  },
-  {
-    "nombre": "Taboo Sxy Green (950 g) CM",
-    "old": "39",
-    "new": "41.5"
-  },
-  {
-    "nombre": "Taboo Talisman (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Talisman (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Talisman (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Tropical Storm (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Tropical Storm (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Tuxedo (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Tuxedo (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Tuxedo (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Tuxedo (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Unicorn Dust (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Unicorn Dust (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Waterfall (200 g)",
-    "old": "15.9",
-    "new": "16.5"
-  },
-  {
-    "nombre": "Taboo Waterfall (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Waterfall (50 g)",
-    "old": "4.3",
-    "new": "4.5"
-  },
-  {
-    "nombre": "Taboo Waterfall (950 g)",
-    "old": "69.5",
-    "new": "71.9"
-  },
-  {
-    "nombre": "AMIGOS Pocket (El envase de 20) CM",
-    "old": "3.15",
-    "new": "3.25"
-  },
-  {
-    "nombre": "AMIGOS Pocket Filter (El envase de 20) CM",
-    "old": "3.05",
-    "new": "3.15"
-  },
-  {
-    "nombre": "Taboo Cinna Mill (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Cinna Mill (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Cumulus (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Dancing Queen (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Dancing Queen (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Dancing Queen (950 g) CM",
-    "old": "39",
-    "new": "41.5"
-  },
-  {
-    "nombre": "Taboo French Kss (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Golden Eye  (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Indian Summer (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Jungle (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Misguided (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Over The Rainbow (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Promise (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Promise (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Red Fusion (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Richman (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Rim Shot (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Rim Shot (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Sxy Green (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Sxy Green (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Sxy Green (950 g) CM",
-    "old": "39",
-    "new": "41.5"
-  },
-  {
-    "nombre": "Taboo Talisman (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Tuxedo (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
-  },
-  {
-    "nombre": "Taboo Tuxedo (50 g) CM",
-    "old": "2.7",
-    "new": "2.9"
-  },
-  {
-    "nombre": "Taboo Waterfall (200 g) CM",
-    "old": "9.9",
-    "new": "10.5"
+    "nombre": "Stanley Original Blend (20 g)",
+    "old": "1.8",
+    "new": "1.5"
   }
 ]
