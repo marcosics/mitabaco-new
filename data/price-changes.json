@@ -1,417 +1,72 @@
 [
   {
-    "nombre": "Brookfield No. 1 (200 g)",
-    "old": "17.9",
-    "new": "18.3"
+    "nombre": "Manitou Virginia Green (30 g) CM",
+    "old": "4.4",
+    "new": "4.6"
   },
   {
-    "nombre": "Brookfield No. 1 (50 g)",
-    "old": "4.9",
-    "new": "5"
+    "nombre": "Robert Lewis Nº 123 Mixture (50 g)",
+    "old": "15.5",
+    "new": "19.7"
   },
   {
-    "nombre": "Brookfield No. 2 (50 g)",
-    "old": "4.9",
-    "new": "5"
+    "nombre": "Sillem's Blau/Blue (100 g)",
+    "old": "28",
+    "new": "30"
   },
   {
-    "nombre": "Brookfield No. 4 (50 g)",
-    "old": "4.9",
-    "new": "5"
+    "nombre": "Sillem's Grün/Green (100 g)",
+    "old": "24.4",
+    "new": "30"
   },
   {
-    "nombre": "Capital Bra 365 Tage (50 g)",
-    "old": "4.8",
-    "new": "4.95"
+    "nombre": "Sillem's Linea Epoque Antique (100 g)",
+    "old": "28",
+    "new": "30"
   },
   {
-    "nombre": "Capital Bra Black Annab (50 g)",
-    "old": "4.8",
-    "new": "4.95"
+    "nombre": "Sillem's Rot/Red (100 g)",
+    "old": "24.4",
+    "new": "30"
   },
   {
-    "nombre": "Capital Bra Blody Nane (50 g)",
-    "old": "4.8",
-    "new": "4.95"
+    "nombre": "Sillem's Schwarz/Black (100 g)",
+    "old": "24.4",
+    "new": "30"
   },
   {
-    "nombre": "Capital Bra Huba Ola (50 g)",
-    "old": "4.8",
-    "new": "4.95"
+    "nombre": "Solani Aged Burley Flake/Blend 656 (50 g)",
+    "old": "18",
+    "new": "19.7"
   },
   {
-    "nombre": "Capital Bra Lecker Lecker (50 g)",
-    "old": "4.8",
-    "new": "4.95"
+    "nombre": "Solani Blau/Blend 369 (50 g)",
+    "old": "18",
+    "new": "19.7"
   },
   {
-    "nombre": "Capital Bra Naughty Girl (50 g)",
-    "old": "4.8",
-    "new": "4.95"
+    "nombre": "Solani Gold/Blend 779 (50 g)",
+    "old": "18",
+    "new": "19.7"
   },
   {
-    "nombre": "Capital Bra Pomshwk (50 g)",
-    "old": "4.8",
-    "new": "4.95"
+    "nombre": "Solani Mystery/Blend 113 (50 g)",
+    "old": "18",
+    "new": "19.7"
   },
   {
-    "nombre": "Capital Bra Wann Dann (50 g)",
-    "old": "4.8",
-    "new": "4.95"
+    "nombre": "Solani Rot/Blend 131 (50 g)",
+    "old": "18",
+    "new": "19.7"
   },
   {
-    "nombre": "Eastenders Original Blend (100 g)",
-    "old": "8.2",
-    "new": "7.9"
+    "nombre": "Solani Virginia Flake/Blend 633 (50 g)",
+    "old": "16.2",
+    "new": "19.7"
   },
   {
-    "nombre": "Eastwood Original Blend (100 g)",
-    "old": "8.2",
-    "new": "7.9"
-  },
-  {
-    "nombre": "Eastwood Virginia Blend (100 g)",
-    "old": "8.2",
-    "new": "7.9"
-  },
-  {
-    "nombre": "Exclusiv Mixture No. 2 (50 g)",
-    "old": "5.4",
-    "new": "5.5"
-  },
-  {
-    "nombre": "Exclusiv Mixture No. 6 (50 g)",
-    "old": "5.4",
-    "new": "5.5"
-  },
-  {
-    "nombre": "FLOR DE SELVA Flor de Selva Villa Zamorano Reserva Cigar Can (El envase de 5)",
-    "old": "32.75",
-    "new": "36"
-  },
-  {
-    "nombre": "Gawith Original (10 g)",
-    "old": "2.4",
-    "new": "2.5"
-  },
-  {
-    "nombre": "Gletscherprise (10 g)",
-    "old": "2.4",
-    "new": "2.5"
-  },
-  {
-    "nombre": "Golden Blend's Nº 1 (50 g)",
-    "old": "5.2",
-    "new": "5.3"
-  },
-  {
-    "nombre": "Kingston Red (100 g)",
-    "old": "8.2",
-    "new": "7.9"
-  },
-  {
-    "nombre": "Löwenprise (10 g)",
-    "old": "2.4",
-    "new": "2.5"
-  },
-  {
-    "nombre": "Mr. Shisha 1000K (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha 1000K (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Babilonia (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Babilonia (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Boss Mode (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Camdown (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Camdown (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Coolio (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Coolio (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Dosman (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Dosman (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Ginja Laim (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Ginja Laim (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Got Dozen (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Guayna (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Guayna (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Habana (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Habibi (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Habibi (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Harlem Frap (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Harlem Frap (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Haselnat (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Haselnat (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Jheez (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Jheez (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Lamint Amal (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Lamint Amal (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Late Night (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Late Night (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Lxmxn (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Lxmxn (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Lym (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Lym (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Malibu (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Melo Crush (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Melo Crush (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Otai (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Otai (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Passion Love (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Passion Love (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Pomaye (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Pomaye (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Pomaye (950 g)",
-    "old": "73",
-    "new": "75"
-  },
-  {
-    "nombre": "Mr. Shisha Rock N Roll (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Scattman (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Scattman (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Sosiomen (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Sosiomen (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Summer Sunset (200 g)",
-    "old": "16",
-    "new": "17"
-  },
-  {
-    "nombre": "Mr. Shisha Summer Sunset (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "Mr. Shisha Tropical (50 g)",
-    "old": "4.5",
-    "new": "4.85"
-  },
-  {
-    "nombre": "PLASENCIA Alma Fuerte 5 Pack Nestor IV (el envase de 5)",
-    "old": "123",
-    "new": "126"
-  },
-  {
-    "nombre": "PLASENCIA Alma Fuerte 5 Pack Robustus I (el envase de 5)",
-    "old": "113.5",
-    "new": "117"
-  },
-  {
-    "nombre": "PLASENCIA Plasencia Alma de Campo Sendero Toro Gordo (El envase de 5)",
-    "old": "105",
-    "new": "107.5"
-  },
-  {
-    "nombre": "PLASENCIA Plasencia Alma de Campo Tribu Robusto (El envase de 5)",
-    "old": "91.75",
-    "new": "94"
-  },
-  {
-    "nombre": "PLASENCIA Plasencia Alma Fuerte Eduardo 1 (El envase de 5)",
-    "old": "123",
-    "new": "126"
-  },
-  {
-    "nombre": "PLASENCIA Plasencia Alma Fuerte Robustus II Colorado (El envase de 5)",
-    "old": "120",
-    "new": "122.5"
-  },
-  {
-    "nombre": "Redfield Red (100 g)",
-    "old": "8.2",
-    "new": "7.9"
-  },
-  {
-    "nombre": "Stanley Original Blend (100 g)",
-    "old": "8.2",
-    "new": "7.5"
-  },
-  {
-    "nombre": "Stanley Original Blend (20 g)",
-    "old": "1.8",
-    "new": "1.5"
+    "nombre": "Manitou Virginia Green (30 g) CM",
+    "old": "4.4",
+    "new": "4.6"
   }
 ]
