@@ -1,192 +1,47 @@
 [
   {
-    "nombre": "ASYLUM 13 Medula Circular 50X5 Bundle (25)",
-    "old": "8.4",
-    "new": "8.9"
+    "nombre": "MONTES Serie 0 Amazonas Doble Toro (20)",
+    "old": "8.8",
+    "new": "9"
   },
   {
-    "nombre": "ASYLUM 13 Medula Mad. Circular 50X5 Bundle (25)",
-    "old": "8.4",
-    "new": "8.9"
+    "nombre": "MONTES Serie 0 Amazonas Doble Toro (5)",
+    "old": "8.8",
+    "new": "9"
   },
   {
-    "nombre": "ASYLUM 13 Medulla 70 X 7 Maduro Bundle (20)",
-    "old": "12.5",
-    "new": "13.5"
-  },
-  {
-    "nombre": "ASYLUM 13 Medulla 80 X 6 Bundle (15)",
-    "old": "13.7",
-    "new": "14.7"
-  },
-  {
-    "nombre": "ASYLUM 13 Medulla Oblongata 70 X 7 Maduro (30)",
-    "old": "12.5",
-    "new": "13.5"
-  },
-  {
-    "nombre": "ASYLUM 13 Medulla Oblongata 80 X 6 (30)",
-    "old": "13.7",
-    "new": "14.7"
-  },
-  {
-    "nombre": "ASYLUM 13 Oblongata 70 X 7 Maduro Bundle (20)",
-    "old": "12.5",
-    "new": "13.5"
-  },
-  {
-    "nombre": "ASYLUM 13 Oblongata 80 X 6 Bundle (15)",
-    "old": "13.7",
-    "new": "14.7"
-  },
-  {
-    "nombre": "ASYLUM 13 Oblongata Mad. Prensado 50X5 Bundle (25)",
-    "old": "8.4",
-    "new": "8.9"
-  },
-  {
-    "nombre": "ASYLUM 13 Oblongata Prensado 50X5 Bundle (25)",
-    "old": "8.4",
-    "new": "8.9"
-  },
-  {
-    "nombre": "ASYLUM Asylum 13 Goliath 80x6 (20)",
-    "old": "11.95",
-    "new": "13.4"
-  },
-  {
-    "nombre": "ASYLUM Asylum 13 Hercule 7x70 (20)",
-    "old": "10.95",
-    "new": "11.95"
-  },
-  {
-    "nombre": "ASYLUM Asylum 13 Ogre Toro Gordo 60X6 (25)",
-    "old": "11",
-    "new": "11.5"
-  },
-  {
-    "nombre": "ASYLUM Asylum 13 Pandemonium 60x8 1/2 (20)",
-    "old": "13.95",
-    "new": "14.5"
-  },
-  {
-    "nombre": "ASYLUM Asylum 13 Robusto 5x50 (25)",
+    "nombre": "MONTES Serie 0 Danubio Robusto (20)",
     "old": "7.5",
-    "new": "7.75"
+    "new": "7.7"
   },
   {
-    "nombre": "ASYLUM Asylum 13 Super Goliath 80x8 (20)",
-    "old": "13.95",
-    "new": "15.5"
+    "nombre": "MONTES Serie 0 Danubio Robusto (5)",
+    "old": "7.5",
+    "new": "7.7"
   },
   {
-    "nombre": "ASYLUM Asylum 13 Toro Gordo 6x60 (25)",
-    "old": "9.25",
-    "new": "9.95"
+    "nombre": "MONTES Serie 0 Misisipi Perla (20)",
+    "old": "6.8",
+    "new": "6.95"
   },
   {
-    "nombre": "ASYLUM Asylum Pandemonium 52 x 8 1/2 (20)",
-    "old": "12.4",
-    "new": "13"
+    "nombre": "MONTES Serie 0 Misisipi Perla (5)",
+    "old": "6.8",
+    "new": "6.95"
   },
   {
-    "nombre": "ASYLUM Medulla Oblongata 5x50 (30)",
-    "old": "8.4",
-    "new": "8.9"
-  },
-  {
-    "nombre": "ASYLUM Medulla Oblongata Maduro 5x50 (30)",
-    "old": "8.4",
-    "new": "8.9"
-  },
-  {
-    "nombre": "EIROA CBT Robusto 5X50 (20)",
-    "old": "9.5",
-    "new": "10"
-  },
-  {
-    "nombre": "EIROA CBT Toro 6X54 (20)",
-    "old": "10.95",
-    "new": "11.6"
-  },
-  {
-    "nombre": "EIROA Classic Robusto (20)",
-    "old": "9.8",
-    "new": "10.2"
-  },
-  {
-    "nombre": "EIROA Classic Toro (20)",
-    "old": "11.25",
-    "new": "11.8"
-  },
-  {
-    "nombre": "EIROA Classic Toro Gordo (20)",
-    "old": "12.5",
-    "new": "13.1"
-  },
-  {
-    "nombre": "EIROA CLE Connecticut Robusto (25)",
-    "old": "7.85",
+    "nombre": "MONTES Serie 0 Nilo Piramide (20)",
+    "old": "7.9",
     "new": "8.1"
   },
   {
-    "nombre": "EIROA CLE Corojo Robusto (25)",
-    "old": "7.85",
+    "nombre": "MONTES Serie 0 Nilo Piramide (5)",
+    "old": "7.9",
     "new": "8.1"
   },
   {
-    "nombre": "EIROA Eiroa Classic Toro (10)",
-    "old": "11.25",
-    "new": "11.8"
-  },
-  {
-    "nombre": "EIROA Eiroa Classic Toro Gordo (10)",
-    "old": "12.5",
-    "new": "13.1"
-  },
-  {
-    "nombre": "EIROA Eiroa CLE Connecticut Toro Gordo 60x6 (25)",
-    "old": "10.3",
-    "new": "10.9"
-  },
-  {
-    "nombre": "EIROA Eiroa CLE Corojo Toro Gordo 60x6 (25)",
-    "old": "10.3",
-    "new": "10.9"
-  },
-  {
-    "nombre": "EIROA The First 20 Years Colorado Robusto (20)",
-    "old": "11.5",
-    "new": "11.8"
-  },
-  {
-    "nombre": "EIROA The First 20 Years Colorado Toro (20)",
-    "old": "13.25",
-    "new": "13.8"
-  },
-  {
-    "nombre": "EIROA The First 20 Years Colorado Toro Gordo (20)",
-    "old": "14.4",
-    "new": "15"
-  },
-  {
-    "nombre": "EIROA The First 20 Years Maduro Robusto (20)",
-    "old": "11.5",
-    "new": "11.8"
-  },
-  {
-    "nombre": "EIROA The First 20 Years Maduro Toro (20)",
-    "old": "13.25",
-    "new": "13.8"
-  },
-  {
-    "nombre": "EIROA The First 20 Years Maduro Toro Gordo (20)",
-    "old": "14.4",
-    "new": "15"
-  },
-  {
-    "nombre": "Sovereign Blue 20s (20) Duty Free",
-    "old": "5.85",
+    "nombre": "Philip Morris Filter Kings Largo (20)",
+    "old": "5.9",
     "new": "5.2"
   }
 ]
