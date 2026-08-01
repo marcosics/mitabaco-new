@@ -1,22 +1,37 @@
 [
   {
-    "nombre": "Allure Lilac",
-    "old": "4.1",
-    "new": "5"
+    "nombre": "Big Chief American Blend",
+    "old": "4.6",
+    "new": "4.5"
   },
   {
-    "nombre": "Solani Festival/Blend 333 (50 g)",
-    "old": "18",
-    "new": "19.7"
+    "nombre": "Big Chief Golden Wood",
+    "old": "4.6",
+    "new": "4.5"
   },
   {
-    "nombre": "Solani Grün/Blend 127 (50 g)",
-    "old": "18",
-    "new": "19.7"
+    "nombre": "Big Chief Leaf",
+    "old": "4.6",
+    "new": "4.5"
   },
   {
-    "nombre": "Solani Silver Flake/Blend 660 (100 g)",
-    "old": "36",
-    "new": "38.95"
+    "nombre": "Chesterfield Label (20) CM",
+    "old": "3",
+    "new": "2.6"
+  },
+  {
+    "nombre": "Marlboro Crafted KSB (20) CM",
+    "old": "3.5",
+    "new": "3"
+  },
+  {
+    "nombre": "Chesterfield Label (20) CM",
+    "old": "3",
+    "new": "2.6"
+  },
+  {
+    "nombre": "Marlboro Crafted KSB (20) CM",
+    "old": "3.5",
+    "new": "3"
   }
 ]

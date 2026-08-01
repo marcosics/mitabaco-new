@@ -1865,7 +1865,7 @@ Big Ben Classic Green (25 g),tabaco-liar,nacional,2
 Big Ben Classic Green (25 g) CM,tabaco-liar,nacional,1.6
 Big Ben Classic Mixture (100 g),tabaco-liar,nacional,7
 Big Ben Classic Mixture (100 g) CM,tabaco-liar,nacional,5.9
-Big Chief American Blend,otros,nacional,4.6
+Big Chief American Blend,otros,nacional,4.5
 Big Chief American Blend (17 g),tabaco-liar,nacional,2.85
 Big Chief American Blend Bolsa (70 g),tabaco-liar,nacional,10.5
 Big Chief American Blend Lata (40g),tabaco-liar,nacional,5.4
@@ -1873,8 +1873,8 @@ Big Chief Filter Kit (40 g),tabaco-liar,nacional,6.5
 Big Chief Flavored Rolling Tobacco Cherry (30 g),tabaco-liar,nacional,4.95
 Big Chief Flavored Rolling Tobacco Ice Tea (30 g),tabaco-liar,nacional,4.95
 Big Chief Flavored Rolling Tobacco Vainilla (30 g),tabaco-liar,nacional,4.95
-Big Chief Golden Wood,otros,nacional,4.6
-Big Chief Leaf,otros,nacional,4.6
+Big Chief Golden Wood,otros,nacional,4.5
+Big Chief Leaf,otros,nacional,4.5
 Big Chief Leaf (30 g),tabaco-liar,nacional,4.9
 Big Chief Leaf (30 g) CM,tabaco-liar,nacional,3.5
 Big Chief Leaf (80 g),tabaco-liar,nacional,12.8
@@ -2816,7 +2816,7 @@ Chesterfield Cigarette Tobacco (30 g),tabaco-liar,nacional,7.1
 Chesterfield Cigarette Tobacco (67 g),tabaco-liar,nacional,15.2
 CHESTERFIELD Cigarritos 20's (El envase de 20),cigarrillos,nacional,4.5
 Chesterfield Label (20),cigarrillos,nacional,5
-Chesterfield Label (20) CM,cigarrillos,nacional,3
+Chesterfield Label (20) CM,cigarrillos,nacional,2.6
 Chesterfield Label 23,otros,nacional,5.6
 Chesterfield Label Largo (20),cigarrillos,nacional,5.1
 Chesterfield Original (38),cigarrillos,nacional,10
@@ -4337,6 +4337,7 @@ EIROA CLE Corojo Robusto (25),cigarrillos,nacional,8.1
 EIROA CLE Prieto Robusto (25),cigarrillos,nacional,8.7
 EIROA Eiroa CBT Robusto 5x50 (10),cigarrillos,nacional,10
 EIROA Eiroa CBT Toro 6x54 (10),cigarrillos,nacional,11.6
+EIROA Eiroa Classic Robusto (10),cigarrillos,nacional,10.2
 EIROA Eiroa Classic Toro (10),cigarrillos,nacional,11.8
 EIROA Eiroa Classic Toro Gordo (10),cigarrillos,nacional,13.1
 EIROA Eiroa CLE 25th Anniversary Robusto 50x5 (25),cigarrillos,nacional,13.5
@@ -4345,7 +4346,16 @@ EIROA Eiroa CLE Connecticut Toro Gordo 60x6 (25),cigarrillos,nacional,10.9
 EIROA Eiroa CLE Corojo Short Corona 40x4 (25),cigarrillos,nacional,6.95
 EIROA Eiroa CLE Corojo Toro Gordo 60x6 (25),cigarrillos,nacional,10.9
 EIROA Eiroa CLE Fresh Pack 60X6 (El envase de 4),otros,nacional,47
+EIROA Eiroa CLE Maduro Robusto 50x5 (25),cigarrillos,nacional,8.4
+EIROA Eiroa CLE Maduro Toro 54x6 (25),cigarrillos,nacional,10
+EIROA Eiroa CLE Maduro Toro Gordo 60X6 (25),cigarrillos,nacional,10.9
 EIROA Eiroa Sampler Robusto 50X5 (El envase de 5),otros,nacional,51.9
+EIROA Eiroa The First 20 Years Colorado 40 x 4 (10),cigarrillos,nacional,7.5
+EIROA Eiroa The First 20 Years Colorado 46 x 6 Corona (10),cigarrillos,nacional,11.5
+EIROA Eiroa The First 20 Years Colorado 50 x 5 Robusto (10),cigarrillos,nacional,11.8
+EIROA Eiroa The First 20 Years Colorado Toro 54 x 6 (10),cigarrillos,nacional,13.8
+EIROA Eiroa The First 20 Years Maduro 40x4 (10),cigarrillos,nacional,7.5
+EIROA Eiroa The First 20 Years Maduro Robusto 50 x 5 (10),cigarrillos,nacional,11.8
 EIROA The First 20 Years Colorado Corona (20),cigarrillos,nacional,11.5
 EIROA The First 20 Years Colorado Robusto (20),cigarrillos,nacional,11.8
 EIROA The First 20 Years Colorado Toro (20),cigarrillos,nacional,13.8
@@ -4882,6 +4892,7 @@ FLOR DE CANO Selectos (25),cigarrillos,nacional,3.9
 FLOR DE CANO Selectos (25) CM,cigarrillos,nacional,3.3
 FLOR DE COPÁN Flor de Copán 1795 (10) Edicion Limitada,cigarrillos,nacional,8.5
 FLOR DE COPÁN Flor de Copán 20 Aniversario Gran Reserva Rosas Edición Limitada (10),cigarrillos,nacional,9
+FLOR DE COPÁN Flor de Copán 50 Aniversario (10) Edicion Limitada,cigarrillos,nacional,9.8
 FLOR DE COPÁN Flor de Copán Corona (20),cigarrillos,nacional,5.3
 FLOR DE COPÁN Flor de Copán Gordito (20),cigarrillos,nacional,6.8
 FLOR DE COPÁN Flor de Copán Perla (25),cigarrillos,nacional,3.5
@@ -5380,6 +5391,7 @@ H.UPMANN H. Upmann Magnum Finite E. L. 2024 (25),cigarrillos,nacional,51.5
 H.UPMANN H. Upmann Super Magnum LCDH (20),cigarrillos,nacional,345.1
 H.UPMANN H. Upmann Upmann No. 2 Selección 2022 (22),cigarrillos,nacional,32.5
 H.UPMANN H.Upmann Connossieur No.2 (25),cigarrillos,nacional,20.1
+H.UPMANN H.Upmann Magnum 56 TR (20),cigarrillos,nacional,60
 H.UPMANN H.Upmann Regalias (5),otros,nacional,11.9
 H.UPMANN Half Corona (25),cigarrillos,nacional,6.7
 H.UPMANN Half Corona (25) CM,cigarrillos,nacional,5.7
@@ -5933,6 +5945,9 @@ HU-Tobacco Orig. Warehouseblend Balkan Passion (50 g),tabaco-liar,nacional,22.5
 HU-Tobacco Orig. Warehouseblend Edward G. (50 g),tabaco-liar,nacional,25.8
 HU-Tobacco Orig. Warehouseblend English Breakfast (50 g),tabaco-liar,nacional,20.25
 HU-Tobacco Orig. Warehouseblend Louisiana Broken (50 g),tabaco-liar,nacional,22
+Hyo Caps Forge (20),cigarrillos,nacional,3.9
+Hyo Caps Glacier (20),cigarrillos,nacional,3.9
+Hyo Caps Terra (20),cigarrillos,nacional,3.9
 Ibiza Essence American Blend Premium (17 g),tabaco-liar,nacional,2.85
 Ibiza Essence American Blend Premium (50 g),tabaco-liar,nacional,8.25
 Ideales (75 g),tabaco-liar,nacional,18.25
@@ -6117,6 +6132,7 @@ JOYA DE NICARAGUA Joya de Nicaragua Clásico Medio Siglo Toro (25),cigarrillos,n
 JOYA DE NICARAGUA Joya de Nicaragua Clasico Original Gordito C (20),cigarrillos,nacional,5.9
 JOYA DE NICARAGUA Joya de Nicaragua Clasico Robusto C25,otros,nacional,5.8
 JOYA DE NICARAGUA Joya de Nicaragua Clasico Selección B C (25),cigarrillos,nacional,4.8
+JOYA DE NICARAGUA Joya de Nicaragua Cuatro Cinco Re Pata Negra C(10),cigarrillos,nacional,15
 JOYA DE NICARAGUA Joya de Nicaragua Cuatro Cinco Reserva Especial Doble Corona Edición Limitada Europa (Caja de 10),otros,nacional,19.7
 JOYA DE NICARAGUA Joya de Nicaragua Cuatro Cinco Toro Secret Cask C(10),cigarrillos,nacional,19
 JOYA DE NICARAGUA Joya de Nicaragua Doscientos Gran Toro (21),cigarrillos,nacional,14
@@ -6528,6 +6544,7 @@ LA AURORA La Aurora 120 Aniversario Toro (20),cigarrillos,nacional,9.9
 LA AURORA La Aurora 1495 Robusto GB (20),cigarrillos,nacional,7.75
 LA AURORA La Aurora 1495 Sumo Toro GB (20),cigarrillos,nacional,8.4
 LA AURORA La Aurora Cameroon 1903 Robusto (5),otros,nacional,5.85
+LA AURORA La Aurora Cameroon 1903 Toro (20),cigarrillos,nacional,6.9
 LA AURORA La Aurora Corojo 1962 Robusto (5),otros,nacional,5.85
 LA AURORA La Aurora Dominicana Robusto (10),cigarrillos,nacional,7.65
 LA AURORA La Aurora Dominicana Short Robusto (10),cigarrillos,nacional,7.15
@@ -7246,7 +7263,7 @@ Marlboro Crafted 35,otros,nacional,8.7
 Marlboro Crafted Arctic (20),cigarrillos,nacional,5.5
 Marlboro Crafted Blando (20),cigarrillos,nacional,4.85
 Marlboro Crafted KSB (20),cigarrillos,nacional,5.1
-Marlboro Crafted KSB (20) CM,cigarrillos,nacional,3.5
+Marlboro Crafted KSB (20) CM,cigarrillos,nacional,3
 Marlboro Crafted Selection (30 g),tabaco-liar,nacional,6.8
 Marlboro Crafted Selection (65 g),tabaco-liar,nacional,15.15
 Marlboro Crafted Selection 90G Doble Compartimento (90 g),tabaco-liar,nacional,20.9
@@ -8411,6 +8428,10 @@ OSCAR VALLADARES Oscar Valladares Leaf by Oscar Broadleaf Toro Ed. Limit. C(20),
 OSCAR VALLADARES Oscar Valladares Leaf By Oscar Corojo Robusto C (20),cigarrillos,nacional,12
 OSCAR VALLADARES Oscar Valladares Leaf By Oscar Maduro Toro C (20),cigarrillos,nacional,12.95
 OSCAR VALLADARES Oscar Valladares Leaf By Oscar Maduro Toro M (20),cigarrillos,nacional,12.75
+OSCAR VALLADARES Oscar Valladares Plan B by Oscar Corojo Sixty 6 x 60 M(10),cigarrillos,nacional,6.6
+OSCAR VALLADARES Oscar Valladares Plan B by Oscar Corojo Toro 6 x 52 M(10),cigarrillos,nacional,5.95
+OSCAR VALLADARES Oscar Valladares Plan B by Oscar Maduro Sixty 6 x 60 M(10),cigarrillos,nacional,6.6
+OSCAR VALLADARES Oscar Valladares Plan B by Oscar Maduro Toro 6 x 52 M(10),cigarrillos,nacional,5.95
 OSCAR VALLADARES Oscar Valladares Sampler Collection Toro C (El envase de 12),otros,nacional,195
 OSCAR VALLADARES Oscar Valladares The Oscar Maduro 6x52 C (11),cigarrillos,nacional,16.95
 OSCAR VALLADARES Oscar Valladares the Oscar Toro 6x52 C(11),cigarrillos,nacional,16.95
@@ -8944,6 +8965,7 @@ PLASENCIA Plasencia Sampler Robusto Collection (El envase de 6),otros,nacional,1
 PLASENCIA Plasencia Triunfal 49 (10),cigarrillos,nacional,49.95
 PLASENCIA Plasencia Year of the Horse (10),cigarrillos,nacional,59
 PLASENCIA Plasencia. Reserva Original Nesticos (25),cigarrillos,nacional,6.9
+PLASENCIA Plasencia. Reserva Original Toro (20),cigarrillos,nacional,13.95
 PLASENCIA Reserva 1898 Churchill (20),cigarrillos,nacional,7.6
 PLASENCIA Reserva 1898 Robusto (20),cigarrillos,nacional,6.4
 PLASENCIA Reserva 1898 Salomones (10),cigarrillos,nacional,9
@@ -12378,7 +12400,7 @@ Chaos Passionata (50 g) CM,tabaco-liar,ceuta-melilla,1.75
 Chaos Policeman (50 g) CM,tabaco-liar,ceuta-melilla,1.75
 Chema Classic (30 g) CM,tabaco-liar,ceuta-melilla,1.6
 Chema V-Type (30 g) CM,tabaco-liar,ceuta-melilla,1.6
-Chesterfield Label (20) CM,cigarrillos,ceuta-melilla,3
+Chesterfield Label (20) CM,cigarrillos,ceuta-melilla,2.6
 Chesterfield Original Duro CM,otros,ceuta-melilla,4.25
 CHURCHILL Nº 4 CM,otros,ceuta-melilla,1.89
 Clan (50 g) CM,tabaco-liar,ceuta-melilla,7.7
@@ -13235,7 +13257,7 @@ Mark 1 Golden Blend (20) CM,cigarrillos,ceuta-melilla,2.6
 Mark 1 Negro (20) CM,cigarrillos,ceuta-melilla,2.6
 Mark 1 Red 100's (20) CM,cigarrillos,ceuta-melilla,2.6
 Mark 1 White & Silver (20) CM,cigarrillos,ceuta-melilla,2.6
-Marlboro Crafted KSB (20) CM,cigarrillos,ceuta-melilla,3.5
+Marlboro Crafted KSB (20) CM,cigarrillos,ceuta-melilla,3
 Marlboro Gold Duro CM,otros,ceuta-melilla,4.4
 Marlboro Red Blando CM,otros,ceuta-melilla,4.4
 Marlboro Red Duro CM,otros,ceuta-melilla,4.4
