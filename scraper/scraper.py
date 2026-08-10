@@ -116,10 +116,19 @@ def read_old_prices(path):
             prices[name] = re.sub(r'[^\d.]', '', parts[3].replace(",", "."))
     return prices
 
+def read_csv_text(path):
+    for enc in ("utf-8-sig", "cp1252", "latin-1"):
+        try:
+            with open(path, "r", encoding=enc) as f:
+                return f.read()
+        except UnicodeDecodeError:
+            continue
+    with open(path, "rb") as f:
+        return f.read().decode("utf-8", errors="replace")
+
 def parse_csv(path, zone_slug):
     products = []
-    with open(path, "r", encoding="utf-8-sig") as f:
-        content = f.read()
+    content = read_csv_text(path)
     lines = content.strip().split("\n")
     if len(lines) < 2: return products
 

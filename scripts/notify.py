@@ -12,7 +12,7 @@ except ImportError:
     sys.exit(0)
 
 VAPID_PRIVATE = os.environ.get("VAPID_PRIVATE_KEY", "")
-VAPID_PUBLIC = os.environ.get("VAPID_PUBLIC_KEY", "BG_wZ5x8THIZjNEoIxD5_yoykQjhEWBLmTET_Sh-06aTNr1wYMSq8vRjK-8p9R0m5_YfP2ZW15FnW5PIOYF0N2s")
+VAPID_PUBLIC = os.environ.get("VAPID_PUBLIC_KEY", "BCQpt8_4gPBwSoOfZIHIaBgLy5tUP-vnn7-2T2hyK3hBeK9wRhzZ5U_Sbh_69RDABadKRsjEfB9KnI-80z2YBtk")
 
 def send_push(subscription, title, body):
     try:
