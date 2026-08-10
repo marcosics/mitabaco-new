@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   update:
@@ -47,3 +48,7 @@ jobs:
           git add .
           git commit -m "Update tobacco prices"
           git push
+
+      - name: Trigger Pages deploy
+        if: env.HAS_CHANGES == 'true'
+        run: gh workflow run "Deploy GitHub Pages" --ref main
