@@ -1,12 +1,407 @@
 [
   {
-    "nombre": "Frérot Blond (30 g)",
-    "old": "3.9",
+    "nombre": "Al Fakher Big Blue (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Big Blue Green (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Big Coral (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Big Green (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Big Yellow Green (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Brisa Roja (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Grapio (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Grapio Green (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Green Chu (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Green Velvet (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Magic Love (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Red Patch (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher The Double Crunch (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Twiwi (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher White Pods  (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Al Fakher Yellow (50 g)",
+    "old": "4.7",
+    "new": "4.85"
+  },
+  {
+    "nombre": "Alsbo Black (50 g)",
+    "old": "8.1",
+    "new": "8.4"
+  },
+  {
+    "nombre": "Alsbo Gold (50 g)",
+    "old": "8.1",
+    "new": "8.4"
+  },
+  {
+    "nombre": "Alsbo Ruby (50 g)",
+    "old": "8",
+    "new": "8.3"
+  },
+  {
+    "nombre": "Alsbo Sungold (50 g)",
+    "old": "7.8",
+    "new": "8.1"
+  },
+  {
+    "nombre": "Amphora Full (50 g)",
+    "old": "7.8",
+    "new": "8.1"
+  },
+  {
+    "nombre": "Amsterdamer (40 g)",
+    "old": "4.5",
+    "new": "4.8"
+  },
+  {
+    "nombre": "Amsterdamer Bright Blend (20 g)",
+    "old": "2.1",
+    "new": "2.4"
+  },
+  {
+    "nombre": "Amsterdamer Fine Cut (40 g)",
+    "old": "8.5",
+    "new": "8.6"
+  },
+  {
+    "nombre": "Amsterdamer Original Blend (20 g)",
+    "old": "2.1",
+    "new": "2.4"
+  },
+  {
+    "nombre": "Borkum Riff Black (50 g)",
+    "old": "8.3",
+    "new": "8.6"
+  },
+  {
+    "nombre": "Borkum Riff Bronze (50 g)",
+    "old": "7.8",
+    "new": "8.1"
+  },
+  {
+    "nombre": "Borkum Riff Copper (50 g)",
+    "old": "8.3",
+    "new": "8.6"
+  },
+  {
+    "nombre": "Borkum Riff Malt Bronze (200 g)",
+    "old": "22.8",
+    "new": "23.1"
+  },
+  {
+    "nombre": "Borkum Riff Orange (50 g)",
+    "old": "8.1",
+    "new": "8.4"
+  },
+  {
+    "nombre": "Borkum Riff Original (50 g)",
+    "old": "7.9",
+    "new": "8.2"
+  },
+  {
+    "nombre": "Borkum Riff Ruby (50 g)",
+    "old": "8",
+    "new": "8.3"
+  },
+  {
+    "nombre": "Borkum Riff Sungold (50 g)",
+    "old": "8.2",
+    "new": "8.5"
+  },
+  {
+    "nombre": "Capstan Original Navy Cut (50 g)",
+    "old": "11.4",
+    "new": "11.7"
+  },
+  {
+    "nombre": "Clan (50 g)",
+    "old": "8.1",
+    "new": "8.4"
+  },
+  {
+    "nombre": "Clan Blue (50 g)",
+    "old": "8.3",
+    "new": "8.6"
+  },
+  {
+    "nombre": "Clan Hollandia (40 g)",
+    "old": "5.6",
     "new": "5.9"
   },
   {
-    "nombre": "Hampton Pipe's Tobacco (60 g)",
-    "old": "5.35",
-    "new": "4.65"
+    "nombre": "Colts Blue (70 g)",
+    "old": "6.2",
+    "new": "6.3"
+  },
+  {
+    "nombre": "Colts Dutch Blend (40 g)",
+    "old": "3.6",
+    "new": "3.7"
+  },
+  {
+    "nombre": "Colts Original (70 g)",
+    "old": "6.2",
+    "new": "6.4"
+  },
+  {
+    "nombre": "Colts Red (100 g)",
+    "old": "8.3",
+    "new": "8.5"
+  },
+  {
+    "nombre": "Colts Red (20 g)",
+    "old": "2.1",
+    "new": "2.2"
+  },
+  {
+    "nombre": "Colts Yellow (40 g)",
+    "old": "3.6",
+    "new": "3.7"
+  },
+  {
+    "nombre": "Crossroad Gold Drum (75 g)",
+    "old": "15.5",
+    "new": "15.7"
+  },
+  {
+    "nombre": "Crossroad Ryo Gold (30 g)",
+    "old": "6.6",
+    "new": "6.7"
+  },
+  {
+    "nombre": "Crossroad Ryo Original (30 g)",
+    "old": "6.6",
+    "new": "6.7"
+  },
+  {
+    "nombre": "Crossroad Ryo Virginia (30 g)",
+    "old": "6.6",
+    "new": "6.7"
+  },
+  {
+    "nombre": "Danske Club Black Luxury (50 g)",
+    "old": "8.5",
+    "new": "8.8"
+  },
+  {
+    "nombre": "Erinmore Flake Lata (50 g)",
+    "old": "11.5",
+    "new": "11.8"
+  },
+  {
+    "nombre": "Erinmore Mixture Lata (50 g)",
+    "old": "10.5",
+    "new": "10.8"
+  },
+  {
+    "nombre": "Half & Half (50 g)",
+    "old": "8.1",
+    "new": "8.4"
+  },
+  {
+    "nombre": "Indian Summer (50 g)",
+    "old": "8",
+    "new": "8.3"
+  },
+  {
+    "nombre": "Kentucky Bird (50 g)",
+    "old": "7.2",
+    "new": "7.5"
+  },
+  {
+    "nombre": "Mac Baren 7 Seas Original Blend (40 g)",
+    "old": "3.6",
+    "new": "3.9"
+  },
+  {
+    "nombre": "Mac Baren Classic Loose Cut (50 g)",
+    "old": "8.1",
+    "new": "8.4"
+  },
+  {
+    "nombre": "Mac Baren Golden Ambrosia (50 g)",
+    "old": "8.3",
+    "new": "8.6"
+  },
+  {
+    "nombre": "Mac Baren Mixture (100 g)",
+    "old": "18.5",
+    "new": "18.8"
+  },
+  {
+    "nombre": "Mac Baren Mixture (50 g)",
+    "old": "8",
+    "new": "8.3"
+  },
+  {
+    "nombre": "Mac Baren Original Choice (100 g)",
+    "old": "18.2",
+    "new": "18.5"
+  },
+  {
+    "nombre": "Mac Baren Original Choice (40 g)",
+    "old": "7.8",
+    "new": "8.1"
+  },
+  {
+    "nombre": "Mac Baren Seven Seas Bright Blend (40 g)",
+    "old": "3.6",
+    "new": "3.9"
+  },
+  {
+    "nombre": "Peterson 1865 Mixture (100 g)",
+    "old": "20",
+    "new": "20.3"
+  },
+  {
+    "nombre": "Peterson Early Morning (50 g)",
+    "old": "13",
+    "new": "13.3"
+  },
+  {
+    "nombre": "Peterson My Mixture 965 (50 g)",
+    "old": "13",
+    "new": "13.3"
+  },
+  {
+    "nombre": "Peterson Nightcap (50 g)",
+    "old": "13",
+    "new": "13.3"
+  },
+  {
+    "nombre": "Peterson Sherlock Holmes (50 g)",
+    "old": "12.3",
+    "new": "12.6"
+  },
+  {
+    "nombre": "Peterson Standard Mixture (50 g)",
+    "old": "13",
+    "new": "13.3"
+  },
+  {
+    "nombre": "Scaferlati Caporal  (40 g)",
+    "old": "7.8",
+    "new": "8.1"
+  },
+  {
+    "nombre": "Skandinavik Mixture (50 g)",
+    "old": "8.2",
+    "new": "8.5"
+  },
+  {
+    "nombre": "Skandinavik Navy (50 g)",
+    "old": "8.4",
+    "new": "8.7"
+  },
+  {
+    "nombre": "St. Bruno Ready Rubbed (50 g)",
+    "old": "8.9",
+    "new": "9.2"
+  },
+  {
+    "nombre": "Stanwell Melange (50 g)",
+    "old": "8.7",
+    "new": "9"
+  },
+  {
+    "nombre": "Stanwell Sungold (50 g)",
+    "old": "8.7",
+    "new": "9"
+  },
+  {
+    "nombre": "W.O. Larsen 1864 (100 g)",
+    "old": "19.3",
+    "new": "19.6"
+  },
+  {
+    "nombre": "W.O. Larsen Classic (100 g)",
+    "old": "19.3",
+    "new": "19.6"
+  },
+  {
+    "nombre": "W.O. Larsen Old Fashion (100 g)",
+    "old": "19.3",
+    "new": "19.6"
+  },
+  {
+    "nombre": "W.O. Larsen Signature (100 g)",
+    "old": "19.3",
+    "new": "19.6"
+  },
+  {
+    "nombre": "ZINO Zino Honduras Robusto (25)",
+    "old": "5.8",
+    "new": "5.9"
+  },
+  {
+    "nombre": "ZINO Zino Honduras Robusto (5)",
+    "old": "5.8",
+    "new": "5.9"
+  },
+  {
+    "nombre": "ZINO Zino Honduras Toro (25)",
+    "old": "6.6",
+    "new": "6.9"
+  },
+  {
+    "nombre": "ZINO Zino Honduras Toro (5)",
+    "old": "6.6",
+    "new": "6.9"
   }
 ]
