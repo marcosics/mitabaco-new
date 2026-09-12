@@ -1002,9 +1002,15 @@ ALEJANDRO ALFAMBRA Alejandro Alfambra Serie Clasica Toro S. III. (El envase de 1
 ALEJANDRO ALFAMBRA Alejandro Alfambra Serie Clasica Torpedo S. IV. (El envase de 10),otros,nacional,24
 ALEJANDRO ALFAMBRA Alejandro Alfambra Serie Clasica Wide Toro (El envase de 10),otros,nacional,23
 ALEJANDRO ALFAMBRA Alejandro Alfambra Serie Clasica XV Don Fernando (El envase de 25),otros,nacional,83.75
+ALEJANDRO ALFAMBRA Alejandro Alfambra Serie Clasico Grandioso S. X (5),otros,nacional,2.95
 ALEJANDRO ALFAMBRA Alejandro Alfambra Serie Clasico Grandioso S. X (El envase de 10),otros,nacional,29.5
 ALEJANDRO ALFAMBRA Alejandro Alfambra Serie Clasico Mazo Grandioso S. X (El envase de 25),otros,nacional,73.75
+ALEJANDRO ALFAMBRA Alejandro Alfambra. Serie Clasica Churchill S. VI (5),otros,nacional,2.65
+ALEJANDRO ALFAMBRA Alejandro Alfambra. Serie Clasica Robusto S. V (5),otros,nacional,2.25
+ALEJANDRO ALFAMBRA Alejandro Alfambra. Serie Clasica Sublime S. II (5),otros,nacional,2.8
 ALEJANDRO ALFAMBRA Alejandro Alfambra. Serie Clasica Toro Gigante S. I (5),otros,nacional,2.8
+ALEJANDRO ALFAMBRA Alejandro Alfambra. Serie Clasica Toro S. III (5),otros,nacional,2.4
+ALEJANDRO ALFAMBRA Alejandro Alfambra. Serie Clasica Torpedo S. IV (5),otros,nacional,2.4
 ALEJANDRO ALFAMBRA Esencia (25),cigarrillos,nacional,9
 ALEJANDRO ALFAMBRA Exquisito (25),cigarrillos,nacional,19
 ALEJANDRO ALFAMBRA Gran Toro (25),cigarrillos,nacional,5.95
@@ -7024,6 +7030,7 @@ Lucky Strike Patterson 100s,otros,nacional,4.65
 Lucky Strike Patterson 23 Limited,otros,nacional,5.25
 Lucky Strike Red,otros,nacional,5.85
 Lucky Strike Red 100's,otros,nacional,5.35
+Lucky Strike Red 21 E.L. (21),cigarrillos,nacional,5.85
 Lucky Strike Red Blando,otros,nacional,5.75
 Lucky Strike Red CM,otros,nacional,3.75
 Lucky Strike Red XL 40 s,otros,nacional,10.5
@@ -8112,11 +8119,13 @@ Nameless Dark Nana (50 g),tabaco-liar,nacional,5.65
 Nameless Dark Nana (50 g) CM,tabaco-liar,nacional,4.1
 Nash Bali (100 g),tabaco-liar,nacional,15.95
 Nash Bravo (100 g),tabaco-liar,nacional,15.95
+Nash Cgr Cerez (100 g),tabaco-liar,nacional,21.95
 Nash Cgr Heart (100 g),tabaco-liar,nacional,21.95
 Nash Cgr Mellow (100 g),tabaco-liar,nacional,21.95
 Nash Cgr Zana (100 g),tabaco-liar,nacional,21.95
 Nash Cold Sun (100 g),tabaco-liar,nacional,15.95
 Nash Corazon (100 g),tabaco-liar,nacional,15.95
+Nash Estea (100 g),tabaco-liar,nacional,15.95
 Nash Green Heart (100 g),tabaco-liar,nacional,15.95
 Nash Greenman (100 g),tabaco-liar,nacional,15.95
 Nash Heaven (100 g),tabaco-liar,nacional,15.95
@@ -10407,8 +10416,50 @@ Starbuzz Classic Line O. Mnt (50 g),tabaco-liar,nacional,4.2
 Starbuzz Classic Line O. Mnt (50 g) CM,tabaco-liar,nacional,3.7
 Starbuzz Classic Line Royal Grp (50 g),tabaco-liar,nacional,4.2
 Starbuzz Classic Line Royal Grp (50 g) CM,tabaco-liar,nacional,3.7
+Starbuzz Egyptian Pharos picadura shisha lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Egyptian Pharos picadura shisha lata (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Blue Mist (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Blue Mist (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Blue Surfer Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Blue Surfer Picadura Shisha Lata (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Cosmopolitan Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Cosmopolitan Picadura Shisha Lata (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Cucu Jumbo picadura shisha bote (1000 g),tabaco-liar,nacional,96.95
+Starbuzz Exotic Fuzzy Naval (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Fuzzy Naval (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Geisha (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Geisha (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Green Savior (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Green Savior (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Irish Kiss (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Irish Kiss (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Jack The Ripper Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Jack The Ripper Picadura Shisha Lata (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Lebanese Bomb Shell (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Lebanese Bomb Shell (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Mighty Freeze Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Mighty Freeze Picadura Shisha Lata (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Mijoti Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Mijoti Picadura Shisha Lata (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Pink (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Pink (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Pink Chica Picadura Shisha Lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Pink Chica Picadura Shisha Lata (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Pink picadura shisha bote (1000 g),tabaco-liar,nacional,96.95
+Starbuzz Exotic Pirate's Cave (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Pirate's Cave (100 g) CM,tabaco-liar,nacional,7.9
 Starbuzz Exotic Pumpkin Pie (100 g),tabaco-liar,nacional,9.5
 Starbuzz Exotic Pumpkin Pie (100 g) CM,tabaco-liar,nacional,6.6
+Starbuzz Exotic Queen Of Sex (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Queen Of Sex (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Exotic Winter Fresh (100 g),tabaco-liar,nacional,9.95
+Starbuzz Exotic Winter Fresh (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz French Buzz picadura shisha lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz French Buzz picadura shisha lata (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Pineana Freeze Shisha (100 g),tabaco-liar,nacional,9.95
+Starbuzz Pineana Freeze Shisha (100 g) CM,tabaco-liar,nacional,7.9
+Starbuzz Pumkin Pie (100 g),tabaco-liar,nacional,9.95
+Starbuzz Pumkin Pie (100 g) CM,tabaco-liar,nacional,7.9
 Starbuzz Regular Anjou Chill (100 g),tabaco-liar,nacional,9.95
 Starbuzz Regular Anjou Chill (100 g) CM,tabaco-liar,nacional,7.9
 Starbuzz Regular Blue Dew™ (100 g),tabaco-liar,nacional,9.95
@@ -10445,6 +10496,8 @@ Starbuzz Regular White Nec™ (100 g) CM,tabaco-liar,nacional,7.9
 Starbuzz Regular Yellow Freeze™ (100 g),tabaco-liar,nacional,9.95
 Starbuzz Regular Yellow Freeze™ (100 g) CM,tabaco-liar,nacional,7.9
 Starbuzz Regular Yellow T™ (100 g),tabaco-liar,nacional,9.95
+Starbuzz Sexy Beach picadura shisha lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz Sexy Beach picadura shisha lata (100 g) CM,tabaco-liar,nacional,7.9
 Starbuzz Vintage Cheers!™ (80 g),tabaco-liar,nacional,8.95
 Starbuzz Vintage Cheers!™ (80 g) CM,tabaco-liar,nacional,6.4
 Starbuzz Vintage Dark Winilla™ (80 g),tabaco-liar,nacional,8.95
@@ -10478,6 +10531,8 @@ Starbuzz Vintage Plus Tokyo Kick (50 g),tabaco-liar,nacional,4.3
 Starbuzz Vintage Plus White Mist® (50 g),tabaco-liar,nacional,4.3
 Starbuzz Vintage Timisue™ (80 g),tabaco-liar,nacional,8.95
 Starbuzz Vintage Timisue™ (80 g) CM,tabaco-liar,nacional,6.4
+Starbuzz White Bear picadura shisha lata (100 g),tabaco-liar,nacional,9.95
+Starbuzz White Bear picadura shisha lata (100 g) CM,tabaco-liar,nacional,7.9
 Starline Asian Blaze (200 g),tabaco-liar,nacional,19.49
 Starline Asian Blaze (50 g),tabaco-liar,nacional,4.99
 Starline Belgian Morning (200 g),tabaco-liar,nacional,19.49
@@ -10970,6 +11025,7 @@ Terea Amber (20) CM,cigarrillos,nacional,3.5
 Terea Classic Gold (20),cigarrillos,nacional,5
 Terea Classic Red (20),cigarrillos,nacional,5
 Terea Cloud Fuse (20),cigarrillos,nacional,4.35
+Terea Forte Red (20),cigarrillos,nacional,5
 Terea Russet (20),cigarrillos,nacional,5
 Terea Selection (20),cigarrillos,nacional,4.35
 Terea Sienna (20),cigarrillos,nacional,5
@@ -11314,6 +11370,7 @@ VEGAFINA Short Robusto Tubo (20) CM,cigarrillos,nacional,4.65
 VEGAFINA Vegafina 1998 25 Aniversario Cum Laude Edición Limitada (25),cigarrillos,nacional,10
 VEGAFINA Vegafina 1998 Dinastías Wonders Collection Edición Limitada (14),cigarrillos,nacional,8.1
 VEGAFINA Vegafina 1998 Nabateos Wonders Collection Edición Limitada (14),cigarrillos,nacional,9
+VEGAFINA Vegafina 1998 VF 44S Freshbag (El envase de 10),otros,nacional,39.5
 VEGAFINA Vegafina 1998 VF 50P (10),cigarrillos,nacional,8
 VEGAFINA Vegafina 1998 VF 52 Travel Humidor (El envase de 12),otros,nacional,92.4
 VEGAFINA Vegafina 1998 VF 52 Tubos Humidor (El envase de 40),otros,nacional,288
@@ -11353,6 +11410,7 @@ VEGAFINA Vegafina Nicaragua Gran Vulcano (10) CM,cigarrillos,nacional,5.5
 VEGAFINA Vegafina Nicaragua Reserva Maestros Edición Limitada (12),cigarrillos,nacional,6.7
 VEGAFINA Vegafina Nicaragua Robusto Tubos (20),cigarrillos,nacional,6.3
 VEGAFINA Vegafina Nicaragua Robusto Tubos (20) CM,cigarrillos,nacional,5.3
+VEGAFINA Vegafina Nicaragua Short Freshbag (El envase de 10),otros,nacional,32
 VEGAFINA Vegafina Nicaragua Vulcano (10),cigarrillos,nacional,5.6
 VEGAFINA Vegafina Nicaragua Vulcano (10) CM,cigarrillos,nacional,4.7
 VEGAFINA Vegafina Nicaragua X Aniversario Gran Reserva Edición Limitada (20),cigarrillos,nacional,9
@@ -13847,7 +13905,27 @@ Starbuzz Classic Line Double App (50 g) CM,tabaco-liar,ceuta-melilla,3.7
 Starbuzz Classic Line Lmn Mnt (50 g) CM,tabaco-liar,ceuta-melilla,3.7
 Starbuzz Classic Line O. Mnt (50 g) CM,tabaco-liar,ceuta-melilla,3.7
 Starbuzz Classic Line Royal Grp (50 g) CM,tabaco-liar,ceuta-melilla,3.7
+Starbuzz Egyptian Pharos picadura shisha lata (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Blue Mist (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Blue Surfer Picadura Shisha Lata (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Cosmopolitan Picadura Shisha Lata (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Fuzzy Naval (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Geisha (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Green Savior (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Irish Kiss (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Jack The Ripper Picadura Shisha Lata (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Lebanese Bomb Shell (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Mighty Freeze Picadura Shisha Lata (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Mijoti Picadura Shisha Lata (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Pink (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Pink Chica Picadura Shisha Lata (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Pirate's Cave (100 g) CM,tabaco-liar,ceuta-melilla,7.9
 Starbuzz Exotic Pumpkin Pie (100 g) CM,tabaco-liar,ceuta-melilla,6.6
+Starbuzz Exotic Queen Of Sex (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Exotic Winter Fresh (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz French Buzz picadura shisha lata (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Pineana Freeze Shisha (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Pumkin Pie (100 g) CM,tabaco-liar,ceuta-melilla,7.9
 Starbuzz Regular Anjou Chill (100 g) CM,tabaco-liar,ceuta-melilla,7.9
 Starbuzz Regular Blue Gee™ (100 g) CM,tabaco-liar,ceuta-melilla,7.9
 Starbuzz Regular Cucu Jumbo™ (100 g) CM,tabaco-liar,ceuta-melilla,7.9
@@ -13862,6 +13940,7 @@ Starbuzz Regular Safari M Dew™ (100 g) CM,tabaco-liar,ceuta-melilla,7.9
 Starbuzz Regular White Delight (100 g) CM,tabaco-liar,ceuta-melilla,7.9
 Starbuzz Regular White Nec™ (100 g) CM,tabaco-liar,ceuta-melilla,7.9
 Starbuzz Regular Yellow Freeze™ (100 g) CM,tabaco-liar,ceuta-melilla,7.9
+Starbuzz Sexy Beach picadura shisha lata (100 g) CM,tabaco-liar,ceuta-melilla,7.9
 Starbuzz Vintage Cheers!™ (80 g) CM,tabaco-liar,ceuta-melilla,6.4
 Starbuzz Vintage Dark Winilla™ (80 g) CM,tabaco-liar,ceuta-melilla,6.4
 Starbuzz Vintage Delhi T™ (80 g) CM,tabaco-liar,ceuta-melilla,6.4
@@ -13869,6 +13948,7 @@ Starbuzz Vintage Fresh Cito™ (80 g) CM,tabaco-liar,ceuta-melilla,6.4
 Starbuzz Vintage Hunny Dew Me™ (80 g) CM,tabaco-liar,ceuta-melilla,6.4
 Starbuzz Vintage Plus La Dominikana (50 g) CM,tabaco-liar,ceuta-melilla,4.15
 Starbuzz Vintage Timisue™ (80 g) CM,tabaco-liar,ceuta-melilla,6.4
+Starbuzz White Bear picadura shisha lata (100 g) CM,tabaco-liar,ceuta-melilla,7.9
 STATOS DE LUXE Brevas CM,otros,ceuta-melilla,0.73
 STATOS DE LUXE Delirios CM,otros,ceuta-melilla,1.05
 STATOS DE LUXE Selectos CM,otros,ceuta-melilla,1.42
