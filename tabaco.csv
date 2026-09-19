@@ -465,7 +465,7 @@ AJ.FERNANDEZ New World Puro Especial (20),puros,nacional,10.95
 AJ.FERNANDEZ Nicarao Furia Megaera 5 1/2 X 54 C (10),cigarrillos,nacional,15.95
 AJ.FERNANDEZ Nicarao La Preferida Robusto 5 X 52 M (10),cigarrillos,nacional,12.85
 AJ.FERNANDEZ San Lotano Habano Robusto 5 x 54 (20),cigarrillos,nacional,9.5
-Ajja 17 Extra Blonde (40 g),tabaco-liar,nacional,9.9
+Ajja 17 Extra Blonde (40 g),tabaco-liar,nacional,10.3
 Al Andalus Fresa (100 g),tabaco-liar,nacional,7.9
 Al Andalus Manzana (100 g),tabaco-liar,nacional,7.9
 Al Andalus Menta (100 g),tabaco-liar,nacional,7.9
@@ -1281,6 +1281,7 @@ Amber Leaf Virginia Selecto (30 g),tabaco-liar,nacional,6.8
 American Club  (20),cigarrillos,nacional,4.5
 American Legend,otros,nacional,4.6
 American Legend 100'S,otros,nacional,4.6
+American Legend 100'S CM,otros,nacional,2.5
 American Legend Blue Ryo (30 g),tabaco-liar,nacional,5.3
 American Legend CM,otros,nacional,2.5
 American Legend Red Ryo (30 g),tabaco-liar,nacional,5.3
@@ -1377,6 +1378,8 @@ Anda Optimus Leim (50 g),tabaco-liar,nacional,4.95
 Anda Optimus Leim (950 g),tabaco-liar,nacional,75
 Anda Ptit Suis (200 g),tabaco-liar,nacional,17.5
 Anda Ptit Suis (50 g),tabaco-liar,nacional,4.95
+Anda Pygman (200 g),tabaco-liar,nacional,17.5
+Anda Pygman (50 g),tabaco-liar,nacional,4.95
 Anda Red & Green (200 g),tabaco-liar,nacional,17.5
 Anda Red & Green (50 g),tabaco-liar,nacional,4.95
 Anda Sour Dia (200 g),tabaco-liar,nacional,17.5
@@ -1709,6 +1712,7 @@ AUGUSTO REYES Taino Cemí (12),cigarrillos,nacional,2.9
 Austin Blast (20),cigarrillos,nacional,4.7
 Austin Blue,otros,nacional,4.8
 Austin Blue 100's (20),cigarrillos,nacional,4.75
+Austin Pipa (100 g) SSB,tabaco-pipa,nacional,7
 Austin Red,otros,nacional,4.8
 Austin Red 100's,otros,nacional,4.75
 Austin Red 22 (22),cigarrillos,nacional,5.1
@@ -3345,7 +3349,7 @@ CUSANO Robusto (4),otros,nacional,2.8
 CUSANO Robusto (4) CM,otros,nacional,2.25
 CUSANO Short Robusto (16),cigarrillos,nacional,2.6
 CUSANO Short Robusto (4),otros,nacional,1.9
-Cutters Choice (50 g),tabaco-liar,nacional,13.5
+Cutters Choice (50 g),tabaco-liar,nacional,14
 CyB Robusto Deluxe by Joya de Nicaragua (21),cigarrillos,nacional,6
 CyB Toro Supremo by Joya de Nicaragua (21),cigarrillos,nacional,7
 Dan Tobacco Ascanian No. 1 (50 g),tabaco-liar,nacional,13.8
@@ -4004,6 +4008,8 @@ Dozaj Mangolia (200 g),tabaco-liar,nacional,15.95
 Dozaj Mangolia (200 g) CM,tabaco-liar,nacional,9.9
 Dozaj Mangolia (50 g),tabaco-liar,nacional,4.5
 Dozaj Mangolia (50 g) CM,tabaco-liar,nacional,2.7
+Dozaj Mangolia (950 g),tabaco-liar,nacional,69.95
+Dozaj Mangolia (950 g) CM,tabaco-liar,nacional,41.9
 Dozaj Marshall (50 g),tabaco-liar,nacional,4.5
 Dozaj Marshall (50 g) CM,tabaco-liar,nacional,2.7
 Dozaj Mito (200 g),tabaco-liar,nacional,15.95
@@ -7020,11 +7026,11 @@ Lucky Strike Compact Amber,otros,nacional,5.6
 LUCKY STRIKE Crisp cigarritos (el envase de 20),cigarrillos,nacional,4.5
 Lucky Strike Eclipse (20),cigarrillos,nacional,5.6
 Lucky Strike Eclipse 21 Edicion Limitada  (21),cigarrillos,nacional,5.6
-Lucky Strike entubar (84 g),tabaco-liar,nacional,19.9
+Lucky Strike entubar (84 g),tabaco-liar,nacional,20.7
 Lucky Strike Gold For Glo (20),cigarrillos,nacional,4
-Lucky Strike Liar y Entubar (30 g),tabaco-liar,nacional,6.8
+Lucky Strike Liar y Entubar (30 g),tabaco-liar,nacional,7.1
 Lucky Strike Original Tobacco,otros,nacional,5.75
-Lucky Strike para liar (30 g),tabaco-liar,nacional,7
+Lucky Strike para liar (30 g),tabaco-liar,nacional,7.3
 Lucky Strike Patterson 100s,otros,nacional,4.65
 Lucky Strike Patterson 23 Limited,otros,nacional,5.25
 Lucky Strike Red,otros,nacional,5.85
@@ -7036,12 +7042,12 @@ Lucky Strike Red XL 40 s,otros,nacional,10.5
 Lucky Strike Rich For Glo (20),cigarrillos,nacional,4
 Lucky Strike Sea Breeze (20),cigarrillos,nacional,4.85
 Lucky Strike Silver Bay,otros,nacional,5.75
-Lucky Strike Tabaco de Volumen (53 g),tabaco-liar,nacional,12
+Lucky Strike Tabaco de Volumen (53 g),tabaco-liar,nacional,12.5
 Lucky Strike Twist (20),cigarrillos,nacional,5.6
 Lucky Strike Twist For Glo (20),cigarrillos,nacional,4
 Lucky Strike XL (23),cigarrillos,nacional,6.15
 Lucky Strike XL (28),cigarrillos,nacional,7.6
-Lucky Strike XL Tabaco de Volumen (88 g),tabaco-liar,nacional,20.4
+Lucky Strike XL Tabaco de Volumen (88 g),tabaco-liar,nacional,21.2
 LUIS MARTINEZ Robusto (25),cigarrillos,nacional,2.25
 LUIS MARTINEZ Robusto Crystal Tubo (20),cigarrillos,nacional,3.75
 LUIS MARTINEZ Tres Petit (El envase de 6),otros,nacional,10
@@ -7885,8 +7891,12 @@ MY FATHER Don Pepin Azul Invictos 5 x 50 (10),cigarrillos,nacional,8.1
 MY FATHER Flor de las Antillas Robusto 5 x 50 (10),cigarrillos,nacional,8.1
 MY FATHER My Father Cedro Deluxe Eminentes 5 5/8X46 (23),cigarrillos,nacional,11.2
 MY FATHER My Father Don Pepin Azul 20 Aniversario 6 1/2 X 52 (20),cigarrillos,nacional,60
+MY FATHER My Father Don Pepin Azul Exquisitos 5 5/8X46 (20),cigarrillos,nacional,8.9
 MY FATHER My Father Don Pepin Azul Invictos 5 x 50 (24),cigarrillos,nacional,9.9
+MY FATHER My Father Don Pepin Azul Invictos 5X50 (20),cigarrillos,nacional,9.9
+MY FATHER My Father Don Pepin Azul Lanceros 7 1/2 X 38 (20),cigarrillos,nacional,10.9
 MY FATHER My Father Don Pepin Azul Lanceros 7 1/2 X 38 (24),cigarrillos,nacional,10.9
+MY FATHER My Father Don Pepin Azul Toro Gordo 6X56 (20),cigarrillos,nacional,11.1
 MY FATHER My Father Don Pepin Garcia Exquisitos 5 5/8X46 (24),cigarrillos,nacional,8.9
 MY FATHER My Father Don Pepin Garcia Serie VC Invictos 5 X 50 (20),cigarrillos,nacional,13.5
 MY FATHER My Father Don Pepin Garcia Series VC Imperiales 6 12 X 52 (20),cigarrillos,nacional,14.5
@@ -8650,7 +8660,7 @@ PALL MALL Pall Mall Red Capa Natural (el envase de 18),otros,nacional,3.5
 Pall Mall Puerto Rico,otros,nacional,5.85
 Pall Mall Puerto Rico CM,otros,nacional,2
 PALL MALL Red Capa Natural (el envase de 10),otros,nacional,1.6
-Pall Mall Roll New Orleans Sun Ripened Tobacco (200 g),tabaco-liar,nacional,48
+Pall Mall Roll New Orleans Sun Ripened Tobacco (200 g),tabaco-liar,nacional,49.9
 PALMERITOS Brevas (50),cigarrillos,nacional,0.6
 PALMERITOS Palmeritos Coronas (10),cigarrillos,nacional,0.6
 PALMERITOS Palmeritos Coronas (25),cigarrillos,nacional,0.6
@@ -9861,7 +9871,7 @@ Salsa Negro Blend (70 g),tabaco-liar,nacional,11.25
 Salsa Smooth Ct  (20 g),tabaco-liar,nacional,3.25
 Salsa Smooth Ct  (70 g),tabaco-liar,nacional,11.25
 SALSA Vanilla (El envase de 10),otros,nacional,1.1
-Samson Original Blend (50 g),tabaco-liar,nacional,12
+Samson Original Blend (50 g),tabaco-liar,nacional,12.5
 Samuel Gawith 1792 Flake (50 g),tabaco-liar,nacional,26.5
 Samuel Gawith Balkan Flake (50 g),tabaco-liar,nacional,26.5
 Samuel Gawith Best Brown Flake (50 g),tabaco-liar,nacional,26.5
@@ -10728,6 +10738,10 @@ Taboo American Pay (200 g) CM,tabaco-liar,nacional,10.5
 Taboo American Pay (25 g),tabaco-liar,nacional,1.95
 Taboo American Pay (50 g),tabaco-liar,nacional,4.5
 Taboo American Pay (50 g) CM,tabaco-liar,nacional,2.9
+Taboo Arizona (200 g),tabaco-liar,nacional,16.5
+Taboo Arizona (200 g) CM,tabaco-liar,nacional,10.5
+Taboo Arizona (50 g),tabaco-liar,nacional,4.5
+Taboo Arizona (50 g) CM,tabaco-liar,nacional,2.9
 Taboo Bahama Mama (200 g),tabaco-liar,nacional,16.5
 Taboo Bahama Mama (200 g) CM,tabaco-liar,nacional,10.5
 Taboo Bahama Mama (50 g),tabaco-liar,nacional,4.5
@@ -10798,6 +10812,10 @@ Taboo Five O'Clock (200 g),tabaco-liar,nacional,16.5
 Taboo Five O'Clock (200 g) CM,tabaco-liar,nacional,10.5
 Taboo Five O'Clock (50 g),tabaco-liar,nacional,4.5
 Taboo Five O'Clock (50 g) CM,tabaco-liar,nacional,2.9
+Taboo Flash (200 g),tabaco-liar,nacional,16.5
+Taboo Flash (200 g) CM,tabaco-liar,nacional,10.5
+Taboo Flash (50 g),tabaco-liar,nacional,4.5
+Taboo Flash (50 g) CM,tabaco-liar,nacional,2.9
 Taboo French Kiss (200 g),tabaco-liar,nacional,16.5
 Taboo French Kiss (200 g) CM,tabaco-liar,nacional,10.5
 Taboo French Kiss (50 g),tabaco-liar,nacional,4.5
@@ -10842,6 +10860,10 @@ Taboo Mambo (200 g),tabaco-liar,nacional,16.5
 Taboo Mambo (200 g) CM,tabaco-liar,nacional,10.5
 Taboo Mambo (50 g),tabaco-liar,nacional,4.5
 Taboo Mambo (50 g) CM,tabaco-liar,nacional,2.9
+Taboo Melair (200 g),tabaco-liar,nacional,16.5
+Taboo Melair (200 g) CM,tabaco-liar,nacional,10.5
+Taboo Melair (50 g),tabaco-liar,nacional,4.5
+Taboo Melair (50 g) CM,tabaco-liar,nacional,2.9
 Taboo Misguided (200 g),tabaco-liar,nacional,16.5
 Taboo Misguided (200 g) CM,tabaco-liar,nacional,10.5
 Taboo Misguided (50 g),tabaco-liar,nacional,4.5
@@ -12168,6 +12190,7 @@ Al-Waha Sweet Africa (50 g) CM,tabaco-liar,ceuta-melilla,2.1
 Al-Waha Tornado (200 g) CM,tabaco-liar,ceuta-melilla,13.35
 Al-Waha Tornado (50 g) CM,tabaco-liar,ceuta-melilla,3.35
 Al-Waha Zero Gravity (50 g) CM,tabaco-liar,ceuta-melilla,2.1
+American Legend 100'S CM,otros,ceuta-melilla,2.5
 American Legend CM,otros,ceuta-melilla,2.5
 American Legend White CM,otros,ceuta-melilla,2.5
 American Spirit Original Blend (30 g) CM,tabaco-liar,ceuta-melilla,3.85
@@ -12757,6 +12780,7 @@ Dozaj Lio (50 g) CM,tabaco-liar,ceuta-melilla,2.7
 Dozaj Lio (950 g) CM,tabaco-liar,ceuta-melilla,41.9
 Dozaj Mangolia (200 g) CM,tabaco-liar,ceuta-melilla,9.9
 Dozaj Mangolia (50 g) CM,tabaco-liar,ceuta-melilla,2.7
+Dozaj Mangolia (950 g) CM,tabaco-liar,ceuta-melilla,41.9
 Dozaj Marshall (50 g) CM,tabaco-liar,ceuta-melilla,2.7
 Dozaj Mito (200 g) CM,tabaco-liar,ceuta-melilla,9.9
 Dozaj Mito (50 g) CM,tabaco-liar,ceuta-melilla,2.7
@@ -13998,6 +14022,8 @@ Taboo Alpine Spirit (200 g) CM,tabaco-liar,ceuta-melilla,10.5
 Taboo Alpine Spirit (50 g) CM,tabaco-liar,ceuta-melilla,2.9
 Taboo American Pay (200 g) CM,tabaco-liar,ceuta-melilla,10.5
 Taboo American Pay (50 g) CM,tabaco-liar,ceuta-melilla,2.9
+Taboo Arizona (200 g) CM,tabaco-liar,ceuta-melilla,10.5
+Taboo Arizona (50 g) CM,tabaco-liar,ceuta-melilla,2.9
 Taboo Bahama Mama (200 g) CM,tabaco-liar,ceuta-melilla,10.5
 Taboo Bahama Mama (50 g) CM,tabaco-liar,ceuta-melilla,2.9
 Taboo Bikini Sunset (200 g) CM,tabaco-liar,ceuta-melilla,10.5
@@ -14030,6 +14056,8 @@ Taboo Darkum (200 g) CM,tabaco-liar,ceuta-melilla,10.5
 Taboo Darkum (50 g) CM,tabaco-liar,ceuta-melilla,2.9
 Taboo Five O'Clock (200 g) CM,tabaco-liar,ceuta-melilla,10.5
 Taboo Five O'Clock (50 g) CM,tabaco-liar,ceuta-melilla,2.9
+Taboo Flash (200 g) CM,tabaco-liar,ceuta-melilla,10.5
+Taboo Flash (50 g) CM,tabaco-liar,ceuta-melilla,2.9
 Taboo French Kiss (200 g) CM,tabaco-liar,ceuta-melilla,10.5
 Taboo French Kiss (50 g) CM,tabaco-liar,ceuta-melilla,2.9
 Taboo French Kss (200 g) CM,tabaco-liar,ceuta-melilla,10.5
@@ -14052,6 +14080,8 @@ Taboo Jungle (50 g) CM,tabaco-liar,ceuta-melilla,2.9
 Taboo Lucky (50 g) CM,tabaco-liar,ceuta-melilla,2.9
 Taboo Mambo (200 g) CM,tabaco-liar,ceuta-melilla,10.5
 Taboo Mambo (50 g) CM,tabaco-liar,ceuta-melilla,2.9
+Taboo Melair (200 g) CM,tabaco-liar,ceuta-melilla,10.5
+Taboo Melair (50 g) CM,tabaco-liar,ceuta-melilla,2.9
 Taboo Misguided (200 g) CM,tabaco-liar,ceuta-melilla,10.5
 Taboo Misguided (50 g) CM,tabaco-liar,ceuta-melilla,2.9
 Taboo Moonwalk (200 g) CM,tabaco-liar,ceuta-melilla,10.5
