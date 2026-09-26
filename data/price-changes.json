@@ -1,47 +1,102 @@
 [
   {
-    "nombre": "Ajja 17 Extra Blonde (40 g)",
-    "old": "9.9",
-    "new": "10.3"
+    "nombre": "FLOR DE NICARAGUA Flor de Nicaragua Colorado Gordito M(10)",
+    "old": "3.9",
+    "new": "3.95"
   },
   {
-    "nombre": "Cutters Choice (50 g)",
-    "old": "13.5",
-    "new": "14"
+    "nombre": "FLOR DE NICARAGUA Flor de Nicaragua Colorado Robusto (10)",
+    "old": "3.85",
+    "new": "3.95"
   },
   {
-    "nombre": "Lucky Strike entubar (84 g)",
-    "old": "19.9",
-    "new": "20.7"
+    "nombre": "FLOR DE NICARAGUA Flor de Nicaragua Colorado Robusto M (20)",
+    "old": "3.85",
+    "new": "3.95"
   },
   {
-    "nombre": "Lucky Strike Liar y Entubar (30 g)",
-    "old": "6.8",
-    "new": "7.1"
+    "nombre": "FLOR DE NICARAGUA Flor de Nicaragua Colorado Toro (10)",
+    "old": "4.25",
+    "new": "4.45"
   },
   {
-    "nombre": "Lucky Strike para liar (30 g)",
-    "old": "7",
-    "new": "7.3"
+    "nombre": "FLOR DE NICARAGUA Flor de Nicaragua Colorado Toro M (20)",
+    "old": "4.25",
+    "new": "4.45"
   },
   {
-    "nombre": "Lucky Strike Tabaco de Volumen (53 g)",
-    "old": "12",
-    "new": "12.5"
+    "nombre": "JOYA DE NICARAGUA Antaño CT Belicoso (20)",
+    "old": "10",
+    "new": "10.5"
   },
   {
-    "nombre": "Lucky Strike XL Tabaco de Volumen (88 g)",
-    "old": "20.4",
-    "new": "21.2"
+    "nombre": "JOYA DE NICARAGUA Antaño CT Robusto (20)",
+    "old": "9.2",
+    "new": "9.65"
   },
   {
-    "nombre": "Pall Mall Roll New Orleans Sun Ripened Tobacco (200 g)",
-    "old": "48",
-    "new": "49.9"
+    "nombre": "JOYA DE NICARAGUA Antaño Gran Cónsul (20)",
+    "old": "10",
+    "new": "10.5"
   },
   {
-    "nombre": "Samson Original Blend (50 g)",
-    "old": "12",
-    "new": "12.5"
+    "nombre": "JOYA DE NICARAGUA Antaño Gran Perfecto (20)",
+    "old": "12.6",
+    "new": "13.25"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Antaño Robusto Grande (20)",
+    "old": "9.2",
+    "new": "9.65"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Cinco Decadas Diademas (10)",
+    "old": "23.95",
+    "new": "25.65"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Antaño 1970 Lancero (20)",
+    "old": "9.3",
+    "new": "9.75"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Antaño Consul C20 (20)",
+    "old": "7.5",
+    "new": "8.05"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Antaño Gran Reserva Gran Toro (20)",
+    "old": "11.35",
+    "new": "11.9"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cabinetta Robusto (20)",
+    "old": "8",
+    "new": "8.25"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco de Cinco Doble Corona C (10)",
+    "old": "21",
+    "new": "23.1"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco de Cinco Robusto C (10)",
+    "old": "15.25",
+    "new": "16"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco de Cinco Robusto Gordo C (10)",
+    "old": "17.85",
+    "new": "18.75"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco de Cinco Toro C (10)",
+    "old": "19.45",
+    "new": "20.05"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco Decadas El Cumiche C10 (10)",
+    "old": "20.2",
+    "new": "20.8"
   }
 ]
