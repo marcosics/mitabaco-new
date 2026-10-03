@@ -1,102 +1,267 @@
 [
   {
-    "nombre": "FLOR DE NICARAGUA Flor de Nicaragua Colorado Gordito M(10)",
-    "old": "3.9",
-    "new": "3.95"
+    "nombre": "B.N. Beige Duro",
+    "old": "6.2",
+    "new": "6.55"
   },
   {
-    "nombre": "FLOR DE NICARAGUA Flor de Nicaragua Colorado Robusto (10)",
-    "old": "3.85",
-    "new": "3.95"
+    "nombre": "B.N. Clásico Duro",
+    "old": "6.2",
+    "new": "6.55"
   },
   {
-    "nombre": "FLOR DE NICARAGUA Flor de Nicaragua Colorado Robusto M (20)",
-    "old": "3.85",
-    "new": "3.95"
+    "nombre": "BLACK JACK Black Jack Original Cigars (5)",
+    "old": "0.5",
+    "new": "0.55"
   },
   {
-    "nombre": "FLOR DE NICARAGUA Flor de Nicaragua Colorado Toro (10)",
-    "old": "4.25",
-    "new": "4.45"
+    "nombre": "Black Jack Original Blend (200 g)",
+    "old": "14.2",
+    "new": "14.6"
   },
   {
-    "nombre": "FLOR DE NICARAGUA Flor de Nicaragua Colorado Toro M (20)",
-    "old": "4.25",
-    "new": "4.45"
-  },
-  {
-    "nombre": "JOYA DE NICARAGUA Antaño CT Belicoso (20)",
-    "old": "10",
-    "new": "10.5"
-  },
-  {
-    "nombre": "JOYA DE NICARAGUA Antaño CT Robusto (20)",
-    "old": "9.2",
-    "new": "9.65"
-  },
-  {
-    "nombre": "JOYA DE NICARAGUA Antaño Gran Cónsul (20)",
-    "old": "10",
-    "new": "10.5"
-  },
-  {
-    "nombre": "JOYA DE NICARAGUA Antaño Gran Perfecto (20)",
-    "old": "12.6",
-    "new": "13.25"
-  },
-  {
-    "nombre": "JOYA DE NICARAGUA Antaño Robusto Grande (20)",
-    "old": "9.2",
-    "new": "9.65"
-  },
-  {
-    "nombre": "JOYA DE NICARAGUA Cinco Decadas Diademas (10)",
-    "old": "23.95",
-    "new": "25.65"
-  },
-  {
-    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Antaño 1970 Lancero (20)",
-    "old": "9.3",
-    "new": "9.75"
-  },
-  {
-    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Antaño Consul C20 (20)",
+    "nombre": "Ducados 25 Azul Duro",
     "old": "7.5",
-    "new": "8.05"
+    "new": "8"
   },
   {
-    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Antaño Gran Reserva Gran Toro (20)",
-    "old": "11.35",
-    "new": "11.9"
+    "nombre": "Ducados Azul Blando",
+    "old": "6.2",
+    "new": "6.55"
   },
   {
-    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cabinetta Robusto (20)",
-    "old": "8",
-    "new": "8.25"
+    "nombre": "Ducados Azul Blando CM",
+    "old": "4.25",
+    "new": "4.6"
   },
   {
-    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco de Cinco Doble Corona C (10)",
-    "old": "21",
-    "new": "23.1"
+    "nombre": "Ducados Azul Duro",
+    "old": "6.2",
+    "new": "6.55"
   },
   {
-    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco de Cinco Robusto C (10)",
-    "old": "15.25",
-    "new": "16"
+    "nombre": "Ducados Azul Duro CM",
+    "old": "4.25",
+    "new": "4.6"
   },
   {
-    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco de Cinco Robusto Gordo C (10)",
-    "old": "17.85",
-    "new": "18.75"
+    "nombre": "Ducados Azul/Blanco Blando",
+    "old": "6.2",
+    "new": "6.55"
   },
   {
-    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco de Cinco Toro C (10)",
-    "old": "19.45",
-    "new": "20.05"
+    "nombre": "Ducados Azul/Blanco Duro",
+    "old": "6.2",
+    "new": "6.55"
   },
   {
-    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco Decadas El Cumiche C10 (10)",
-    "old": "20.2",
-    "new": "20.8"
+    "nombre": "Ducados Blanco Duro",
+    "old": "6.2",
+    "new": "6.55"
+  },
+  {
+    "nombre": "Ducados Dark Blue 22 (22)",
+    "old": "6.8",
+    "new": "7.2"
+  },
+  {
+    "nombre": "Gauloises Brunes",
+    "old": "6.35",
+    "new": "6.7"
+  },
+  {
+    "nombre": "Gitanes Cortos Con Filtro Duro",
+    "old": "7",
+    "new": "7.35"
+  },
+  {
+    "nombre": "Gitanes Cortos Sin Filtro Duro",
+    "old": "7",
+    "new": "7.35"
+  },
+  {
+    "nombre": "Herencia Blando",
+    "old": "6.35",
+    "new": "6.7"
+  },
+  {
+    "nombre": "Herencia Blando CM",
+    "old": "4.45",
+    "new": "4.8"
+  },
+  {
+    "nombre": "Herencia Duro",
+    "old": "6.35",
+    "new": "6.7"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Cinco Decadas El General (10)",
+    "old": "23.75",
+    "new": "24.95"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Clásico Cónsul (25)",
+    "old": "5.55",
+    "new": "5.9"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Cuatro Cinco Reserva Especial Doble Robusto (10)",
+    "old": "13.15",
+    "new": "13.8"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Cuatro Cinco Reserva Especial Petit Corona (10)",
+    "old": "8.7",
+    "new": "9.15"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Dark Corojo El Martillo (20)",
+    "old": "10",
+    "new": "10.5"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Gran Reserva Gran Cónsul (20)",
+    "old": "11.05",
+    "new": "11.6"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA JDN - Joya Cabinetta Lancero C (20)",
+    "old": "8.65",
+    "new": "8.95"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA JDN Humidified Bag Clasico Go Pack 5x5 (El envase de 5)",
+    "old": "29.95",
+    "new": "32"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA JDN Humidified Bag Rosalones Go Pack 5x5 (El envase de 5)",
+    "old": "25.95",
+    "new": "28.5"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Cinco Décadas El Embargo (10)",
+    "old": "26.5",
+    "new": "30.5"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Clasico Medio Siglo Gordito C (20)",
+    "old": "5.9",
+    "new": "6.3"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Clásico Medio Siglo Numero 6 (25)",
+    "old": "4.95",
+    "new": "5.2"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Clásico Medio Siglo Robusto (25)",
+    "old": "5.8",
+    "new": "5.95"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Clásico Medio Siglo Toro (25)",
+    "old": "6.4",
+    "new": "6.85"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Clasico Original Gordito C (20)",
+    "old": "5.9",
+    "new": "6.3"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Clasico Robusto C25",
+    "old": "5.8",
+    "new": "5.95"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Clasico Selección B C (25)",
+    "old": "4.8",
+    "new": "4.85"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Número Uno L'Attaché C (25)",
+    "old": "13.5",
+    "new": "13.9"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Joya de Nicaragua Numero Uno Le Premier (13)",
+    "old": "19.95",
+    "new": "20.5"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Número 1 L'Ambassadeur (13)",
+    "old": "16.4",
+    "new": "16.9"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA RED Cañonazo 5 1/2 x 54 (20)",
+    "old": "8.35",
+    "new": "8.6"
+  },
+  {
+    "nombre": "JOYA DE NICARAGUA Red Half Corona (5)",
+    "old": "4.75",
+    "new": "4.9"
+  },
+  {
+    "nombre": "ROSALONES 448 (20)",
+    "old": "3.95",
+    "new": "4.05"
+  },
+  {
+    "nombre": "ROSALONES 460 (20)",
+    "old": "5.6",
+    "new": "5.75"
+  },
+  {
+    "nombre": "ROSALONES 552 (20)",
+    "old": "4.5",
+    "new": "5.05"
+  },
+  {
+    "nombre": "ROSALONES Auténticos 446 C25 (25)",
+    "old": "3.65",
+    "new": "3.8"
+  },
+  {
+    "nombre": "ROSALONES Rosalones Reserva R550 C (20)",
+    "old": "4.85",
+    "new": "5.35"
+  },
+  {
+    "nombre": "ROSALONES Rosalones Reserva RR546 (20)",
+    "old": "4.2",
+    "new": "4.6"
+  },
+  {
+    "nombre": "Sombra Dark Blue KS Box (20)",
+    "old": "5.6",
+    "new": "5.95"
+  },
+  {
+    "nombre": "Verso Blue (20)",
+    "old": "4.5",
+    "new": "4.6"
+  },
+  {
+    "nombre": "Verso Red (20)",
+    "old": "4.5",
+    "new": "4.6"
+  },
+  {
+    "nombre": "Ducados Azul Blando CM",
+    "old": "4.25",
+    "new": "4.6"
+  },
+  {
+    "nombre": "Ducados Azul Duro CM",
+    "old": "4.25",
+    "new": "4.6"
+  },
+  {
+    "nombre": "Herencia Blando CM",
+    "old": "4.45",
+    "new": "4.8"
   }
 ]
