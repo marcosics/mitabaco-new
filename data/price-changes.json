@@ -1,87 +1,12 @@
 [
   {
-    "nombre": "Coronas Black Soft",
-    "old": "5.95",
-    "new": "6.3"
-  },
-  {
-    "nombre": "DON JULIO Don Julio Punta Espada Gordo (24)",
-    "old": "26",
-    "new": "29.9"
-  },
-  {
-    "nombre": "DON JULIO Punta Espada Robusto (24)",
-    "old": "18",
-    "new": "21.9"
-  },
-  {
-    "nombre": "Lucky Strike Gold For Glo (20)",
-    "old": "4",
-    "new": "4.2"
-  },
-  {
-    "nombre": "Lucky Strike Rich For Glo (20)",
-    "old": "4",
-    "new": "4.2"
-  },
-  {
-    "nombre": "Lucky Strike Twist For Glo (20)",
-    "old": "4",
-    "new": "4.2"
-  },
-  {
-    "nombre": "Moon Habana (500 g). Tabaco Pipa",
-    "old": "39",
+    "nombre": "Baroudeur Gold (500 g)",
+    "old": "34.9",
     "new": "33"
   },
   {
-    "nombre": "Neo Azure (20)",
-    "old": "4",
-    "new": "4.2"
-  },
-  {
-    "nombre": "Neo Classic Tobacco (20)",
-    "old": "4",
-    "new": "4.2"
-  },
-  {
-    "nombre": "Neo Golden Tobacco (20)",
-    "old": "4",
-    "new": "4.2"
-  },
-  {
-    "nombre": "Neo Signature Tobacco (20)",
-    "old": "4",
-    "new": "4.2"
-  },
-  {
-    "nombre": "Neo Terracotta Tobacco (20)",
-    "old": "4",
-    "new": "4.2"
-  },
-  {
-    "nombre": "SAGA Blend No. 7 Robusto 5 1/2x50 (20)",
-    "old": "11.5",
-    "new": "11.9"
-  },
-  {
-    "nombre": "SAGA Solaz Robusto 5x50 (24)",
-    "old": "11.7",
-    "new": "11.9"
-  },
-  {
-    "nombre": "VEDADO Flat Black Colosal (8)",
-    "old": "11",
-    "new": "12.9"
-  },
-  {
-    "nombre": "VEDADO Flat Black Gordo (10)",
-    "old": "8.5",
-    "new": "10.9"
-  },
-  {
-    "nombre": "VEDADO Flat Black Malecon (10)",
-    "old": "9.5",
-    "new": "11.9"
+    "nombre": "Baroudeur Gold (999 g)",
+    "old": "69",
+    "new": "65"
   }
 ]
