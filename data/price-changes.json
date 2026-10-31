@@ -1,12 +1,92 @@
 [
   {
-    "nombre": "Baroudeur Gold (500 g)",
-    "old": "34.9",
-    "new": "33"
+    "nombre": "Crossroad Gold Drum (75 g)",
+    "old": "15.7",
+    "new": "15.5"
   },
   {
-    "nombre": "Baroudeur Gold (999 g)",
-    "old": "69",
-    "new": "65"
+    "nombre": "EL VIEJO CONTINENTE Piccolo Maduro (50)",
+    "old": "3.8",
+    "new": "4"
+  },
+  {
+    "nombre": "Flandria English Virginia (30 g)",
+    "old": "6.2",
+    "new": "6.3"
+  },
+  {
+    "nombre": "Flandria Gold (30 g)",
+    "old": "6.2",
+    "new": "6.3"
+  },
+  {
+    "nombre": "Flandria Negro (30 g)",
+    "old": "6.2",
+    "new": "6.3"
+  },
+  {
+    "nombre": "Flandria Sauvage (30 g)",
+    "old": "6.2",
+    "new": "6.3"
+  },
+  {
+    "nombre": "Flandria Sauvage (65 g)",
+    "old": "13.45",
+    "new": "13.65"
+  },
+  {
+    "nombre": "Flandria Silver (30 g)",
+    "old": "6.2",
+    "new": "6.3"
+  },
+  {
+    "nombre": "Flandria Tabac Special (100 g)",
+    "old": "20.55",
+    "new": "20.9"
+  },
+  {
+    "nombre": "Flandria Virginia (30 g)",
+    "old": "6.2",
+    "new": "6.3"
+  },
+  {
+    "nombre": "Flandria Virginia (30 g) CM",
+    "old": "4.25",
+    "new": "4.3"
+  },
+  {
+    "nombre": "Flandria Virginia Vending (30 g)",
+    "old": "6.2",
+    "new": "6.3"
+  },
+  {
+    "nombre": "Flandria Wild (30 g)",
+    "old": "6.2",
+    "new": "6.3"
+  },
+  {
+    "nombre": "MY FATHER My Father Sampler Original Of 5 (El envase de 5)",
+    "old": "59",
+    "new": "69"
+  },
+  {
+    "nombre": "NICARAO Clasico Robusto (20)",
+    "old": "5.95",
+    "new": "9.2"
+  },
+  {
+    "nombre": "Steeple Mezcla Americana (350 g)",
+    "old": "71",
+    "new": "71.8"
+  },
+  {
+    "nombre": "Steeple Negro (70 g)",
+    "old": "14.25",
+    "new": "14.4"
+  },
+  {
+    "nombre": "Flandria Virginia (30 g) CM",
+    "old": "4.25",
+    "new": "4.3"
   }
 ]
